@@ -21,7 +21,6 @@ bookFlatSection: true
 - 2021/10/18 finish
 
 《Build On Your Lisp》
-
 - 2021/10/12 CH7
 - 2021/10/23 CH10
 - 2021/11/5 finish

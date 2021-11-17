@@ -3,6 +3,7 @@ headless: true
 ---
 
 - [**Computer Science**]({{< relref "/docs/CS" >}})
+- - [Algorithm]({{< relref "/docs/CS/Algo" >}})
 <br />
 
 - [**Book**]({{< relref "/docs/Book" >}})

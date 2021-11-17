@@ -1,5 +1,6 @@
 baseURL = "https://cs-learning-every-day.github.io/"
 title = "Day Day Up"
+theme = "book"
 
 
 # (Optional) Set Google Analytics if you use it to track your website.
