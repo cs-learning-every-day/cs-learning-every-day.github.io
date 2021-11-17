@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Day Day Up</title><link>https://cs-learning-every-day.github.io/docs/CS/Algo/</link><description>Recent content on Day Day Up</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://cs-learning-every-day.github.io/docs/CS/Algo/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://cs-learning-every-day.github.io/docs/CS/Algo/Template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/CS/Algo/Template/</guid><description>Basic
-#
-Quick Sort
-#
-void quick_sort(int q[], int l, int r) { if (l &amp;gt;= r) return; int i = l - 1, j = r + 1, x = q[l + r &amp;gt;&amp;gt; 1]; while (i &amp;lt; j) { do i ++ ; while (q[i] &amp;lt; x); do j -- ; while (q[j] &amp;gt; x); if (i &amp;lt; j) swap(q[i], q[j]); } quick_sort(q, l, j), quick_sort(q, j + 1, r); } Merge Sort
-#
-void merge_sort(int q[], int l, int r) { if (l &amp;gt;= r) return; int mid = l + r &amp;gt;&amp;gt; 1; merge_sort(q, l, mid); merge_sort(q, mid + 1, r); int k = 0, i = l, j = mid + 1; while (i &amp;lt;= mid &amp;amp;&amp;amp; j &amp;lt;= r) if (q[i] &amp;lt;= q[j]) tmp[k ++ ] = q[i ++ ]; else tmp[k ++ ] = q[j ++ ]; while (i &amp;lt;= mid) tmp[k ++ ] = q[i ++ ]; while (j &amp;lt;= r) tmp[k ++ ] = q[j ++ ]; for (i = l, j = 0; i &amp;lt;= r; i ++, j ++ ) q[i] = tmp[j]; }</description></item></channel></rss>
