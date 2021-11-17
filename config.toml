@@ -33,7 +33,7 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
 
   # (Optional, default none) Set the path to a logo for the book. If the logo is
   # /static/logo.png then the path would be 'logo.png'
-  # BookLogo = 'logo.png'
+  BookLogo = 'logo.jpg'
 
   # (Optional, default none) Set leaf bundle to render as side menu
   # When not specified file structure and weights will be used
@@ -45,7 +45,7 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/alex-shpak/hugo-book'
+  BookRepo = 'https://github.com/cs-learning-every-day/cs-learning-every-day'
 
   # Specifies commit portion of the link to the page's last modified commit hash for 'doc' page
   # type.
@@ -57,7 +57,7 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
   # Enable 'Edit this page' links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Path must point to the site directory.
-  BookEditPath = 'edit/master/exampleSite'
+  BookEditPath = 'edit/main'
 
   # (Optional, default January 2, 2006) Configure the date format used on the pages
   # - In git information
