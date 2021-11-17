@@ -3,6 +3,18 @@ title = "Day Day Up"
 theme = "book"
 
 
+[menu]
+# [[menu.before]]
+[[menu.after]]
+  name = "Github"
+  url = "https://github.com/cs-learning-every-day"
+  weight = 10
+
+[[menu.after]]
+  name = "Hugo Themes"
+  url = "https://themes.gohugo.io/hugo-book/"
+  weight = 20
+
 # (Optional) Set Google Analytics if you use it to track your website.
 # Always put it on the top of the configuration file, otherwise it won't work
 googleAnalytics = "UA-159953206-1"
@@ -25,7 +37,7 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
-  BookTheme = 'light'
+  BookTheme = 'auto'
 
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
