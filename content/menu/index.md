@@ -11,7 +11,7 @@ headless: true
 - - [Timeline]({{< relref "/docs/Book/timeline" >}})
 <br />
 
-- [**LeetCode**]({{< relref "/docs/CS" >}})
+- [**LeetCode**]({{< relref "/docs/LeetCode" >}})
 <br />
 
 - [**Referrals**]({{< relref "/docs/CS/Referrals" >}})
