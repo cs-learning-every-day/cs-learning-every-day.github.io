@@ -9,6 +9,8 @@ bookFlatSection: true
 - [122. Best Time to Buy and Sell Stock II]({{< relref "/docs/LeetCode/DynamicProgramming/122.md">}})(M)
 - [309. Best Time to Buy and Sell Stock with Cooldown]({{< relref "/docs/LeetCode/DynamicProgramming/309.md">}})(M)
 - [714. Best Time to Buy and Sell Stock with Transaction Fee]({{< relref "/docs/LeetCode/DynamicProgramming/714.md">}})(M)
+- [118. Pascal's Triangle]({{< relref "/docs/LeetCode/DynamicProgramming/118.md">}})(E)
+- [119. Pascal's Triangle II]({{< relref "/docs/LeetCode/DynamicProgramming/119.md">}})(E)
 
 ### Tree
 - [559. Maximum Depth of N-ary Tree]({{< relref "/docs/LeetCode/Tree/559.md">}})(E)
