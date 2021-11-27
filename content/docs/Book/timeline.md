@@ -9,7 +9,6 @@ bookFlatSection: true
 > 温故而知新,可以为师矣
 
 
-```
 《Java并发编程的艺术》
  - 2021/10/9 P280 ~ P304
  - 2021/10/30 finish
@@ -35,4 +34,3 @@ bookFlatSection: true
 - 2021/11/10 
 - 2021/11/20 Ch16
 - 2021/11/24 Finish
-```
