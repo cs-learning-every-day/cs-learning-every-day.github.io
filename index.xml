@@ -18,10 +18,28 @@ Let Me Read，点击验证码，跳转DirectLink直接下载。
 Zlibrary</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/book/timeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/book/timeline/</guid><description>读书
 #
 书籍是人类进步的阶梯
+温故而知新,可以为师矣
 《Java并发编程的艺术》
-2021/10/9 P280 ~ P304 2021/10/30 finish 《操作系统导论》
-2021/10/9 P204 - P229 2021/10/10 P228 - P259 2021/10/11 P259 - P289 2021/10/12 P289 - P311 2021/10/13 P311 - P335 2021/10/14 P335 - P366 2021/10/17 CH40、41、42 2021/10/18 finish 《Build On Your Lisp》
-2021/10/12 CH7 2021/10/23 CH10 2021/11/5 finish</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/algo/template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/algo/template/</guid><description>Basic
+- 2021/10/9 P280 ~ P304
+- 2021/10/30 finish
+《操作系统导论》
+- 2021/10/9 P204 - P229
+- 2021/10/10 P228 - P259
+- 2021/10/11 P259 - P289
+- 2021/10/12 P289 - P311
+- 2021/10/13 P311 - P335
+- 2021/10/14 P335 - P366
+- 2021/10/17 CH40、41、42
+- 2021/10/18 finish
+《Build On Your Lisp》
+- 2021/10/12 CH7
+- 2021/10/23 CH10
+- 2021/11/5 finish
+《UNIX环境高级编程》
+- 2021/10/22 CH11
+- 2021/10/31 CH12
+- 2021/11/10 - 2021/11/20 Ch16
+- 2021/11/24 Finish</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/algo/template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/algo/template/</guid><description>Basic
 #
 Quick Sort
 #
@@ -61,14 +79,18 @@ class Solution { public List&amp;lt;List&amp;lt;Integer&amp;gt;&amp;gt; generate
 class Solution { public List&amp;lt;Integer&amp;gt; getRow(int rowIndex) { rowIndex += 1; int[][] dp = new int[rowIndex + 1][rowIndex + 1]; dp[1][1] = 1; for (int row = 2; row &amp;lt;= rowIndex; row++) { for (int col = 1; col &amp;lt;= row; col++) { dp[row][col] = dp[row - 1][col - 1] + dp[row - 1][col]; } } List&amp;lt;Integer&amp;gt; ans = new ArrayList&amp;lt;&amp;gt;(); for (int col = 1; col &amp;lt;= rowIndex; col++) { ans.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/122/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/122/</guid><description>Link
 可以把数据看成折线图，则所有上升之和为解
 public int maxProfit(int[] prices) { int res = 0; for (int i = 0; i &amp;lt; prices.length - 1; i++) { if (prices[i + 1] &amp;gt; prices[i]) { res += prices[i + 1] - prices[i]; } } return res; } DP
-public int maxProfit(int[] prices) { int n = prices.length; // 第i天买入的最大利润 int[] dp1 = new int[n]; // 第i天卖掉的最大利润 int[] dp2 = new int[n]; dp1[0] = -prices[0]; dp2[0] = 0; for (int i = 1; i &amp;lt; n; i++) { // 可以不买或卖 dp1[i] = Math.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/309/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/309/</guid><description>Link
+public int maxProfit(int[] prices) { int n = prices.length; // 第i天买入的最大利润 int[] dp1 = new int[n]; // 第i天卖掉的最大利润 int[] dp2 = new int[n]; dp1[0] = -prices[0]; dp2[0] = 0; for (int i = 1; i &amp;lt; n; i++) { // 可以不买或卖 dp1[i] = Math.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/264/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/264/</guid><description>Link
+使用优先队列，从集合[1]开始，每次选取集合内最小的元素x 生成[2x, 3x, 5x]
+[1] -&amp;gt; [2 3 5] -&amp;gt; [3 4 5 6 10] -&amp;gt; &amp;hellip;
+class Solution { // Time Complexity: O(3N * lg3N) // 每次产生 最小数的2、3、5倍数 public int nthUglyNumber(int n) { PriorityQueue&amp;lt;Long&amp;gt; q = new PriorityQueue&amp;lt;&amp;gt;(); q.add(1L); long top = -1L; for (int i = 0; i &amp;lt; n; i++) { top = q.peek(); while (!q.isEmpty() &amp;amp;&amp;amp; q.peek() == top) { q.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/309/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/309/</guid><description>Link
 DP
 public int maxProfit(int[] prices) { int n = prices.length; // i天卖出的最大利润 int[] dp1 = new int[n + 1]; // i天买入的最大利润 int[] dp2 = new int[n + 1]; dp1[1] = 0; dp2[1] = -prices[0]; for (int i = 2; i &amp;lt;= n; i++) { // 第i天卖出的最大利润 = max(前天买入今天卖出, 前天卖出) dp1[i] = Math.max(dp2[i - 1] + prices[i - 1], dp1[i - 1]); // 第i天买入的最大利润 = max(前天买入, 前两天卖出今天买入) dp2[i] = Math.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/714/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/714/</guid><description>
 Link
 第i天买入的最大利润buy[i]
 卖出的最大利润sell[i]
 卖出的时候(完成了一笔交易)减去手续费
-class Solution { public int maxProfit(int[] prices, int fee) { int n = prices.length; int[] buy = new int[n + 1]; int[] sell = new int[n + 1]; buy[1] = -prices[0]; for (int i = 2; i &amp;lt;= n; i++) { buy[i] = Math.max(buy[i - 1], sell[i - 1] - prices[i - 1]); sell[i] = Math.max(sell[i - 1], buy[i - 1] + prices[i - 1] - fee); } return sell[n]; } }</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/math/384/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/math/384/</guid><description>
+class Solution { public int maxProfit(int[] prices, int fee) { int n = prices.length; int[] buy = new int[n + 1]; int[] sell = new int[n + 1]; buy[1] = -prices[0]; for (int i = 2; i &amp;lt;= n; i++) { buy[i] = Math.max(buy[i - 1], sell[i - 1] - prices[i - 1]); sell[i] = Math.max(sell[i - 1], buy[i - 1] + prices[i - 1] - fee); } return sell[n]; } }</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/91/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/91/</guid><description>Link
+DFS搜索 + 记忆化 class Solution { private Map&amp;lt;String, Integer&amp;gt; memo = new HashMap&amp;lt;&amp;gt;(); public int numDecodings(String s) { if (s == null ||ｓ.length() == 0) return 0; return dfs(s, 0); } private int dfs(String s, int i) { int n = s.length(); if (i &amp;gt;= n) return 1; if (memo.containsKey(s.substring(i))) return memo.get(s.substring(i)); if (!isValid(s.charAt(i))) return 0; int res = dfs(s, i + 1); if (i &amp;lt; n - 1 &amp;amp;&amp;amp; isValid(s.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/math/384/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/math/384/</guid><description>
 Link
 常规洗牌算法，思路：对n个数随机选一个与第一个数交换，除去第一个数的n-1个数同样操作。
 第一轮：1/n
@@ -77,4 +99,7 @@ Link
 …………
 private int[] nums; public Solution(int[] nums) { this.nums = nums; } public int[] reset() { return nums; } public int[] shuffle() { int[] res = Arrays.copyOf(nums, nums.length); for (int i = 0; i &amp;lt; nums.length; i++) { swap(res, i, (int)(Math.random() * (nums.length - i)) + i); } return res; } private void swap(int[] num, int i, int j) { int tmp = num[i]; num[i] = num[j]; num[j] = tmp; }</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/tree/559/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/tree/559/</guid><description>
 Link 一道简单的搜索
-public int maxDepth(Node root) { if (root == null) return 0; if (root.children == null) return 1; int max = 0; int n = root.children.size(); for (int i = 0; i &amp;lt; n; i++) { max = Math.max(max, maxDepth(root.children.get(i))); } return max + 1; }</description></item><item><title>LeetCode 994</title><link>https://cs-learning-every-day.github.io/docs/cs/leetcode/994/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/leetcode/994/</guid><description>一开始，我们找出所有腐烂的橘子，将它们放入队列，作为第 0 层的结点。 然后进行 BFS 遍历，每个结点的相邻结点可能是上、下、左、右四个方向的结点，注意判断结点位于网格边界的特殊情况。 由于可能存在无法被污染的橘子，我们需要记录新鲜橘子的数量。在 BFS 中，每遍历到一个橘子（污染了一个橘子），就将新鲜橘子的数量减一。如果 BFS 结束后这个数量仍未减为零，说明存在无法被污染的橘子。 public int orangesRotting(int[][] grid) { int m = grid.length, n = grid[0].length; int fresh_count = 0; Queue&amp;lt;int[]&amp;gt; Q = new LinkedList&amp;lt;&amp;gt;(); for (int i = 0; i &amp;lt; m; i++) { for (int j = 0; j &amp;lt; n; j++) { if (grid[i][j] == 1) { fresh_count++; } else if (grid[i][j] == 2) { Q.add(new int[]{i, j}); } } } int times = 0; final int[][] dir = {{-1, 0}, {0, -1}, {0, 1}, {1, 0}}; while (fresh_count &amp;gt; 0 &amp;amp;&amp;amp; !</description></item></channel></rss>
+public int maxDepth(Node root) { if (root == null) return 0; if (root.children == null) return 1; int max = 0; int n = root.children.size(); for (int i = 0; i &amp;lt; n; i++) { max = Math.max(max, maxDepth(root.children.get(i))); } return max + 1; }</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/tree/700/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/tree/700/</guid><description>
+Link
+递归搜索
+class Solution { public TreeNode searchBST(TreeNode root, int val) { if (root == null) return null; if (root.val == val) return root; if (val &amp;gt; root.val) { return searchBST(root.right, val); } else { return searchBST(root.left, val); } } }</description></item><item><title>LeetCode 994</title><link>https://cs-learning-every-day.github.io/docs/cs/leetcode/994/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/leetcode/994/</guid><description>一开始，我们找出所有腐烂的橘子，将它们放入队列，作为第 0 层的结点。 然后进行 BFS 遍历，每个结点的相邻结点可能是上、下、左、右四个方向的结点，注意判断结点位于网格边界的特殊情况。 由于可能存在无法被污染的橘子，我们需要记录新鲜橘子的数量。在 BFS 中，每遍历到一个橘子（污染了一个橘子），就将新鲜橘子的数量减一。如果 BFS 结束后这个数量仍未减为零，说明存在无法被污染的橘子。 public int orangesRotting(int[][] grid) { int m = grid.length, n = grid[0].length; int fresh_count = 0; Queue&amp;lt;int[]&amp;gt; Q = new LinkedList&amp;lt;&amp;gt;(); for (int i = 0; i &amp;lt; m; i++) { for (int j = 0; j &amp;lt; n; j++) { if (grid[i][j] == 1) { fresh_count++; } else if (grid[i][j] == 2) { Q.add(new int[]{i, j}); } } } int times = 0; final int[][] dir = {{-1, 0}, {0, -1}, {0, 1}, {1, 0}}; while (fresh_count &amp;gt; 0 &amp;amp;&amp;amp; !</description></item></channel></rss>
