@@ -18,7 +18,12 @@ public int maxProfit(int[] prices) { int n = prices.length; // i天卖出的最�
 DP
 dp[i][j] 表示能到i行j列不同路径个数
 初始化第一行和和第一列为1
-class Solution { public int uniquePaths(int m, int n) { int[][] dp = new int[m + 1][n + 1]; for (int i = 1; i &amp;lt;= m; i++) { dp[i][1] = 1; } for (int j = 1; j &amp;lt;= n; j++) { dp[1][j] = 1; } for (int i = 2; i &amp;lt;= m; i++) { for (int j = 2; j &amp;lt;= n; j++) { dp[i][j] = dp[i - 1][j] + dp[i][j - 1]; } } return dp[m][n]; } } DFS+记忆化</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/714/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/714/</guid><description>
+class Solution { public int uniquePaths(int m, int n) { int[][] dp = new int[m + 1][n + 1]; for (int i = 1; i &amp;lt;= m; i++) { dp[i][1] = 1; } for (int j = 1; j &amp;lt;= n; j++) { dp[1][j] = 1; } for (int i = 2; i &amp;lt;= m; i++) { for (int j = 2; j &amp;lt;= n; j++) { dp[i][j] = dp[i - 1][j] + dp[i][j - 1]; } } return dp[m][n]; } } DFS+记忆化</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/63/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/63/</guid><description>
+Link
+同
+62题题思路一样
+直接看DP解法，注意初始化，有障碍物时，就不能往后走了
+class Solution { public int uniquePathsWithObstacles(int[][] obstacleGrid) { int m = obstacleGrid.length; int n = obstacleGrid[0].length; int[][] dp = new int[m][n]; for (int i = 0; i &amp;lt; m &amp;amp;&amp;amp; obstacleGrid[i][0] == 0; i++) { dp[i][0] = 1; } for (int j = 0; j &amp;lt; n &amp;amp;&amp;amp; obstacleGrid[0][j] == 0; j++) { dp[0][j] = 1; } for (int i = 1; i &amp;lt; m; i++) { for (int j = 1; j &amp;lt; n; j++) { if (obstacleGrid[i][j] == 0) { dp[i][j] = dp[i - 1][j] + dp[i][j - 1]; } } } return dp[m - 1][n - 1]; } }</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/714/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/714/</guid><description>
 Link
 第i天买入的最大利润buy[i]
 卖出的最大利润sell[i]
