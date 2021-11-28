@@ -13,6 +13,8 @@ bookFlatSection: true
 - [119. Pascal's Triangle II]({{< relref "/docs/LeetCode/DynamicProgramming/119.md">}})(E)
 - [264. Ugly Number II]({{< relref "/docs/LeetCode/DynamicProgramming/264.md">}})(E)
 - [91. Decode Ways]({{< relref "/docs/LeetCode/DynamicProgramming/91.md">}})(M)
+- [120. Triangle]({{< relref "/docs/LeetCode/DynamicProgramming/120.md">}})(M)
+- [62. Unique Paths]({{< relref "/docs/LeetCode/DynamicProgramming/62.md">}})(M)
 
 ### Tree
 - [559. Maximum Depth of N-ary Tree]({{< relref "/docs/LeetCode/Tree/559.md">}})(E)
@@ -20,6 +22,7 @@ bookFlatSection: true
 
 ### Math
 - [384. Shuffle an Array]({{< relref "/docs/LeetCode/Math/384.md">}})(E)
+- [519. Random Flip Matrix]({{< relref "/docs/LeetCode/Math/519.md">}})(M)
 
 ### DFS
 - [139. Word Break]({{< relref "/docs/LeetCode/DFS/139.md">}})(M)
