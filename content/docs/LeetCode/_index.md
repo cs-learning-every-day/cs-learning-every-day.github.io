@@ -16,6 +16,7 @@ bookFlatSection: true
 - [120. Triangle]({{< relref "/docs/LeetCode/DynamicProgramming/120.md">}})(M)
 - [62. Unique Paths]({{< relref "/docs/LeetCode/DynamicProgramming/62.md">}})(M)
 - [63. Unique Paths II]({{< relref "/docs/LeetCode/DynamicProgramming/63.md">}})(M)
+- [64. Minimum Path Sum]({{< relref "/docs/LeetCode/DynamicProgramming/64.md">}})(M)
 
 ### Tree
 - [559. Maximum Depth of N-ary Tree]({{< relref "/docs/LeetCode/Tree/559.md">}})(E)
