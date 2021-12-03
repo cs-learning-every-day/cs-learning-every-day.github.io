@@ -28,3 +28,6 @@ bookFlatSection: true
 
 ### DFS
 - [139. Word Break]({{< relref "/docs/LeetCode/DFS/139.md">}})(M)
+
+### Others
+- [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)
