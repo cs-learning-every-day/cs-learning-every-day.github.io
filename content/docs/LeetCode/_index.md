@@ -4,6 +4,7 @@ bookFlatSection: true
 
 
 ## 目前分类目录
+### [剑指 Offer]({{< relref "/docs/LeetCode/剑指Offer">}})
 ### Dynamic Programming
 
 - [122. Best Time to Buy and Sell Stock II]({{< relref "/docs/LeetCode/DynamicProgramming/122.md">}})(M)
@@ -31,3 +32,4 @@ bookFlatSection: true
 
 ### Others
 - [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)
+- [383. Ransom Note]({{< relref "/docs/LeetCode/Others/383.md">}})(E)
