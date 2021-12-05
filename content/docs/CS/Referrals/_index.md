@@ -11,3 +11,5 @@ bookFlatSection: true
 - [克莱登大学CS(热心网友整理)](https://www.yuque.com/ob26eq/cv94p5)
 - [🎓 Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
 - [This is The Entire Computer Science Curriculum in 1000 YouTube Videos](https://laconicml.com/computer-science-curriculum-youtube-videos/)
+- [写在20年初的校招面试心得与自学CS经验及找工作分享](https://github.com/conanhujinming/tips_for_interview)
+- [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
