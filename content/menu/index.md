@@ -14,5 +14,5 @@ headless: true
 - [**LeetCode**]({{< relref "/docs/LeetCode" >}})
 <br />
 
-- [**Referrals**]({{< relref "/docs/CS/Referrals" >}})
+- [**Resource**]({{< relref "/docs/CS/Resource" >}})
 <br />
