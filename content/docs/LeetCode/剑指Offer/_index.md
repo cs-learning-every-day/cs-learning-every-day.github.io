@@ -8,3 +8,4 @@ bookFlatSection: true
 - [剑指 Offer 32 - II. 从上到下打印二叉树 II]({{< relref "/docs/LeetCode/剑指Offer/code/32_2.md">}})(E)
 - [剑指 Offer 32 - III. 从上到下打印二叉树 III]({{< relref "/docs/LeetCode/剑指Offer/code/32_3.md">}})(M)
 - [剑指 Offer 47. 礼物的最大价值]({{< relref "/docs/LeetCode/剑指Offer/code/47.md">}})(M)
+- [剑指 Offer 26. 树的子结构]({{< relref "/docs/LeetCode/剑指Offer/code/26.md">}})(M)
