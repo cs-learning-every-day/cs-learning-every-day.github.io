@@ -13,3 +13,4 @@ bookFlatSection: true
 - [剑指 Offer 22. 链表中倒数第k个节点]({{< relref "/docs/LeetCode/剑指Offer/code/22.md">}})(E)
 - [剑指 Offer 48. 最长不含重复字符的子字符串]({{< relref "/docs/LeetCode/剑指Offer/code/48.md">}})(M)
 - [剑指 Offer 46. 把数字翻译成字符串]({{< relref "/docs/LeetCode/剑指Offer/code/46.md">}})(M)
+- [剑指 Offer 25. 合并两个排序的链表]({{< relref "/docs/LeetCode/剑指Offer/code/25.md">}})(M)

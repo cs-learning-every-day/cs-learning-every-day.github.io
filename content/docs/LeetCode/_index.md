@@ -33,3 +33,4 @@ bookFlatSection: true
 ### Others
 - [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)
 - [383. Ransom Note]({{< relref "/docs/LeetCode/Others/383.md">}})(E)
+- [748. Shortest Completing Word]({{< relref "/docs/LeetCode/Others/748.md">}})(E)
