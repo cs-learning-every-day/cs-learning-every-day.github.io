@@ -14,3 +14,7 @@ bookFlatSection: true
 - [剑指 Offer 48. 最长不含重复字符的子字符串]({{< relref "/docs/LeetCode/剑指Offer/code/48.md">}})(M)
 - [剑指 Offer 46. 把数字翻译成字符串]({{< relref "/docs/LeetCode/剑指Offer/code/46.md">}})(M)
 - [剑指 Offer 25. 合并两个排序的链表]({{< relref "/docs/LeetCode/剑指Offer/code/25.md">}})(M)
+- [剑指 Offer 57. 和为s的两个数字]({{< relref "/docs/LeetCode/剑指Offer/code/57.md">}})(E)
+- [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面]({{< relref "/docs/LeetCode/剑指Offer/code/21.md">}})(E)
+- [剑指 Offer 58 - I. 翻转单词顺序]({{< relref "/docs/LeetCode/剑指Offer/code/58.md">}})(E)
+- [剑指 Offer 13. 机器人的运动范围]({{< relref "/docs/LeetCode/剑指Offer/code/13.md">}})(M)
