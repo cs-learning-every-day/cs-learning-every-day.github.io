@@ -19,3 +19,5 @@ bookFlatSection: true
 - [剑指 Offer 58 - I. 翻转单词顺序]({{< relref "/docs/LeetCode/剑指Offer/code/58.md">}})(E)
 - [剑指 Offer 13. 机器人的运动范围]({{< relref "/docs/LeetCode/剑指Offer/code/13.md">}})(M)
 - [剑指 Offer 12. 矩阵中的路径]({{< relref "/docs/LeetCode/剑指Offer/code/12.md">}})(M)
+- [剑指 Offer 64. 求1+2+…+n]({{< relref "/docs/LeetCode/剑指Offer/code/64.md">}})(M)
+- [剑指 Offer 54. 二叉搜索树的第k大节点]({{< relref "/docs/LeetCode/剑指Offer/code/54.md">}})(M)
