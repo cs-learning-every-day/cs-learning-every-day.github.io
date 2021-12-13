@@ -17,3 +17,12 @@ git hash-object -t commit -w tmp.txt
 git update-ref -m 'commit: foo' refs/heads/master \
     2ee8fcc02658e23219143f5bcfe6f9a4615745f9
 ```
+
+取消跟踪,删除远程文件
+```git
+git rm -r --cached .
+
+git add .
+
+git commit -m "update gitignore"
+```
