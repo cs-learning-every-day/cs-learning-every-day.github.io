@@ -14,3 +14,4 @@ bookFlatSection: true
 - [写在20年初的校招面试心得与自学CS经验及找工作分享](https://github.com/conanhujinming/tips_for_interview)
 - [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
 - [CS自学指南](https://pkuflyingpig.github.io/pku-cs-self-learning/)
+- [从小白到BAT后端工程师的自学路线](https://zhuanlan.zhihu.com/p/130364187)
