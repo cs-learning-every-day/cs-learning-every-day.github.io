@@ -15,3 +15,4 @@ bookFlatSection: true
 - [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
 - [CS自学指南](https://pkuflyingpig.github.io/pku-cs-self-learning/)
 - [从小白到BAT后端工程师的自学路线](https://zhuanlan.zhihu.com/p/130364187)
+- [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum/)
