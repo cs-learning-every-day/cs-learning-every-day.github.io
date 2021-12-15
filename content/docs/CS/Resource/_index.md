@@ -13,6 +13,6 @@ bookFlatSection: true
 - [This is The Entire Computer Science Curriculum in 1000 YouTube Videos](https://laconicml.com/computer-science-curriculum-youtube-videos/)
 - [写在20年初的校招面试心得与自学CS经验及找工作分享](https://github.com/conanhujinming/tips_for_interview)
 - [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
-- [CS自学指南](https://pkuflyingpig.github.io/pku-cs-self-learning/)
+- [CS自学指南](https://csdiy.wiki/)
 - [从小白到BAT后端工程师的自学路线](https://zhuanlan.zhihu.com/p/130364187)
 - [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum/)
