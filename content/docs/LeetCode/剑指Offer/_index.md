@@ -21,3 +21,5 @@ bookFlatSection: true
 - [剑指 Offer 12. 矩阵中的路径]({{< relref "/docs/LeetCode/剑指Offer/code/12.md">}})(M)
 - [剑指 Offer 64. 求1+2+…+n]({{< relref "/docs/LeetCode/剑指Offer/code/64.md">}})(M)
 - [剑指 Offer 54. 二叉搜索树的第k大节点]({{< relref "/docs/LeetCode/剑指Offer/code/54.md">}})(M)
+- [剑指 Offer 55 - I. 二叉树的深度]({{< relref "/docs/LeetCode/剑指Offer/code/55_1.md">}})(E)
+- [剑指 Offer 55 - II. 平衡二叉树]({{< relref "/docs/LeetCode/剑指Offer/code/55_2.md">}})(E)
