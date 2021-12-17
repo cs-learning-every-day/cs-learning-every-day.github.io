@@ -23,3 +23,5 @@ bookFlatSection: true
 - [剑指 Offer 54. 二叉搜索树的第k大节点]({{< relref "/docs/LeetCode/剑指Offer/code/54.md">}})(M)
 - [剑指 Offer 55 - I. 二叉树的深度]({{< relref "/docs/LeetCode/剑指Offer/code/55_1.md">}})(E)
 - [剑指 Offer 55 - II. 平衡二叉树]({{< relref "/docs/LeetCode/剑指Offer/code/55_2.md">}})(E)
+- [剑指 Offer 68 - I. 二叉搜索树的最近公共祖先]({{< relref "/docs/LeetCode/剑指Offer/code/68_1.md">}})(E)
+- [剑指 Offer 68 - II. 二叉树的最近公共祖先]({{< relref "/docs/LeetCode/剑指Offer/code/68_2.md">}})(E)
