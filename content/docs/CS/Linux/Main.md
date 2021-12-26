@@ -46,7 +46,7 @@
 
 > find . -name "*.[ch]" | xargs grep "#include" | sort | uniq
 
-
+du -h -d 1 2>/dev/null | grep -v denied 磁盘分析
 
 
 
