@@ -6,6 +6,12 @@ bookFlatSection: true
 ## 目前分类目录
 ### [剑指 Offer]({{< relref "/docs/LeetCode/剑指Offer">}})
 ### [面试题 ]({{< relref "/docs/LeetCode/面试题">}})
+
+### 国区周寨
+- 第273场
+  - [5963. 反转两次的数字]({{< relref "/docs/LeetCode/Others/5693.md">}})(E)
+  - [5964. 执行所有后缀指令]({{< relref "/docs/LeetCode/DFS/5964.md">}})(M)
+  - [5965. 相同元素的间隔之和]({{< relref "/docs/LeetCode/Others/5695.md">}})(M)
 ### Dynamic Programming
 
 - [122. Best Time to Buy and Sell Stock II]({{< relref "/docs/LeetCode/DynamicProgramming/122.md">}})(M)
@@ -48,10 +54,3 @@ bookFlatSection: true
 - [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)
 - [383. Ransom Note]({{< relref "/docs/LeetCode/Others/383.md">}})(E)
 - [748. Shortest Completing Word]({{< relref "/docs/LeetCode/Others/748.md">}})(E)
-
-
-### 国区周寨
-- 第273场
-  - [5963. 反转两次的数字]({{< relref "/docs/LeetCode/Others/5693.md">}})(E)
-  - [5964. 执行所有后缀指令]({{< relref "/docs/LeetCode/DFS/5964.md">}})(M)
-  - [5965. 相同元素的间隔之和]({{< relref "/docs/LeetCode/Others/5695.md">}})(M)
