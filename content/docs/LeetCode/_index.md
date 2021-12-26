@@ -36,7 +36,22 @@ bookFlatSection: true
 
 ### Recursion
 - [1492. The kth Factor of n]({{< relref "/docs/LeetCode/Recursion/1492.md">}})(M)
+
+### BinarySearch
+
+### Sorts
+- Quick Select
+  - [215. Kth Largest Element in an Array]({{< relref "/docs/LeetCode/Sorts/215.md">}})
+
+
 ### Others
 - [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)
 - [383. Ransom Note]({{< relref "/docs/LeetCode/Others/383.md">}})(E)
 - [748. Shortest Completing Word]({{< relref "/docs/LeetCode/Others/748.md">}})(E)
+
+
+### 国区周寨
+- 第273场
+  - [5963. 反转两次的数字]({{< relref "/docs/LeetCode/Others/5693.md">}})(E)
+  - [5964. 执行所有后缀指令]({{< relref "/docs/LeetCode/DFS/5964.md">}})(M)
+  - [5965. 相同元素的间隔之和]({{< relref "/docs/LeetCode/Others/5695.md">}})(M)
