@@ -31,6 +31,9 @@ bookFlatSection: true
 - [559. Maximum Depth of N-ary Tree]({{< relref "/docs/LeetCode/Tree/559.md">}})(E)
 - [700. Search in a Binary Search Tree]({{< relref "/docs/LeetCode/Tree/559.md">}})(E)
 
+### Heap
+- [1046. 最后一块石头的重量]({{< relref "/docs/LeetCode/Heap/1046.md">}})(E)
+
 ### Math
 - [384. Shuffle an Array]({{< relref "/docs/LeetCode/Math/384.md">}})(E)
 - [519. Random Flip Matrix]({{< relref "/docs/LeetCode/Math/519.md">}})(M)
@@ -54,3 +57,6 @@ bookFlatSection: true
 - [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)
 - [383. Ransom Note]({{< relref "/docs/LeetCode/Others/383.md">}})(E)
 - [748. Shortest Completing Word]({{< relref "/docs/LeetCode/Others/748.md">}})(E)
+
+### Design
+- [355. 设计推特]({{< relref "/docs/LeetCode/Design/355.md">}})(M)
