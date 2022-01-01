@@ -8,7 +8,7 @@ headless: true
 
 - [**Book**]({{< relref "/docs/Book" >}})
 - - [Resource]({{< relref "/docs/Book/resource.md">}})
-- - [Timeline]({{< relref "/docs/Book/timeline" >}})
+<!-- - - [Timeline]({{< relref "/docs/Book/timeline" >}}) -->
 <br />
 
 - [**LeetCode**]({{< relref "/docs/LeetCode" >}})

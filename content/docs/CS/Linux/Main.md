@@ -14,6 +14,7 @@
 - apt install qemu-system
 - pdfjoin a.pdf b.pdf
 - iconv -f gbk -t utf-8 file.txt
+- xxd 查看文件二进制
 
 输出当前用户是不是 root
 

@@ -26,3 +26,9 @@ git add .
 
 git commit -m "update gitignore"
 ```
+
+配置全局信息
+> --local
+
+git config --global user.name "myname"
+git config --global user.email  "test@gmail.com"
