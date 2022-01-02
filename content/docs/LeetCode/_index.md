@@ -9,9 +9,14 @@ bookFlatSection: true
 
 ### 国区周寨
 - 第273场
-  - [5963. 反转两次的数字]({{< relref "/docs/LeetCode/Others/5693.md">}})(E)
+  - [5963. 反转两次的数字]({{< relref "/docs/LeetCode/Others/5963.md">}})(E)
   - [5964. 执行所有后缀指令]({{< relref "/docs/LeetCode/DFS/5964.md">}})(M)
-  - [5965. 相同元素的间隔之和]({{< relref "/docs/LeetCode/Others/5695.md">}})(M)
+  - [5965. 相同元素的间隔之和]({{< relref "/docs/LeetCode/Others/5965.md">}})(M)
+
+- 第274场
+  - [5967. 检查是否所有 A 都在 B 之前]({{< relref "/docs/LeetCode/Others/5967.md">}})(E)
+  - [5968. 银行中的激光束数量]({{< relref "/docs/LeetCode/Others/5968.md">}})(M)
+  - [5969. 摧毁小行星]({{< relref "/docs/LeetCode/Others/5969.md">}})(M)
 ### Dynamic Programming
 
 - [122. Best Time to Buy and Sell Stock II]({{< relref "/docs/LeetCode/DynamicProgramming/122.md">}})(M)
