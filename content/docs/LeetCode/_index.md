@@ -38,6 +38,8 @@ bookFlatSection: true
 
 ### Heap
 - [1046. 最后一块石头的重量]({{< relref "/docs/LeetCode/Heap/1046.md">}})(E)
+- [347. 前 K 个高频元素]({{< relref "/docs/LeetCode/Heap/347.md">}})(M)
+- [451. 根据字符出现频率排序]({{< relref "/docs/LeetCode/Heap/451.md">}})(M)
 
 ### Math
 - [384. Shuffle an Array]({{< relref "/docs/LeetCode/Math/384.md">}})(E)
