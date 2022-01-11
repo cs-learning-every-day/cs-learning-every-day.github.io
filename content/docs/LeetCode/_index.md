@@ -67,3 +67,4 @@ bookFlatSection: true
 
 ### Design
 - [355. 设计推特]({{< relref "/docs/LeetCode/Design/355.md">}})(M)
+- [146. LRU 缓存]({{< relref "/docs/LeetCode/Design/146.md">}})(M)
