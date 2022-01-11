@@ -34,7 +34,8 @@ bookFlatSection: true
 
 ### Tree
 - [559. Maximum Depth of N-ary Tree]({{< relref "/docs/LeetCode/Tree/559.md">}})(E)
-- [700. Search in a Binary Search Tree]({{< relref "/docs/LeetCode/Tree/559.md">}})(E)
+- [700. Search in a Binary Search Tree]({{< relref "/docs/LeetCode/Tree/700.md">}})(E)
+- [102. 二叉树的层序遍历]({{< relref "/docs/LeetCode/Tree/102.md">}})(M)
 
 ### Heap
 - [1046. 最后一块石头的重量]({{< relref "/docs/LeetCode/Heap/1046.md">}})(E)

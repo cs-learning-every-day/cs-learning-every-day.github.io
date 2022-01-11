@@ -50,8 +50,7 @@
 du -h -d 1 2>/dev/null | grep -v denied 磁盘分析
 
 
-
-
+[配置linux](http://yfy.cqu.ai/2020/10/11/%E5%AE%89%E8%A3%85linux%E5%90%8E%E7%9A%84%E9%85%8D%E7%BD%AE/#more)
 
 
 
