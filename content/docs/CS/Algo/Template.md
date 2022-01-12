@@ -41,3 +41,28 @@ void merge_sort(int q[], int l, int r)
 }
 ```
 
+#### Binary Search
+```c++
+// 区间[l,r]划分成[l, mid], [mid + 1, r]
+void binary_search1(int l, int r) {
+    while (l < r) {
+        int mid = l + r >> 1;
+        if (check(mid)) { //check() 检查mid是否满足性质
+            r = mid;
+        } else {
+            l = mid + 1;
+        }
+    }
+}
+// 区间[l,r]划分成[l, mid - 1], [mid, r]
+void binary_search2(int l, int r) {
+    while (l < r) {
+        int mid = l + r + 1>> 1;
+        if (check(mid)) {
+            l = mid;
+        } else {
+            r = mid - 1;
+        }
+    }
+}
+```
