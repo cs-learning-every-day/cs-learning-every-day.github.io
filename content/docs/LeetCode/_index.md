@@ -31,6 +31,8 @@ bookFlatSection: true
 - [63. Unique Paths II]({{< relref "/docs/LeetCode/DynamicProgramming/63.md">}})(M)
 - [64. Minimum Path Sum]({{< relref "/docs/LeetCode/DynamicProgramming/64.md">}})(M)
 - [509. Fibonacci Number]({{< relref "/docs/LeetCode/DynamicProgramming/509.md">}})(M)
+- [198. 打家劫舍]({{< relref "/docs/LeetCode/DynamicProgramming/198.md">}})(M)
+- [213. 打家劫舍 II]({{< relref "/docs/LeetCode/DynamicProgramming/213.md">}})(M)
 
 ### Tree
 - [559. Maximum Depth of N-ary Tree]({{< relref "/docs/LeetCode/Tree/559.md">}})(E)
