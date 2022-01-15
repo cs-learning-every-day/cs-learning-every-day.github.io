@@ -19,8 +19,9 @@ bookFlatSection: true
   - [5969. 摧毁小行星]({{< relref "/docs/LeetCode/Others/5969.md">}})(M)
 ### Dynamic Programming
 
-- [122. Best Time to Buy and Sell Stock II]({{< relref "/docs/LeetCode/DynamicProgramming/122.md">}})(M)
-- [309. Best Time to Buy and Sell Stock with Cooldown]({{< relref "/docs/LeetCode/DynamicProgramming/309.md">}})(M)
+- [122. 买卖股票的最佳时机 II]({{< relref "/docs/LeetCode/DynamicProgramming/122.md">}})(M)
+- [123. 买卖股票的最佳时机 III]({{< relref "/docs/LeetCode/DynamicProgramming/123.md">}})(H)
+- [309. 最佳买卖股票时机含冷冻期]({{< relref "/docs/LeetCode/DynamicProgramming/309.md">}})(M)
 - [714. Best Time to Buy and Sell Stock with Transaction Fee]({{< relref "/docs/LeetCode/DynamicProgramming/714.md">}})(M)
 - [118. Pascal's Triangle]({{< relref "/docs/LeetCode/DynamicProgramming/118.md">}})(E)
 - [119. Pascal's Triangle II]({{< relref "/docs/LeetCode/DynamicProgramming/119.md">}})(E)
