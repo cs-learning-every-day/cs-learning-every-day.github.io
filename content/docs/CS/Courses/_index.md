@@ -1,6 +1,10 @@
 # Study Path
 
 ### Courses
+**Done:**
+- [MIT 6.Null The Missing Semester of Your CS Education]
+
+
 **Todo:**
 - [ ] MIT 6.S081 Operating System Engineering 
 - [ ] UCB CS61A Structure and Interpretation of Computer Programs
@@ -12,7 +16,7 @@
 
 
 **Backlog:**
-- MIT 6.Null The Missing Semester of Your CS Education
+
 - MIT 6.001 Introduction to Computer Science and Programming in Python
 - UCB Data8 The Foundations of Data Science
 - UCB Data100 Principles and Techniques of Data Science
