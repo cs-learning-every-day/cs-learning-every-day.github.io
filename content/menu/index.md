@@ -15,6 +15,9 @@ headless: true
 <!-- [**Courses**]({{< relref "/docs/CS/Courses" >}}) -->
 <br />
 
+[**Interviews**]({{< relref "/docs/CS/Interviews" >}})
+<br />
+
 - [**LeetCode**]({{< relref "/docs/LeetCode" >}})
 <br />
 
