@@ -10,10 +10,11 @@ bookFlatSection: true
 - [JavaGuide](https://javaguide.cn/)
 - [JavaFamily](https://github.com/AobingJava/JavaFamily)
 - [JavaTutorial](https://github.com/dunwu/java-tutorial)
-- [java开发 面试八股文（个人的面试及工作总结）](https://github.com/rbmonster/learning-note)
+- [learning-note](https://github.com/rbmonster/learning-note)
 - [JavaKeeper](https://github.com/Jstarfish/JavaKeeper)
 - [互联网 Java 工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java)
 - [JavaHome](https://github.com/whx123/JavaHome)
+- [JavaSourceCodeLearning](https://github.com/coderbruis/JavaSourceCodeLearning)
 
 
 #### Others
