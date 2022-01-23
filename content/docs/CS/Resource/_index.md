@@ -18,3 +18,4 @@ bookFlatSection: true
 - [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum/)
 - [名校公开课程评价网](https://conanhujinming.github.io/comments-for-awesome-courses/)
 - [Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
+- [CS-Awesome-Courses](https://github.com/jackwener/CS-Awesome-Courses)
