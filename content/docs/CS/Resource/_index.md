@@ -17,3 +17,4 @@ bookFlatSection: true
 - [从小白到BAT后端工程师的自学路线](https://zhuanlan.zhihu.com/p/130364187)
 - [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum/)
 - [名校公开课程评价网](https://conanhujinming.github.io/comments-for-awesome-courses/)
+- [Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)

@@ -63,8 +63,16 @@ bookFlatSection: true
 - Quick Select
   - [215. Kth Largest Element in an Array]({{< relref "/docs/LeetCode/Sorts/215.md">}})
 
+### LinkedList
+- [2. 两数相加]({{< relref "/docs/LeetCode/LinkedList/2.md">}})(M)
+
+### Two Pointers
+* ``Sliding window``
+  - [3. 无重复字符的最长子串]({{< relref "/docs/LeetCode/TwoPointers/3.md">}})(M)
+  - [4. 寻找两个正序数组的中位数]({{< relref "/docs/LeetCode/TwoPointers/4.md">}})(H)
 
 ### Others
+- [1. 两数之和]({{< relref "/docs/LeetCode/Others/1.md">}})(E)
 - [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)
 - [383. Ransom Note]({{< relref "/docs/LeetCode/Others/383.md">}})(E)
 - [748. Shortest Completing Word]({{< relref "/docs/LeetCode/Others/748.md">}})(E)
