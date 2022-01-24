@@ -71,8 +71,17 @@ bookFlatSection: true
   - [3. 无重复字符的最长子串]({{< relref "/docs/LeetCode/TwoPointers/3.md">}})(M)
   - [4. 寻找两个正序数组的中位数]({{< relref "/docs/LeetCode/TwoPointers/4.md">}})(H)
 
+### String
+- [6. Z 字形变换]({{< relref "/docs/LeetCode/String/6.md">}})(M)
+- [8. 字符串转换整数 (atoi)]({{< relref "/docs/LeetCode/String/8.md">}})(M)
+* ``Manacher``
+  - [5. 最长回文子串]({{< relref "/docs/LeetCode/String/5.md">}})(M)
+
+
 ### Others
 - [1. 两数之和]({{< relref "/docs/LeetCode/Others/1.md">}})(E)
+- [7. 整数反转]({{< relref "/docs/LeetCode/Others/7.md">}})(M)
+- [9. 回文数]({{< relref "/docs/LeetCode/Others/9.md">}})(E)
 - [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)
 - [383. Ransom Note]({{< relref "/docs/LeetCode/Others/383.md">}})(E)
 - [748. Shortest Completing Word]({{< relref "/docs/LeetCode/Others/748.md">}})(E)
