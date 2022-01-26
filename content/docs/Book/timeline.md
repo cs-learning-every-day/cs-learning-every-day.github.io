@@ -16,7 +16,7 @@ bookFlatSection: true
 #### Done:
 
 《算法4》
-- 2022/1/2? Finish
+- 2022/1/25 Finish
 
 《编程珠玑》
 - 2021/11/27 Ch1
