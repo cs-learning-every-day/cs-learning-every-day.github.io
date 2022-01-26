@@ -22,7 +22,7 @@ bookFlatSection: true
 - 2021/11/27 Ch1
 - 2021/12/14 Ch2
 - 2022/1/3 Ch3
-- 2022/1/2? Finish
+- 2022/1/25 Finish
 
 《Java工程师修炼之道》
 - 2022/1/11 1.1
