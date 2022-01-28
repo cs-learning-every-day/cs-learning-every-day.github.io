@@ -66,6 +66,9 @@ bookFlatSection: true
 - [2. 两数相加]({{< relref "/docs/LeetCode/LinkedList/2.md">}})(M)
 
 ### Two Pointers
+- [11. 盛最多水的容器]({{< relref "/docs/LeetCode/TwoPointers/11.md">}})(M)
+- [15. 三数之和]({{< relref "/docs/LeetCode/TwoPointers/15.md">}})(M)
+- [16. 最接近的三数之和]({{< relref "/docs/LeetCode/TwoPointers/16.md">}})(M)
 * ``Sliding window``
   - [3. 无重复字符的最长子串]({{< relref "/docs/LeetCode/TwoPointers/3.md">}})(M)
   - [4. 寻找两个正序数组的中位数]({{< relref "/docs/LeetCode/TwoPointers/4.md">}})(H)
@@ -73,9 +76,9 @@ bookFlatSection: true
 ### String
 - [6. Z 字形变换]({{< relref "/docs/LeetCode/String/6.md">}})(M)
 - [8. 字符串转换整数 (atoi)]({{< relref "/docs/LeetCode/String/8.md">}})(M)
+- [14. 最长公共前缀]({{< relref "/docs/LeetCode/String/14.md">}})(E)
 * ``Manacher``
   - [5. 最长回文子串]({{< relref "/docs/LeetCode/String/5.md">}})(M)
-
 
 ### Others
 - [1. 两数之和]({{< relref "/docs/LeetCode/Others/1.md">}})(E)
@@ -84,6 +87,10 @@ bookFlatSection: true
 - [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)
 - [383. Ransom Note]({{< relref "/docs/LeetCode/Others/383.md">}})(E)
 - [748. Shortest Completing Word]({{< relref "/docs/LeetCode/Others/748.md">}})(E)
+
+### Simulation
+- [12. 整数转罗马数字]({{< relref "/docs/LeetCode/Simulation/12.md">}})(M)
+- [13. 罗马数字转整数]({{< relref "/docs/LeetCode/Simulation/13.md">}})(E)
 
 ### Design
 - [355. 设计推特]({{< relref "/docs/LeetCode/Design/355.md">}})(M)
