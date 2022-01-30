@@ -16,6 +16,7 @@ bookFlatSection: true
 - [JavaHome](https://github.com/whx123/JavaHome)
 - [JavaSourceCodeLearning](https://github.com/coderbruis/JavaSourceCodeLearning)
 - [Docs](https://github.com/doocs)
+- [JavaYouth](https://github.com/youthlql/JavaYouth)
 
 
 #### Others

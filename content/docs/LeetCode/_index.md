@@ -51,6 +51,7 @@ bookFlatSection: true
 - [812. Largest Triangle Area]({{< relref "/docs/LeetCode/Math/812.md">}})(E)
 
 ### DFS
+- [17. 电话号码的字母组合]({{< relref "/docs/LeetCode/DFS/17.md">}})(M)
 - [139. Word Break]({{< relref "/docs/LeetCode/DFS/139.md">}})(M)
 
 ### Recursion
@@ -64,11 +65,17 @@ bookFlatSection: true
 
 ### LinkedList
 - [2. 两数相加]({{< relref "/docs/LeetCode/LinkedList/2.md">}})(M)
+- [19. 删除链表的倒数第 N 个结点]({{< relref "/docs/LeetCode/LinkedList/19.md">}})(M)
+
+### Stack
+- [20. 有效的括号]({{< relref "/docs/LeetCode/Stack/20.md">}})(E)
 
 ### Two Pointers
 - [11. 盛最多水的容器]({{< relref "/docs/LeetCode/TwoPointers/11.md">}})(M)
 - [15. 三数之和]({{< relref "/docs/LeetCode/TwoPointers/15.md">}})(M)
 - [16. 最接近的三数之和]({{< relref "/docs/LeetCode/TwoPointers/16.md">}})(M)
+- [18. 四数之和]({{< relref "/docs/LeetCode/TwoPointers/18.md">}})(M
+
 * ``Sliding window``
   - [3. 无重复字符的最长子串]({{< relref "/docs/LeetCode/TwoPointers/3.md">}})(M)
   - [4. 寻找两个正序数组的中位数]({{< relref "/docs/LeetCode/TwoPointers/4.md">}})(H)
