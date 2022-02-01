@@ -3,6 +3,8 @@ bookFlatSection: true
 ---
 
 #### 相关资源
+- [藏经阁](https://read.yufan.run/)
+
 - [No Starch Press](https://nostarch.com/)
 
 - [The Pragmatic Bookshelf](https://pragprog.com/)
