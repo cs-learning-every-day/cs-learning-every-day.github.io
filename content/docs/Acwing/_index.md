@@ -4,6 +4,7 @@ bookFlatSection: true
 
 
 - [786. 第k个数]({{< relref "/docs/Acwing/basic/786.md">}})
+- [788. 求逆序对的个数]({{< relref "/docs/Acwing/basic/788.md">}})
 - [791. 高精度加法]({{< relref "/docs/Acwing/basic/791.md">}})
 - [792. 高精度减法]({{< relref "/docs/Acwing/basic/792.md">}})
 - [793. 高精度乘法]({{< relref "/docs/Acwing/basic/793.md">}})

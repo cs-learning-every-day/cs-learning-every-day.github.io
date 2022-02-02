@@ -15,6 +15,12 @@ bookFlatSection: true
 
 #### Done:
 
+《软件开发实践：项目驱动式的Java开发指南》
+- 2022/2/2 Finish
+
+《JAVA解惑》
+- 2022/2/2 Finish
+
 《算法4》
 - 2022/1/25 Finish
 
