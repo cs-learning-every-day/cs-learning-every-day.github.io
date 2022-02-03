@@ -3,6 +3,9 @@ headless: true
 ---
 
 - [**Computer Science**]({{< relref "/docs/CS" >}})
+- - [Programming]({{< relref "/docs/CS/Programming" >}})
+<br />
+
 - - [Algorithm]({{< relref "/docs/CS/Algo" >}})
 <br />
 

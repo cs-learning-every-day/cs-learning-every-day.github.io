@@ -15,11 +15,14 @@ bookFlatSection: true
 
 #### Done:
 
+《如何科学学外语 语言习得的真相与方法》
+- 2022/2/3 Finish
+
 《软件开发实践：项目驱动式的Java开发指南》
-- 2022/2/2 Finish
+- 2022/2/3 Finish
 
 《JAVA解惑》
-- 2022/2/2 Finish
+- 2022/2/3 Finish
 
 《算法4》
 - 2022/1/25 Finish

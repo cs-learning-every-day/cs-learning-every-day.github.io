@@ -67,6 +67,10 @@ bookFlatSection: true
 ### LinkedList
 - [2. 两数相加]({{< relref "/docs/LeetCode/LinkedList/2.md">}})(M)
 - [19. 删除链表的倒数第 N 个结点]({{< relref "/docs/LeetCode/LinkedList/19.md">}})(M)
+- [21. 合并两个有序链表]({{< relref "/docs/LeetCode/LinkedList/21.md">}})(E)
+- [23. 合并K个升序链表]({{< relref "/docs/LeetCode/LinkedList/23.md">}})(H)
+- [24. 两两交换链表中的节点]({{< relref "/docs/LeetCode/LinkedList/24.md">}})(M)
+- [25. K 个一组翻转链表]({{< relref "/docs/LeetCode/LinkedList/25.md">}})(H)
 
 ### Stack
 - [20. 有效的括号]({{< relref "/docs/LeetCode/Stack/20.md">}})(E)
@@ -75,7 +79,9 @@ bookFlatSection: true
 - [11. 盛最多水的容器]({{< relref "/docs/LeetCode/TwoPointers/11.md">}})(M)
 - [15. 三数之和]({{< relref "/docs/LeetCode/TwoPointers/15.md">}})(M)
 - [16. 最接近的三数之和]({{< relref "/docs/LeetCode/TwoPointers/16.md">}})(M)
-- [18. 四数之和]({{< relref "/docs/LeetCode/TwoPointers/18.md">}})(M
+- [18. 四数之和]({{< relref "/docs/LeetCode/TwoPointers/18.md">}})(M)
+- [26. 删除有序数组中的重复项]({{< relref "/docs/LeetCode/TwoPointers/26.md">}})(E)
+- [27. 移除元素]({{< relref "/docs/LeetCode/TwoPointers/27.md">}})(E)
 
 * ``Sliding window``
   - [3. 无重复字符的最长子串]({{< relref "/docs/LeetCode/TwoPointers/3.md">}})(M)
@@ -92,6 +98,7 @@ bookFlatSection: true
 - [1. 两数之和]({{< relref "/docs/LeetCode/Others/1.md">}})(E)
 - [7. 整数反转]({{< relref "/docs/LeetCode/Others/7.md">}})(M)
 - [9. 回文数]({{< relref "/docs/LeetCode/Others/9.md">}})(E)
+- [22. 括号生成]({{< relref "/docs/LeetCode/Others/22.md">}})(E)
 - [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)
 - [383. Ransom Note]({{< relref "/docs/LeetCode/Others/383.md">}})(E)
 - [748. Shortest Completing Word]({{< relref "/docs/LeetCode/Others/748.md">}})(E)
