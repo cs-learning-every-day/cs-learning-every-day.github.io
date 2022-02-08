@@ -17,6 +17,9 @@ bookFlatSection: true
 - [JavaSourceCodeLearning](https://github.com/coderbruis/JavaSourceCodeLearning)
 - [Docs](https://github.com/doocs)
 - [JavaYouth](https://github.com/youthlql/JavaYouth)
+- [javaDesign](https://github.com/idaSmilence/javaDesign)
+- [大厂面试指北](https://github.com/NotFound9/interviewGuide)
+- [算法刷题指南、Java多线程与高并发、Java集合源码、Spring boot、Spring Cloud等笔记，源码级学习笔记后续也会更新。](https://github.com/wardseptember/notes)
 
 
 #### Others

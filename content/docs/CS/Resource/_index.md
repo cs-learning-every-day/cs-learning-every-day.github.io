@@ -20,3 +20,8 @@ bookFlatSection: true
 - [Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 - [CS-Awesome-Courses](https://github.com/jackwener/CS-Awesome-Courses)
 - [cs-video-courses](https://github.com/Developer-Y/cs-video-courses#database-systems)
+- [Every Programmer Should Know ](https://github.com/mtdvio/every-programmer-should-know)
+- [Explore, Create and Share Learning Roadmaps in Tech](https://reallyconfused.co/)
+- [Algorithms-Cheatsheet-Resources](https://github.com/starkblaze01/Algorithms-Cheatsheet-Resources)
+- [Roadmap](https://roadmap.sh/)
+- [Rico's cheatsheets](https://devhints.io/)
