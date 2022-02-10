@@ -42,7 +42,7 @@ bookFlatSection: true
 
 《Wireshark数据包分析实战》
 - 2021/12/4 Ch1
-- 2022/2/10 Ch2~Ch3
+- 2022/2/10 Ch2~Ch4
 
 《如何科学学外语 语言习得的真相与方法》
 - 2022/2/2 Ch1~Ch4
