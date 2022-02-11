@@ -25,3 +25,4 @@ bookFlatSection: true
 - [Algorithms-Cheatsheet-Resources](https://github.com/starkblaze01/Algorithms-Cheatsheet-Resources)
 - [Roadmap](https://roadmap.sh/)
 - [Rico's cheatsheets](https://devhints.io/)
+- [A collection of the best resources for programming, web development, computer science and more.](https://github.com/PizzaPokerGuy/ultimate-coding-resources)
