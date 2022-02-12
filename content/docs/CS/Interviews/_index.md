@@ -26,3 +26,4 @@ bookFlatSection: true
 - [互联网公司常用框架源码赏析](https://doocs.github.io/source-code-hunter/#/)
 - [Tech Interview Handbook](https://techinterviewhandbook.org/)
 - [CS-Notes](https://github.com/CyC2018/CS-Notes)
+- [Everything you need to know to get the job.](https://github.com/kdn251/interviews)
