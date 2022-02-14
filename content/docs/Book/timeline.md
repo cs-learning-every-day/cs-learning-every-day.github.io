@@ -36,6 +36,13 @@ bookFlatSection: true
 - 2022/2/7 Ch5
 
 #### Done:
+《Linux就该这么学》
+
+《On Java8》
+
+《计算机程序的构造和解释》
+- 2022/2/13 3.5
+
 《Redis设计与实现》
 - 2021/10/13 CH7
 - 2021/10/25 CH8、CH9
@@ -43,6 +50,7 @@ bookFlatSection: true
 《Wireshark数据包分析实战》
 - 2021/12/4 Ch1
 - 2022/2/10 Ch2~Ch4
+- 2022/2/14 Ch5
 
 《如何科学学外语 语言习得的真相与方法》
 - 2022/2/2 Ch1~Ch4
