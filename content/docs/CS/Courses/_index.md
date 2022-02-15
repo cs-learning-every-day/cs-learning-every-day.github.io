@@ -12,6 +12,7 @@
 - [ ] UCB CS61C Great Ideas in Computer Architecture (Machine Structures)
 - [ ] Standford CS106L C++ Programming
 - [ ] Standford CS106B Programming Abstractions
+- [ ] Programming Languages, Part A
 
 
 
@@ -32,6 +33,8 @@
 - CMU 15-721 Advanced Database Systems
 - MIT 6.172 Performance Engineering of Software Systems
 - UCB CS169 Software Engineering	
+
+## Programming
 
 ## Data Structure and Algorithm
 - [ ] UCB CS61B Data Structures
@@ -57,6 +60,7 @@
 
 ### 5. Distributed System
 - [ ] MIT 6.824 Distributed Systems
+### 6. Database
 
 ## Data Science
 - [ ] UCB Data8 The Foundations of Data Science
