@@ -102,6 +102,8 @@ bookFlatSection: true
 - [9. 回文数]({{< relref "/docs/LeetCode/Others/9.md">}})(E)
 - [22. 括号生成]({{< relref "/docs/LeetCode/Others/22.md">}})(E)
 - [29. 两数相除]({{< relref "/docs/LeetCode/Others/29.md">}})(M)
+- [48. 旋转图像]({{< relref "/docs/LeetCode/Others/48.md">}})(M)
+- [50. Pow(x, n)]({{< relref "/docs/LeetCode/Others/50.md">}})(M)
 - [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)
 - [383. Ransom Note]({{< relref "/docs/LeetCode/Others/383.md">}})(E)
 - [748. Shortest Completing Word]({{< relref "/docs/LeetCode/Others/748.md">}})(E)

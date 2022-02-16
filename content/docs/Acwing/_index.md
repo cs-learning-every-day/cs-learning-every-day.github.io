@@ -14,3 +14,7 @@ bookFlatSection: true
 - [796. 子矩阵的和]({{< relref "/docs/Acwing/basic/796.md">}})
 - [797. 差分]({{< relref "/docs/Acwing/basic/797.md">}})
 - [798. 差分矩阵]({{< relref "/docs/Acwing/basic/798.md">}})
+- [799. 最长连续不重复子序列]({{< relref "/docs/Acwing/basic/799.md">}})
+- [801. 二进制中1的个数]({{< relref "/docs/Acwing/basic/801.md">}})
+- [802. 区间和]({{< relref "/docs/Acwing/basic/802.md">}})
+- [803. 区间合并]({{< relref "/docs/Acwing/basic/803.md">}})
