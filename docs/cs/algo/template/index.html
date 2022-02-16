@@ -1,9 +1,12 @@
-<!doctype html><html lang=en dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Basic#Quick Sort#void quick_sort(int q[], int l, int r) { if (l >= r) return; int i = l - 1, j = r + 1, x = q[l + r >> 1]; while (i < j) { do i ++ ; while (q[i] < x); do j -- ; while (q[j] > x); if (i < j) swap(q[i], q[j]); } quick_sort(q, l, j), quick_sort(q, j + 1, r); } Merge Sort#void merge_sort(int q[], int l, int r) { if (l >= r) return; int mid = l + r >> 1; merge_sort(q, l, mid); merge_sort(q, mid + 1, r); int k = 0, i = l, j = mid + 1; while (i <= mid && j <= r) if (q[i] <= q[j]) tmp[k ++ ] = q[i ++ ]; else tmp[k ++ ] = q[j ++ ]; while (i <= mid) tmp[k ++ ] = q[i ++ ]; while (j <= r) tmp[k ++ ] = q[j ++ ]; for (i = l, j = 0; i <= r; i ++, j ++ ) q[i] = tmp[j]; } Binary Search#// 区间[l,r]划分成[l, mid], [mid + 1, r] void binary_search1(int l, int r) { while (l < r) { int mid = l + r >> 1; if (check(mid)) { //check() 检查mid是否满足性质  r = mid; } else { l = mid + 1; } } } // 区间[l,r]划分成[l, mid - 1], [mid, r] void binary_search2(int l, int r) { while (l < r) { int mid = l + r + 1>> 1; if (check(mid)) { l = mid; } else { r = mid - 1; } } }"><meta name=theme-color content="#FFFFFF"><meta name=color-scheme content="light dark"><meta property="og:title" content><meta property="og:description" content="Basic#Quick Sort#void quick_sort(int q[], int l, int r) { if (l >= r) return; int i = l - 1, j = r + 1, x = q[l + r >> 1]; while (i < j) { do i ++ ; while (q[i] < x); do j -- ; while (q[j] > x); if (i < j) swap(q[i], q[j]); } quick_sort(q, l, j), quick_sort(q, j + 1, r); } Merge Sort#void merge_sort(int q[], int l, int r) { if (l >= r) return; int mid = l + r >> 1; merge_sort(q, l, mid); merge_sort(q, mid + 1, r); int k = 0, i = l, j = mid + 1; while (i <= mid && j <= r) if (q[i] <= q[j]) tmp[k ++ ] = q[i ++ ]; else tmp[k ++ ] = q[j ++ ]; while (i <= mid) tmp[k ++ ] = q[i ++ ]; while (j <= r) tmp[k ++ ] = q[j ++ ]; for (i = l, j = 0; i <= r; i ++, j ++ ) q[i] = tmp[j]; } Binary Search#// 区间[l,r]划分成[l, mid], [mid + 1, r] void binary_search1(int l, int r) { while (l < r) { int mid = l + r >> 1; if (check(mid)) { //check() 检查mid是否满足性质  r = mid; } else { l = mid + 1; } } } // 区间[l,r]划分成[l, mid - 1], [mid, r] void binary_search2(int l, int r) { while (l < r) { int mid = l + r + 1>> 1; if (check(mid)) { l = mid; } else { r = mid - 1; } } }"><meta property="og:type" content="article"><meta property="og:url" content="https://cs-learning-every-day.github.io/docs/cs/algo/template/"><title>Template | Day Day Up</title><link rel=manifest href=/manifest.json><link rel=icon href=/favicon.png type=image/x-icon><link rel=stylesheet href=/book.min.d4dc77238886ba9b68049c5bf55f2cee407597ba579bac1c5c89e9faef0ed76c.css integrity="sha256-1Nx3I4iGuptoBJxb9V8s7kB1l7pXm6wcXInp+u8O12w=" crossorigin=anonymous><script defer src=/flexsearch.min.js></script><script defer src=/en.search.min.e24720c8ce73719c59b24d0029b5780f5909446c1c57b03078e310a4de61bf02.js integrity="sha256-4kcgyM5zcZxZsk0AKbV4D1kJRGwcV7AweOMQpN5hvwI=" crossorigin=anonymous></script><script defer src=/sw.min.74a8bb07f0bee86d6bb9a2750f073f14d93c7e4512f28860370cfd879e9719b4.js integrity="sha256-dKi7B/C+6G1ruaJ1Dwc/FNk8fkUS8ohgNwz9h56XGbQ=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+<!doctype html><html lang=en dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Acwing模板
+ Basic#快速排序
+void quick_sort(int q[], int l, int r) { if (l >= r) return; int i = l - 1, j = r + 1, x = q[l + r >> 1]; while (i < j) { do i ++ ; while (q[i] < x); do j -- ; while (q[j] > x); if (i < j) swap(q[i], q[j]); } quick_sort(q, l, j), quick_sort(q, j + 1, r); } 归并排序"><meta name=theme-color content="#FFFFFF"><meta name=color-scheme content="light dark"><meta property="og:title" content><meta property="og:description" content="Acwing模板
+ Basic#快速排序
+void quick_sort(int q[], int l, int r) { if (l >= r) return; int i = l - 1, j = r + 1, x = q[l + r >> 1]; while (i < j) { do i ++ ; while (q[i] < x); do j -- ; while (q[j] > x); if (i < j) swap(q[i], q[j]); } quick_sort(q, l, j), quick_sort(q, j + 1, r); } 归并排序"><meta property="og:type" content="article"><meta property="og:url" content="https://cs-learning-every-day.github.io/docs/cs/algo/template/"><title>Template | Day Day Up</title><link rel=manifest href=/manifest.json><link rel=icon href=/favicon.png type=image/x-icon><link rel=stylesheet href=/book.min.d4dc77238886ba9b68049c5bf55f2cee407597ba579bac1c5c89e9faef0ed76c.css integrity="sha256-1Nx3I4iGuptoBJxb9V8s7kB1l7pXm6wcXInp+u8O12w=" crossorigin=anonymous><script defer src=/flexsearch.min.js></script><script defer src=/en.search.min.0f866d0ec1dcd3008f0adb896d52087e24f0cec9155ec181dccde7b7cb39ccd2.js integrity="sha256-D4ZtDsHc0wCPCtuJbVIIfiTwzskVXsGB3M3nt8s5zNI=" crossorigin=anonymous></script><script defer src=/sw.min.74a8bb07f0bee86d6bb9a2750f073f14d93c7e4512f28860370cfd879e9719b4.js integrity="sha256-dKi7B/C+6G1ruaJ1Dwc/FNk8fkUS8ohgNwz9h56XGbQ=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
 <input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><img src=/logo.jpg alt=Logo><span>Day Day Up</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><ul><li><p><a href=/docs/cs/><strong>Computer Science</strong></a></p></li><li><ul><li><a href=/docs/cs/database/>Database</a></li></ul></li><li><ul><li><a href=/docs/cs/operatingsystem/>Operating System</a></li></ul></li><li><ul><li><a href=/docs/cs/network/>Network</a></li></ul></li><li><ul><li><a href=/docs/cs/programming/>Programming</a></li></ul></li><li><ul><li><a href=/docs/cs/algo/>Algorithm</a></li></ul></li><li><ul><li><a href=/docs/cs/tools/>Tools</a></li></ul></li><li><p><a href=/docs/book/><strong>Book</strong></a></p></li><li><ul><li><a href=/docs/book/resource/>Resource</a></li></ul></li></ul><p></p><p></p><p><a href=/docs/cs/interviews/><strong>Interviews</strong></a></p><ul><li><p><a href=/docs/leetcode/><strong>LeetCode</strong></a></p></li><li><p><a href=/docs/cs/resource/><strong>Resource</strong></a></p></li></ul><ul><li><a href=/posts/>Blog</a></li><li><a href=https://github.com/cs-learning-every-day target=_blank rel=noopener>Github</a></li><li><a href=https://themes.gohugo.io/hugo-book/ target=_blank rel=noopener>Hugo Themes</a></li></ul></nav><script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu></label>
 <strong>Template</strong>
-<label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><ul><li><a href=#basic>Basic</a></li></ul></li></ul></nav></aside></header><article class=markdown><h3 id=basic>Basic
-<a class=anchor href=#basic>#</a></h3><h4 id=quick-sort>Quick Sort
-<a class=anchor href=#quick-sort>#</a></h4><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#66d9ef>void</span> <span style=color:#a6e22e>quick_sort</span>(<span style=color:#66d9ef>int</span> q[], <span style=color:#66d9ef>int</span> l, <span style=color:#66d9ef>int</span> r)
+<label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><ul><li><a href=#basic>Basic</a></li></ul></li></ul></nav></aside></header><article class=markdown><blockquote><p><a href=https://www.acwing.com/activity/content/11/>Acwing模板</a></p></blockquote><h3 id=basic>Basic
+<a class=anchor href=#basic>#</a></h3><p>快速排序</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#66d9ef>void</span> <span style=color:#a6e22e>quick_sort</span>(<span style=color:#66d9ef>int</span> q[], <span style=color:#66d9ef>int</span> l, <span style=color:#66d9ef>int</span> r)
 {
     <span style=color:#66d9ef>if</span> (l <span style=color:#f92672>&gt;=</span> r) <span style=color:#66d9ef>return</span>;
 
@@ -16,8 +19,7 @@
     }
     quick_sort(q, l, j), quick_sort(q, j <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>, r);
 }
-</code></pre></div><h4 id=merge-sort>Merge Sort
-<a class=anchor href=#merge-sort>#</a></h4><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#66d9ef>void</span> <span style=color:#a6e22e>merge_sort</span>(<span style=color:#66d9ef>int</span> q[], <span style=color:#66d9ef>int</span> l, <span style=color:#66d9ef>int</span> r)
+</code></pre></div><p>归并排序</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#66d9ef>void</span> <span style=color:#a6e22e>merge_sort</span>(<span style=color:#66d9ef>int</span> q[], <span style=color:#66d9ef>int</span> l, <span style=color:#66d9ef>int</span> r)
 {
     <span style=color:#66d9ef>if</span> (l <span style=color:#f92672>&gt;=</span> r) <span style=color:#66d9ef>return</span>;
 
@@ -35,8 +37,7 @@
 
     <span style=color:#66d9ef>for</span> (i <span style=color:#f92672>=</span> l, j <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>; i <span style=color:#f92672>&lt;=</span> r; i <span style=color:#f92672>++</span>, j <span style=color:#f92672>++</span> ) q[i] <span style=color:#f92672>=</span> tmp[j];
 }
-</code></pre></div><h4 id=binary-search>Binary Search
-<a class=anchor href=#binary-search>#</a></h4><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#75715e>// 区间[l,r]划分成[l, mid], [mid + 1, r]
+</code></pre></div><p>二分</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#75715e>// 区间[l,r]划分成[l, mid], [mid + 1, r]
 </span><span style=color:#75715e></span><span style=color:#66d9ef>void</span> <span style=color:#a6e22e>binary_search1</span>(<span style=color:#66d9ef>int</span> l, <span style=color:#66d9ef>int</span> r) {
     <span style=color:#66d9ef>while</span> (l <span style=color:#f92672>&lt;</span> r) {
         <span style=color:#66d9ef>int</span> mid <span style=color:#f92672>=</span> l <span style=color:#f92672>+</span> r <span style=color:#f92672>&gt;&gt;</span> <span style=color:#ae81ff>1</span>;
@@ -57,6 +58,53 @@
             r <span style=color:#f92672>=</span> mid <span style=color:#f92672>-</span> <span style=color:#ae81ff>1</span>;
         }
     }
+}
+</code></pre></div><p>双指针</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>, j <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>; i <span style=color:#f92672>&lt;</span> n; i <span style=color:#f92672>++</span> )
+{
+    <span style=color:#66d9ef>while</span> (j <span style=color:#f92672>&lt;</span> i <span style=color:#f92672>&amp;&amp;</span> check(i, j)) j <span style=color:#f92672>++</span> ;
+
+    <span style=color:#75715e>// 具体问题的逻辑
+</span><span style=color:#75715e></span>}
+<span style=color:#960050;background-color:#1e0010>常见问题分类：</span>
+    (<span style=color:#ae81ff>1</span>) <span style=color:#960050;background-color:#1e0010>对于一个序列，用两个指针维护一段区间</span>
+    (<span style=color:#ae81ff>2</span>) <span style=color:#960050;background-color:#1e0010>对于两个序列，维护某种次序，比如归并排序中合并两个有序序列的操作</span>
+</code></pre></div><p>位运算</p><pre><code>求n的第k位数字: n &gt;&gt; k &amp; 1
+返回n的最后一位1：lowbit(n) = n &amp; -n
+</code></pre><p>离散化</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++>vector<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> alls; <span style=color:#75715e>// 存储所有待离散化的值
+</span><span style=color:#75715e></span>sort(alls.begin(), alls.end()); <span style=color:#75715e>// 将所有值排序
+</span><span style=color:#75715e></span>alls.erase(unique(alls.begin(), alls.end()), alls.end());   <span style=color:#75715e>// 去掉重复元素
+</span><span style=color:#75715e></span>
+<span style=color:#75715e>// 二分求出x对应的离散化的值
+</span><span style=color:#75715e></span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>find</span>(<span style=color:#66d9ef>int</span> x) <span style=color:#75715e>// 找到第一个大于等于x的位置
+</span><span style=color:#75715e></span>{
+    <span style=color:#66d9ef>int</span> l <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>, r <span style=color:#f92672>=</span> alls.size() <span style=color:#f92672>-</span> <span style=color:#ae81ff>1</span>;
+    <span style=color:#66d9ef>while</span> (l <span style=color:#f92672>&lt;</span> r)
+    {
+        <span style=color:#66d9ef>int</span> mid <span style=color:#f92672>=</span> l <span style=color:#f92672>+</span> r <span style=color:#f92672>&gt;&gt;</span> <span style=color:#ae81ff>1</span>;
+        <span style=color:#66d9ef>if</span> (alls[mid] <span style=color:#f92672>&gt;=</span> x) r <span style=color:#f92672>=</span> mid;
+        <span style=color:#66d9ef>else</span> l <span style=color:#f92672>=</span> mid <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>;
+    }
+    <span style=color:#66d9ef>return</span> r <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>; <span style=color:#75715e>// 映射到1, 2, ...n
+</span><span style=color:#75715e></span>}
+</code></pre></div><p>区间合并</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#75715e>// 将所有存在交集的区间合并
+</span><span style=color:#75715e></span><span style=color:#66d9ef>void</span> <span style=color:#a6e22e>merge</span>(vector<span style=color:#f92672>&lt;</span>PII<span style=color:#f92672>&gt;</span> <span style=color:#f92672>&amp;</span>segs)
+{
+    vector<span style=color:#f92672>&lt;</span>PII<span style=color:#f92672>&gt;</span> res;
+
+    sort(segs.begin(), segs.end());
+
+    <span style=color:#66d9ef>int</span> st <span style=color:#f92672>=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>2e9</span>, ed <span style=color:#f92672>=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>2e9</span>;
+    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>auto</span> seg : segs)
+        <span style=color:#66d9ef>if</span> (ed <span style=color:#f92672>&lt;</span> seg.first)
+        {
+            <span style=color:#66d9ef>if</span> (st <span style=color:#f92672>!=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>2e9</span>) res.push_back({st, ed});
+            st <span style=color:#f92672>=</span> seg.first, ed <span style=color:#f92672>=</span> seg.second;
+        }
+        <span style=color:#66d9ef>else</span> ed <span style=color:#f92672>=</span> max(ed, seg.second);
+
+    <span style=color:#66d9ef>if</span> (st <span style=color:#f92672>!=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>2e9</span>) res.push_back({st, ed});
+
+    segs <span style=color:#f92672>=</span> res;
 }
 </code></pre></div></article><footer class=book-footer><div class="flex flex-wrap justify-between"><div><a class="flex align-center" href=https://github.com/cs-learning-every-day/cs-learning-every-day/edit/main/content/docs/CS/Algo/Template.md target=_blank rel=noopener><img src=/svg/edit.svg class=book-icon alt=Edit>
 <span>Edit this page</span></a></div></div><script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
