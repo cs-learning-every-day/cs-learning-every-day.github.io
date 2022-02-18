@@ -19,3 +19,6 @@ bookFlatSection: true
 - [802. 区间和]({{< relref "/docs/Acwing/basic/802.md">}})
 - [803. 区间合并]({{< relref "/docs/Acwing/basic/803.md">}})
 - [826. 单链表]({{< relref "/docs/Acwing/basic/826.md">}})
+- [827. 双链表]({{< relref "/docs/Acwing/basic/827.md">}})
+- [830. 单调栈]({{< relref "/docs/Acwing/basic/830.md">}})
+- [154. 滑动窗口]({{< relref "/docs/Acwing/basic/154.md">}})

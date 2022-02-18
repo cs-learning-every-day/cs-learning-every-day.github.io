@@ -30,4 +30,3 @@ bookFlatSection: true
 - [Tech Interview Handbook](https://techinterviewhandbook.org/)
 - [CS-Notes](https://github.com/CyC2018/CS-Notes)
 - [Everything you need to know to get the job.](https://github.com/kdn251/interviews)
-- [Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.](https://github.com/donnemartin/system-design-primer)

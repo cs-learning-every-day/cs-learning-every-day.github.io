@@ -20,6 +20,7 @@ bookFlatSection: true
   - [5969. 摧毁小行星]({{< relref "/docs/LeetCode/Others/5969.md">}})(M)
 ### Dynamic Programming
 - [10. 正则表达式匹配]({{< relref "/docs/LeetCode/DynamicProgramming/10.md">}})(H)
+- [45. 跳跃游戏 II]({{< relref "/docs/LeetCode/DynamicProgramming/45.md">}})(M)
 - [62. Unique Paths]({{< relref "/docs/LeetCode/DynamicProgramming/62.md">}})(M)
 - [63. Unique Paths II]({{< relref "/docs/LeetCode/DynamicProgramming/63.md">}})(M)
 - [64. Minimum Path Sum]({{< relref "/docs/LeetCode/DynamicProgramming/64.md">}})(M)
@@ -75,6 +76,8 @@ bookFlatSection: true
 ### Stack
 - [20. 有效的括号]({{< relref "/docs/LeetCode/Stack/20.md">}})(E)
 
+### Hash Table
+- [49. 字母异位词分组]({{< relref "/docs/LeetCode/Stack/49.md">}})(M)
 ### Two Pointers
 - [11. 盛最多水的容器]({{< relref "/docs/LeetCode/TwoPointers/11.md">}})(M)
 - [15. 三数之和]({{< relref "/docs/LeetCode/TwoPointers/15.md">}})(M)

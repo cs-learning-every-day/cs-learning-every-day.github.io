@@ -6,6 +6,9 @@ headless: true
 - - [Database]({{< relref "/docs/CS/Database" >}})
 <br />
 
+- - [Software]({{< relref "/docs/CS/Software" >}})
+<br />
+
 - - [Operating System]({{< relref "/docs/CS/OperatingSystem" >}})
 <br />
 
