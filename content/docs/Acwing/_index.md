@@ -18,3 +18,4 @@ bookFlatSection: true
 - [801. 二进制中1的个数]({{< relref "/docs/Acwing/basic/801.md">}})
 - [802. 区间和]({{< relref "/docs/Acwing/basic/802.md">}})
 - [803. 区间合并]({{< relref "/docs/Acwing/basic/803.md">}})
+- [826. 单链表]({{< relref "/docs/Acwing/basic/826.md">}})
