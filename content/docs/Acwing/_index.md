@@ -22,3 +22,4 @@ bookFlatSection: true
 - [827. 双链表]({{< relref "/docs/Acwing/basic/827.md">}})
 - [830. 单调栈]({{< relref "/docs/Acwing/basic/830.md">}})
 - [154. 滑动窗口]({{< relref "/docs/Acwing/basic/154.md">}})
+- [831. KMP字符串]({{< relref "/docs/Acwing/basic/831.md">}})
