@@ -5,7 +5,7 @@ bookFlatSection: true
 - [整理it资料的百科全库](https://github.com/0voice)
 - [介绍中国各二线以上城市的互联网环境以及生活成本](https://github.com/csguide-dabai/Programmer-look-at-China)
 
-#### Java
+### Java
 - [bugstack 虫洞栈](https://bugstack.cn/)
 - [Java 全栈知识体系](https://pdai.tech/)
 - [JavaGuide](https://javaguide.cn/)
@@ -25,7 +25,7 @@ bookFlatSection: true
 
 ### C++
 - [【C++面试&C++学习指南】 这里整理了C++后端研发工程师面试和工作必备的知识点 。](https://github.com/youngyangyang04/TechCPP)
-#### Others
+### Others
 - [互联网公司常用框架源码赏析](https://doocs.github.io/source-code-hunter/#/)
 - [Tech Interview Handbook](https://techinterviewhandbook.org/)
 - [CS-Notes](https://github.com/CyC2018/CS-Notes)

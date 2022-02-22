@@ -10,9 +10,6 @@
 - [ ] UCB CS61A Structure and Interpretation of Computer Programs
 - [ ] UCB CS61B Data Structures
 - [ ] UCB CS61C Great Ideas in Computer Architecture (Machine Structures)
-- [ ] Standford CS106L C++ Programming
-- [ ] Standford CS106B Programming Abstractions
-- [ ] Programming Languages, Part A
 
 
 
@@ -35,18 +32,23 @@
 - UCB CS169 Software Engineering	
 
 ## Programming
+- [x] CSE 251 Programming in C
+- [ ] Programming Languages, Part A
+- [ ] Standford CS106L C++ Programming
+- [ ] Standford CS106B Programming Abstractions
 
 ## Data Structure and Algorithm
 - [ ] UCB CS61B Data Structures
 - [ ] UCB CS170 Efficient Algorithms and Intractable Problems
 
 ## Computer Architecture
+- [x] From Nand to Tetris Building a Modern Computer From First Principles
 - [ ] UCB CS61C Great Ideas in Computer Architecture (Machine Structures)
 
 ## Computer System
 ### 1. Operating System
 - [ ] MIT 6.S081 Operating System Engineering 
-- [ ] UCB CS168 Operation System
+- [ ] UCB CS162: Operating Systems and System Programming
 
 ### 2. Complier
 - [ ] UCB cs164 Programming Languages and Compilers
@@ -61,6 +63,7 @@
 ### 5. Distributed System
 - [ ] MIT 6.824 Distributed Systems
 ### 6. Database
+- [ ] UCB CS186 Introduction to Database Systems
 
 ## Data Science
 - [ ] UCB Data8 The Foundations of Data Science
