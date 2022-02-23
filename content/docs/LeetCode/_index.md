@@ -77,7 +77,7 @@ bookFlatSection: true
 - [20. 有效的括号]({{< relref "/docs/LeetCode/Stack/20.md">}})(E)
 
 ### Hash Table
-- [49. 字母异位词分组]({{< relref "/docs/LeetCode/Stack/49.md">}})(M)
+- [49. 字母异位词分组]({{< relref "/docs/LeetCode/HashTable/49.md">}})(M)
 ### Two Pointers
 - [11. 盛最多水的容器]({{< relref "/docs/LeetCode/TwoPointers/11.md">}})(M)
 - [15. 三数之和]({{< relref "/docs/LeetCode/TwoPointers/15.md">}})(M)
@@ -89,6 +89,7 @@ bookFlatSection: true
 * ``Sliding window``
   - [3. 无重复字符的最长子串]({{< relref "/docs/LeetCode/TwoPointers/3.md">}})(M)
   - [4. 寻找两个正序数组的中位数]({{< relref "/docs/LeetCode/TwoPointers/4.md">}})(H)
+  - [30. 串联所有单词的子串]({{< relref "/docs/LeetCode/TwoPointers/30.md">}})(H)
 
 ### String
 - [6. Z 字形变换]({{< relref "/docs/LeetCode/String/6.md">}})(M)
