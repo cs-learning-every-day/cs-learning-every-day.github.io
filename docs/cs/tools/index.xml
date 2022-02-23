@@ -1,1 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Day Day Up</title><link>https://cs-learning-every-day.github.io/docs/cs/tools/</link><description>Recent content on Day Day Up</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://cs-learning-every-day.github.io/docs/cs/tools/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Day Day Up</title><link>https://cs-learning-every-day.github.io/docs/cs/tools/</link><description>Recent content on Day Day Up</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://cs-learning-every-day.github.io/docs/cs/tools/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/docker/</guid><description>使用Docker提供本项目的Mysql和Redis服务
+#
+Install
+#
+https://docs.docker.com/install/linux/docker-ce/centos/
+https://blog.csdn.net/weixin_39477597/article/details/87715899
+https://blog.csdn.net/weixin_43569697/article/details/89279225
+CMD中写windows路径 //c
+-v /c\Users\sunhu\Documents\Study\Tool\calibre-web\books
+Docker 启动、重启、关闭
+#
+开机自启
+systemctl enable docker
+systemctl start docker
+守护进程重启 systemctl daemon-reload
+重启docker服务 systemctl restart docker / service docker restart
+关闭 docker service docker stop / docker systemctl stop docker
+停用全部运行中的容器:
+#
+docker stop $(docker ps -q)
+删除全部容器：
+#
+docker rm $(docker ps -aq)
+一条命令实现停用并删除容器：
+#
+docker stop $(docker ps -q) &amp;amp; docker rm $(docker ps -aq)
+命令
+#
+docker images docker search &amp;lt;image_name&amp;gt; docker pull &amp;lt;域名&amp;gt;//: docker rmi : docker inspect &amp;lt;image_id&amp;gt; 查看容器信息 容器命令
+#
+docker create &amp;lt;image_name&amp;gt; docker run &amp;lt;image_name&amp;gt; docker run ubuntu /bin/echo &amp;ldquo;Test&amp;rdquo; docker run &amp;ndash;name demo -d ubuntu docker stop &amp;lt;container_id&amp;gt; docker ps 查看运行中的容器 docker ps -a 列出启动过的容器 可以使用start重新启动 docker start &amp;lt;container_id&amp;gt; 启动容器 docker rm &amp;lt;container_id&amp;gt; docker rm -f &amp;lt;container_id&amp;gt; docker container top docker exec &amp;lt;container_id&amp;gt; docker exec -it &amp;lt;container_id&amp;gt; bash 登陆到容器中 案例
+#
+docker run &amp;ndash;name mysqlsvr -p 12345:3306 -e MYSQL_ROOT_PASSWORD=sfy1314 -d mysql</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/git/</guid><description>// 删除本地分支 git branch -d localBranchName
+// 删除远程分支 git push origin &amp;ndash;delete remoteBranchName
+修改github 日期
+git commit
+git cat-file -p HEAD &amp;gt; tmp.txt
+# at this point, edit the file to replace the timestamp
+git hash-object -t commit -w tmp.txt
+#=&amp;gt; 2ee8fcc02658e23219143f5bcfe6f9a4615745f9
+git update-ref -m 'commit: foo' refs/heads/master \
+2ee8fcc02658e23219143f5bcfe6f9a4615745f9
+取消跟踪,删除远程文件
+git rm -r --cached .
+git add .
+git commit -m &amp;quot;update gitignore&amp;quot;
+配置全局信息
+&amp;ndash;local
+git config &amp;ndash;global user.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/jenkins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/jenkins/</guid><description>https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-20-04/
+https://www.cnblogs.com/chenxiaomeng/p/11412038.html
+https://www.cnblogs.com/ding2016/p/12988080.html
+service jenkins restart[start\stop]
+systemctl status jenkins</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/maven/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/maven/</guid><description>mvn install:install-file -DgroupId=com.aliyun -DartifactId=aliyun-sdk-vod-upload -Dversion=1.4.12 -Dpackaging=jar -Dfile=aliyun-java-vod-upload-1.4.12.jar</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/npm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/npm/</guid><description>npkill</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/regularexpression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/regularexpression/</guid><description>Resources
+#
+RegexLearn</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/vim/</guid><description>https://missing-semester-cn.github.io/2020/editors/
+https://vimawesome.com/</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</guid><description>WSL相关
+#
+vscode server for wsl closed unexpectedly
+netsh winsock reset重置网络 或移除wsl中的~/.vscode-server</description></item></channel></rss>
