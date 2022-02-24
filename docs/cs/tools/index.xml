@@ -30,7 +30,19 @@ docker images docker search &amp;lt;image_name&amp;gt; docker pull &amp;lt;域�
 #
 docker create &amp;lt;image_name&amp;gt; docker run &amp;lt;image_name&amp;gt; docker run ubuntu /bin/echo &amp;ldquo;Test&amp;rdquo; docker run &amp;ndash;name demo -d ubuntu docker stop &amp;lt;container_id&amp;gt; docker ps 查看运行中的容器 docker ps -a 列出启动过的容器 可以使用start重新启动 docker start &amp;lt;container_id&amp;gt; 启动容器 docker rm &amp;lt;container_id&amp;gt; docker rm -f &amp;lt;container_id&amp;gt; docker container top docker exec &amp;lt;container_id&amp;gt; docker exec -it &amp;lt;container_id&amp;gt; bash 登陆到容器中 案例
 #
-docker run &amp;ndash;name mysqlsvr -p 12345:3306 -e MYSQL_ROOT_PASSWORD=sfy1314 -d mysql</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/git/</guid><description>// 删除本地分支 git branch -d localBranchName
+docker run &amp;ndash;name mysqlsvr -p 12345:3306 -e MYSQL_ROOT_PASSWORD=sfy1314 -d mysql</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/gdb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/gdb/</guid><description>Resources
+#
+用GDB调试程序 GCC
+#
+-E 获取预处理后的文件内容
+-V 将编译、链接过程打印
+-g 用于GDB调试
+ltrace 命令用来跟踪程序运行时调用的库函数
+-S 查看系统调用 -e trace=write 只看write系统调用 strace 查看系统调用的封装函数
+GDB
+#
+Segment Fault快速定位
+首先生成core文件 使用ulimit -a 查看core file size为0则是不会输出(改成不限制 ulimit -c unlimited) 运行程序出错则会输出，调试时gdb ./hello core list start ctrl + x + a</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/git/</guid><description>// 删除本地分支 git branch -d localBranchName
 // 删除远程分支 git push origin &amp;ndash;delete remoteBranchName
 修改github 日期
 git commit

@@ -3,17 +3,7 @@
 线上代码定位问题
 11.3 性能测试
 #
-相关的命令</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/linux/gdb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/linux/gdb/</guid><description>GCC
-#
--E 获取预处理后的文件内容
--V 将编译、链接过程打印
--g 用于GDB调试
-ltrace 命令用来跟踪程序运行时调用的库函数
--S 查看系统调用 -e trace=write 只看write系统调用 strace 查看系统调用的封装函数
-GDB
-#
-Segment Fault快速定位
-首先生成core文件 使用ulimit -a 查看core file size为0则是不会输出(改成不限制 ulimit -c unlimited) 运行程序出错则会输出，调试时gdb ./hello core list start ctrl + x + a</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/linux/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/linux/main/</guid><description>strace 跟踪系统调用 stat 打印文件信息 mount 查看挂载的文件系统 grep telnet /etc/services 包含了一些熟知的端口号 ldd proc 列出程序的动态依赖性 ip addr / ping baidu.com df -h / find . -name &amp;ldquo;*.cpp&amp;rdquo; fdisk /dev/sdb shutdown -h 0 apt install qemu-system pdfjoin a.pdf b.pdf iconv -f gbk -t utf-8 file.txt xxd 查看文件二进制 输出当前用户是不是 root
+相关的命令</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/linux/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/linux/main/</guid><description>strace 跟踪系统调用 stat 打印文件信息 mount 查看挂载的文件系统 grep telnet /etc/services 包含了一些熟知的端口号 ldd proc 列出程序的动态依赖性 ip addr / ping baidu.com df -h / find . -name &amp;ldquo;*.cpp&amp;rdquo; fdisk /dev/sdb shutdown -h 0 apt install qemu-system pdfjoin a.pdf b.pdf iconv -f gbk -t utf-8 file.txt xxd 查看文件二进制 输出当前用户是不是 root
 [ $UID -eq 0 ] &amp;amp;&amp;amp; echo &amp;quot;is root!&amp;quot; 查看磁盘引导扇区 (Master Boot Record)
-cat /dev/sdb | head -c 512 | ndisasm -b 16 -o 0x7c00 - 统计所有 cpp 文件的行数</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/linux/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/linux/vim/</guid><description> Vscode插件 Learn Vim</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/linux/wsl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/linux/wsl/</guid><description>为WSL2加图形化界面配置
+cat /dev/sdb | head -c 512 | ndisasm -b 16 -o 0x7c00 - 统计所有 cpp 文件的行数</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/linux/wsl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/linux/wsl/</guid><description>为WSL2加图形化界面配置
 运行 startxfce4</description></item></channel></rss>
