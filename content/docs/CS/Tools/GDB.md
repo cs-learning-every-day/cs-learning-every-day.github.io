@@ -1,3 +1,8 @@
+
+### Resources
+- [用GDB调试程序](https://blog.csdn.net/haoel/article/details/2879)
+
+
 #### GCC
 
 - -E 获取预处理后的文件内容
@@ -13,7 +18,6 @@ ltrace 命令用来跟踪程序运行时调用的库函数
 strace 查看系统调用的封装函数
 
 #### GDB
-
 Segment Fault快速定位 
 
 ```bash
@@ -25,3 +29,4 @@ Segment Fault快速定位
 - list
 - start
 - ctrl + x + a
+

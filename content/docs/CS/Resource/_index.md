@@ -26,3 +26,5 @@ bookFlatSection: true
 - [Roadmap](https://roadmap.sh/)
 - [Rico's cheatsheets](https://devhints.io/)
 - [A collection of the best resources for programming, web development, computer science and more.](https://github.com/PizzaPokerGuy/ultimate-coding-resources)
+- [💻📖对开发人员有用的定律、理论、原则和模式](https://github.com/nusr/hacker-laws-zh)
+- [给新员工和实习生的生存指南](https://github.com/lazyparser/survivial-manual-for-interns)

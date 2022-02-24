@@ -16,3 +16,5 @@ bookFlatSection: true
 - [Go语言高级编程](https://chai2010.cn/advanced-go-programming-book/)
 - [Practical Go Lessons](https://chai2010.cn/advanced-go-programming-book/)
 - [A hands-on approach to getting started with Go generics.](https://github.com/akutz/go-generics-the-hard-way)
+- [List of Golang books](https://github.com/dariubs/GoBooks)
+- [7 days golang programs from scratch](https://github.com/geektutu/7days-golang)
