@@ -60,7 +60,9 @@ bookFlatSection: true
 - [1492. The kth Factor of n]({{< relref "/docs/LeetCode/Recursion/1492.md">}})(M)
 
 ### BinarySearch
-
+[33. 搜索旋转排序数组]({{< relref "/docs/LeetCode/BinarySearch/33.md">}})(M)
+[34. 在排序数组中查找元素的第一个和最后一个位置]({{< relref "/docs/LeetCode/BinarySearch/34.md">}})(M)
+[35. 搜索插入位置]({{< relref "/docs/LeetCode/BinarySearch/35.md">}})(E)
 ### Sorts
 - Quick Select
   - [215. Kth Largest Element in an Array]({{< relref "/docs/LeetCode/Sorts/215.md">}})
@@ -75,6 +77,7 @@ bookFlatSection: true
 
 ### Stack
 - [20. 有效的括号]({{< relref "/docs/LeetCode/Stack/20.md">}})(E)
+- [32. 最长有效括号]({{< relref "/docs/LeetCode/Stack/32.md">}})(H)
 
 ### Hash Table
 - [49. 字母异位词分组]({{< relref "/docs/LeetCode/HashTable/49.md">}})(M)
@@ -106,6 +109,7 @@ bookFlatSection: true
 - [9. 回文数]({{< relref "/docs/LeetCode/Others/9.md">}})(E)
 - [22. 括号生成]({{< relref "/docs/LeetCode/Others/22.md">}})(E)
 - [29. 两数相除]({{< relref "/docs/LeetCode/Others/29.md">}})(M)
+- [31. 下一个排列]({{< relref "/docs/LeetCode/Others/31.md">}})(M)
 - [48. 旋转图像]({{< relref "/docs/LeetCode/Others/48.md">}})(M)
 - [50. Pow(x, n)]({{< relref "/docs/LeetCode/Others/50.md">}})(M)
 - [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)
