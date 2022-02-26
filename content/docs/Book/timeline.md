@@ -31,13 +31,16 @@ bookFlatSection: true
 - 2022/2/7 Ch5
 
 #### Done:
+《Head First设计模式》
+
+
 《数据结构与算法分析：C语言描述》
 - 2021/10/14 P27
 - 2021/11/5 CH2
 
 
 《图解HTTP》
-- 2022/2/25 Finish
+- 2022/2/26 Finish
 
 《网络基本功系列》
 - 2022/2/23 Ch1 ~ Ch3

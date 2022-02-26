@@ -54,6 +54,7 @@ bookFlatSection: true
 
 ### DFS
 - [17. 电话号码的字母组合]({{< relref "/docs/LeetCode/DFS/17.md">}})(M)
+- [37. 解数独]({{< relref "/docs/LeetCode/DFS/37.md">}})(H)
 - [139. Word Break]({{< relref "/docs/LeetCode/DFS/139.md">}})(M)
 
 ### Recursion
@@ -110,6 +111,7 @@ bookFlatSection: true
 - [22. 括号生成]({{< relref "/docs/LeetCode/Others/22.md">}})(E)
 - [29. 两数相除]({{< relref "/docs/LeetCode/Others/29.md">}})(M)
 - [31. 下一个排列]({{< relref "/docs/LeetCode/Others/31.md">}})(M)
+- [36. 有效的数独]({{< relref "/docs/LeetCode/Others/36.md">}})(M)
 - [48. 旋转图像]({{< relref "/docs/LeetCode/Others/48.md">}})(M)
 - [50. Pow(x, n)]({{< relref "/docs/LeetCode/Others/50.md">}})(M)
 - [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)

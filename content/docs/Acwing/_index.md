@@ -23,3 +23,6 @@ bookFlatSection: true
 - [830. 单调栈]({{< relref "/docs/Acwing/basic/830.md">}})
 - [154. 滑动窗口]({{< relref "/docs/Acwing/basic/154.md">}})
 - [831. KMP字符串]({{< relref "/docs/Acwing/basic/831.md">}})
+- [835. Trie字符串统计]({{< relref "/docs/Acwing/basic/835.md">}})
+- [143. 最大异或对]({{< relref "/docs/Acwing/basic/143.md">}})
+- [836. 合并集合]({{< relref "/docs/Acwing/basic/836.md">}})
