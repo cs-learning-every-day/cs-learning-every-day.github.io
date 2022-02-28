@@ -26,3 +26,4 @@ bookFlatSection: true
 - [835. Trie字符串统计]({{< relref "/docs/Acwing/basic/835.md">}})
 - [143. 最大异或对]({{< relref "/docs/Acwing/basic/143.md">}})
 - [836. 合并集合]({{< relref "/docs/Acwing/basic/836.md">}})
+- [838. 堆排序]({{< relref "/docs/Acwing/basic/838.md">}})

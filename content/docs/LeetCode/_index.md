@@ -51,7 +51,9 @@ bookFlatSection: true
 - [519. Random Flip Matrix]({{< relref "/docs/LeetCode/Math/519.md">}})(M)
 - [1979. Find Greatest Common Divisor of Array]({{< relref "/docs/LeetCode/Math/1979.md">}})(E)
 - [812. Largest Triangle Area]({{< relref "/docs/LeetCode/Math/812.md">}})(E)
-
+* ``Combinatorics``
+  - [46. 全排列]({{< relref "/docs/LeetCode/Math/46.md">}})(M)
+  - [47. 全排列 II]({{< relref "/docs/LeetCode/Math/47.md">}})(M)
 ### DFS
 - [17. 电话号码的字母组合]({{< relref "/docs/LeetCode/DFS/17.md">}})(M)
 - [37. 解数独]({{< relref "/docs/LeetCode/DFS/37.md">}})(H)
@@ -121,6 +123,7 @@ bookFlatSection: true
 ### Simulation
 - [12. 整数转罗马数字]({{< relref "/docs/LeetCode/Simulation/12.md">}})(M)
 - [13. 罗马数字转整数]({{< relref "/docs/LeetCode/Simulation/13.md">}})(E)
+- [38. 外观数列]({{< relref "/docs/LeetCode/Simulation/38.md">}})(M)
 
 ### Design
 - [355. 设计推特]({{< relref "/docs/LeetCode/Design/355.md">}})(M)
