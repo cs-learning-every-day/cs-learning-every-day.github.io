@@ -52,6 +52,8 @@ bookFlatSection: true
 - [1979. Find Greatest Common Divisor of Array]({{< relref "/docs/LeetCode/Math/1979.md">}})(E)
 - [812. Largest Triangle Area]({{< relref "/docs/LeetCode/Math/812.md">}})(E)
 * ``Combinatorics``
+  - [39. 组合总和]({{< relref "/docs/LeetCode/Math/39.md">}})(M)
+  - [39. 组合总和 II]({{< relref "/docs/LeetCode/Math/40.md">}})(M)
   - [46. 全排列]({{< relref "/docs/LeetCode/Math/46.md">}})(M)
   - [47. 全排列 II]({{< relref "/docs/LeetCode/Math/47.md">}})(M)
 ### DFS
@@ -67,8 +69,10 @@ bookFlatSection: true
 [34. 在排序数组中查找元素的第一个和最后一个位置]({{< relref "/docs/LeetCode/BinarySearch/34.md">}})(M)
 [35. 搜索插入位置]({{< relref "/docs/LeetCode/BinarySearch/35.md">}})(E)
 ### Sorts
-- Quick Select
+* ``Quick Select``
   - [215. Kth Largest Element in an Array]({{< relref "/docs/LeetCode/Sorts/215.md">}})
+* ``Index Sort``
+  - [41. 缺失的第一个正数]({{< relref "/docs/LeetCode/Sorts/41.md">}})(H)
 
 ### LinkedList
 - [2. 两数相加]({{< relref "/docs/LeetCode/LinkedList/2.md">}})(M)
