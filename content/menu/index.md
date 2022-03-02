@@ -9,6 +9,9 @@ headless: true
 - - [Software]({{< relref "/docs/CS/Software" >}})
 <br />
 
+- - [Building]({{< relref "/docs/CS/Build" >}})
+<br />
+
 - - [Operating System]({{< relref "/docs/CS/OperatingSystem" >}})
 <br />
 

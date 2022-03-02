@@ -56,6 +56,7 @@ bookFlatSection: true
 - 2022/2/22 Ch1 ~ Ch4
 
 《Atomic Kotlin》
+- 2022/3/1 P38
 《Linux就该这么学》
 《On Java8》
 
@@ -93,6 +94,7 @@ bookFlatSection: true
 - 2021/10/30 Ch1
 - 2021/11/24 Ch2
 - 2022/2/22 P81
+- 2022/3/2 P91
 
 《计算机系统要素：从零开始构建现代计算机》
 - 2021/11/16 Ch8

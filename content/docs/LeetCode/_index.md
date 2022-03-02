@@ -47,6 +47,7 @@ bookFlatSection: true
 - [451. 根据字符出现频率排序]({{< relref "/docs/LeetCode/Heap/451.md">}})(M)
 
 ### Math
+- [43. 字符串相乘]({{< relref "/docs/LeetCode/Math/43.md">}})(M)
 - [384. Shuffle an Array]({{< relref "/docs/LeetCode/Math/384.md">}})(E)
 - [519. Random Flip Matrix]({{< relref "/docs/LeetCode/Math/519.md">}})(M)
 - [1979. Find Greatest Common Divisor of Array]({{< relref "/docs/LeetCode/Math/1979.md">}})(E)
