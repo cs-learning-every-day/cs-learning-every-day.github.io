@@ -86,6 +86,8 @@ bookFlatSection: true
 ### Stack
 - [20. 有效的括号]({{< relref "/docs/LeetCode/Stack/20.md">}})(E)
 - [32. 最长有效括号]({{< relref "/docs/LeetCode/Stack/32.md">}})(H)
+* ``Monotonic Stack``
+- [42. 接雨水]({{< relref "/docs/LeetCode/Stack/42.md">}})(H)
 
 ### Hash Table
 - [49. 字母异位词分组]({{< relref "/docs/LeetCode/HashTable/49.md">}})(M)
