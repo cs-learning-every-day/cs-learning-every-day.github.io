@@ -1,6 +1,7 @@
 
 ### Resources
 - [用GDB调试程序](https://blog.csdn.net/haoel/article/details/2879)
+- [100-gdb-tips](https://github.com/hellogcc/100-gdb-tips)
 
 
 #### GCC

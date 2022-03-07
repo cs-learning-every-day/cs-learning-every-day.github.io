@@ -20,6 +20,7 @@ bookFlatSection: true
   - [5969. 摧毁小行星]({{< relref "/docs/LeetCode/Others/5969.md">}})(M)
 ### Dynamic Programming
 - [10. 正则表达式匹配]({{< relref "/docs/LeetCode/DynamicProgramming/10.md">}})(H)
+- [44. 通配符匹配]({{< relref "/docs/LeetCode/DynamicProgramming/44.md">}})(H)
 - [45. 跳跃游戏 II]({{< relref "/docs/LeetCode/DynamicProgramming/45.md">}})(M)
 - [62. Unique Paths]({{< relref "/docs/LeetCode/DynamicProgramming/62.md">}})(M)
 - [63. Unique Paths II]({{< relref "/docs/LeetCode/DynamicProgramming/63.md">}})(M)
