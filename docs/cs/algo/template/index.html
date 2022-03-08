@@ -1,11 +1,10 @@
 <!doctype html><html lang=en dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Acwing模板
- Basic#快速排序#void quick_sort(int q[], int l, int r) { if (l >= r) return; int i = l - 1, j = r + 1, x = q[l + r >> 1]; while (i < j) { do i ++ ; while (q[i] < x); do j -- ; while (q[j] > x); if (i < j) swap(q[i], q[j]); } quick_sort(q, l, j), quick_sort(q, j + 1, r); } 归并排序#void merge_sort(int q[], int l, int r) { if (l >= r) return; int mid = l + r >> 1; merge_sort(q, l, mid); merge_sort(q, mid + 1, r); int k = 0, i = l, j = mid + 1; while (i <= mid && j <= r) if (q[i] <= q[j]) tmp[k ++ ] = q[i ++ ]; else tmp[k ++ ] = q[j ++ ]; while (i <= mid) tmp[k ++ ] = q[i ++ ]; while (j <= r) tmp[k ++ ] = q[j ++ ]; for (i = l, j = 0; i <= r; i ++, j ++ ) q[i] = tmp[j]; } 二分#// 区间[l,r]划分成[l, mid], [mid + 1, r] void binary_search1(int l, int r) { while (l < r) { int mid = l + r >> 1; if (check(mid)) { //check() 检查mid是否满足性质  r = mid; } else { l = mid + 1; } } } // 区间[l,r]划分成[l, mid - 1], [mid, r] void binary_search2(int l, int r) { while (l < r) { int mid = l + r + 1>> 1; if (check(mid)) { l = mid; } else { r = mid - 1; } } } 双指针#for (int i = 0, j = 0; i < n; i ++ ) { while (j < i && check(i, j)) j ++ ; // 具体问题的逻辑 } 常见问题分类： (1) 对于一个序列，用两个指针维护一段区间 (2) 对于两个序列，维护某种次序，比如归并排序中合并两个有序序列的操作 位运算#求n的第k位数字: n >> k & 1返回n的最后一位1：lowbit(n) = n & -n离散化#vector<int> alls; // 存储所有待离散化的值 sort(alls."><meta name=theme-color content="#FFFFFF"><meta name=color-scheme content="light dark"><meta property="og:title" content><meta property="og:description" content="Acwing模板
- Basic#快速排序#void quick_sort(int q[], int l, int r) { if (l >= r) return; int i = l - 1, j = r + 1, x = q[l + r >> 1]; while (i < j) { do i ++ ; while (q[i] < x); do j -- ; while (q[j] > x); if (i < j) swap(q[i], q[j]); } quick_sort(q, l, j), quick_sort(q, j + 1, r); } 归并排序#void merge_sort(int q[], int l, int r) { if (l >= r) return; int mid = l + r >> 1; merge_sort(q, l, mid); merge_sort(q, mid + 1, r); int k = 0, i = l, j = mid + 1; while (i <= mid && j <= r) if (q[i] <= q[j]) tmp[k ++ ] = q[i ++ ]; else tmp[k ++ ] = q[j ++ ]; while (i <= mid) tmp[k ++ ] = q[i ++ ]; while (j <= r) tmp[k ++ ] = q[j ++ ]; for (i = l, j = 0; i <= r; i ++, j ++ ) q[i] = tmp[j]; } 二分#// 区间[l,r]划分成[l, mid], [mid + 1, r] void binary_search1(int l, int r) { while (l < r) { int mid = l + r >> 1; if (check(mid)) { //check() 检查mid是否满足性质  r = mid; } else { l = mid + 1; } } } // 区间[l,r]划分成[l, mid - 1], [mid, r] void binary_search2(int l, int r) { while (l < r) { int mid = l + r + 1>> 1; if (check(mid)) { l = mid; } else { r = mid - 1; } } } 双指针#for (int i = 0, j = 0; i < n; i ++ ) { while (j < i && check(i, j)) j ++ ; // 具体问题的逻辑 } 常见问题分类： (1) 对于一个序列，用两个指针维护一段区间 (2) 对于两个序列，维护某种次序，比如归并排序中合并两个有序序列的操作 位运算#求n的第k位数字: n >> k & 1返回n的最后一位1：lowbit(n) = n & -n离散化#vector<int> alls; // 存储所有待离散化的值 sort(alls."><meta property="og:type" content="article"><meta property="og:url" content="https://cs-learning-every-day.github.io/docs/cs/algo/template/"><title>Template | Day Day Up</title><link rel=manifest href=/manifest.json><link rel=icon href=/favicon.png type=image/x-icon><link rel=stylesheet href=/book.min.d4dc77238886ba9b68049c5bf55f2cee407597ba579bac1c5c89e9faef0ed76c.css integrity="sha256-1Nx3I4iGuptoBJxb9V8s7kB1l7pXm6wcXInp+u8O12w=" crossorigin=anonymous><script defer src=/flexsearch.min.js></script><script defer src=/en.search.min.0ef03a5d8ade2848257f343a5a09c00d29da4290b59bff90f7ad6e39a4ef5656.js integrity="sha256-DvA6XYreKEglfzQ6WgnADSnaQpC1m/+Q961uOaTvVlY=" crossorigin=anonymous></script><script defer src=/sw.min.74a8bb07f0bee86d6bb9a2750f073f14d93c7e4512f28860370cfd879e9719b4.js integrity="sha256-dKi7B/C+6G1ruaJ1Dwc/FNk8fkUS8ohgNwz9h56XGbQ=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
-<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><img src=/logo.jpg alt=Logo><span>Day Day Up</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><ul><li><p><a href=/docs/cs/><strong>Computer Science</strong></a></p></li><li><ul><li><a href=/docs/cs/database/>Database</a></li></ul></li><li><ul><li><a href=/docs/cs/software/>Software</a></li></ul></li><li><ul><li><a href=/docs/cs/operatingsystem/>Operating System</a></li></ul></li><li><ul><li><a href=/docs/cs/network/>Network</a></li></ul></li><li><ul><li><a href=/docs/cs/programming/>Programming</a></li></ul></li><li><ul><li><a href=/docs/cs/algo/>Algorithm</a></li></ul></li><li><ul><li><a href=/docs/cs/tools/>Tools</a></li></ul></li><li><p><a href=/docs/book/><strong>Book</strong></a></p></li><li><ul><li><a href=/docs/book/resource/>Resource</a></li></ul></li></ul><p></p><p></p><p><a href=/docs/cs/interviews/><strong>Interviews</strong></a></p><ul><li><p><a href=/docs/leetcode/><strong>LeetCode</strong></a></p></li><li><p><a href=/docs/cs/resource/><strong>Resource</strong></a></p></li></ul><ul><li><a href=/posts/>Blog</a></li><li><a href=https://github.com/cs-learning-every-day target=_blank rel=noopener>Github</a></li><li><a href=https://themes.gohugo.io/hugo-book/ target=_blank rel=noopener>Hugo Themes</a></li></ul></nav><script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu></label>
+ 快速排序#void quick_sort(int q[], int l, int r) { if (l >= r) return; int i = l - 1, j = r + 1, x = q[l + r >> 1]; while (i < j) { do i ++ ; while (q[i] < x); do j -- ; while (q[j] > x); if (i < j) swap(q[i], q[j]); } quick_sort(q, l, j), quick_sort(q, j + 1, r); } 归并排序#void merge_sort(int q[], int l, int r) { if (l >= r) return; int mid = l + r >> 1; merge_sort(q, l, mid); merge_sort(q, mid + 1, r); int k = 0, i = l, j = mid + 1; while (i <= mid && j <= r) if (q[i] <= q[j]) tmp[k ++ ] = q[i ++ ]; else tmp[k ++ ] = q[j ++ ]; while (i <= mid) tmp[k ++ ] = q[i ++ ]; while (j <= r) tmp[k ++ ] = q[j ++ ]; for (i = l, j = 0; i <= r; i ++, j ++ ) q[i] = tmp[j]; } 二分#// 区间[l,r]划分成[l, mid], [mid + 1, r] void binary_search1(int l, int r) { while (l < r) { int mid = l + r >> 1; if (check(mid)) { //check() 检查mid是否满足性质  r = mid; } else { l = mid + 1; } } } // 区间[l,r]划分成[l, mid - 1], [mid, r] void binary_search2(int l, int r) { while (l < r) { int mid = l + r + 1>> 1; if (check(mid)) { l = mid; } else { r = mid - 1; } } } 双指针#for (int i = 0, j = 0; i < n; i ++ ) { while (j < i && check(i, j)) j ++ ; // 具体问题的逻辑 } 常见问题分类： (1) 对于一个序列，用两个指针维护一段区间 (2) 对于两个序列，维护某种次序，比如归并排序中合并两个有序序列的操作 位运算#求n的第k位数字: n >> k & 1返回n的最后一位1：lowbit(n) = n & -n离散化#vector<int> alls; // 存储所有待离散化的值 sort(alls."><meta name=theme-color content="#FFFFFF"><meta name=color-scheme content="light dark"><meta property="og:title" content><meta property="og:description" content="Acwing模板
+ 快速排序#void quick_sort(int q[], int l, int r) { if (l >= r) return; int i = l - 1, j = r + 1, x = q[l + r >> 1]; while (i < j) { do i ++ ; while (q[i] < x); do j -- ; while (q[j] > x); if (i < j) swap(q[i], q[j]); } quick_sort(q, l, j), quick_sort(q, j + 1, r); } 归并排序#void merge_sort(int q[], int l, int r) { if (l >= r) return; int mid = l + r >> 1; merge_sort(q, l, mid); merge_sort(q, mid + 1, r); int k = 0, i = l, j = mid + 1; while (i <= mid && j <= r) if (q[i] <= q[j]) tmp[k ++ ] = q[i ++ ]; else tmp[k ++ ] = q[j ++ ]; while (i <= mid) tmp[k ++ ] = q[i ++ ]; while (j <= r) tmp[k ++ ] = q[j ++ ]; for (i = l, j = 0; i <= r; i ++, j ++ ) q[i] = tmp[j]; } 二分#// 区间[l,r]划分成[l, mid], [mid + 1, r] void binary_search1(int l, int r) { while (l < r) { int mid = l + r >> 1; if (check(mid)) { //check() 检查mid是否满足性质  r = mid; } else { l = mid + 1; } } } // 区间[l,r]划分成[l, mid - 1], [mid, r] void binary_search2(int l, int r) { while (l < r) { int mid = l + r + 1>> 1; if (check(mid)) { l = mid; } else { r = mid - 1; } } } 双指针#for (int i = 0, j = 0; i < n; i ++ ) { while (j < i && check(i, j)) j ++ ; // 具体问题的逻辑 } 常见问题分类： (1) 对于一个序列，用两个指针维护一段区间 (2) 对于两个序列，维护某种次序，比如归并排序中合并两个有序序列的操作 位运算#求n的第k位数字: n >> k & 1返回n的最后一位1：lowbit(n) = n & -n离散化#vector<int> alls; // 存储所有待离散化的值 sort(alls."><meta property="og:type" content="article"><meta property="og:url" content="https://cs-learning-every-day.github.io/docs/cs/algo/template/"><title>Template | Day Day Up</title><link rel=manifest href=/manifest.json><link rel=icon href=/favicon.png type=image/x-icon><link rel=stylesheet href=/book.min.d4dc77238886ba9b68049c5bf55f2cee407597ba579bac1c5c89e9faef0ed76c.css integrity="sha256-1Nx3I4iGuptoBJxb9V8s7kB1l7pXm6wcXInp+u8O12w=" crossorigin=anonymous><script defer src=/flexsearch.min.js></script><script defer src=/en.search.min.469c351f17311dab3d7db1db9d0c85a083e87952b35db10019f5c21e38732d0b.js integrity="sha256-Rpw1HxcxHas9fbHbnQyFoIPoeVKzXbEAGfXCHjhzLQs=" crossorigin=anonymous></script><script defer src=/sw.min.74a8bb07f0bee86d6bb9a2750f073f14d93c7e4512f28860370cfd879e9719b4.js integrity="sha256-dKi7B/C+6G1ruaJ1Dwc/FNk8fkUS8ohgNwz9h56XGbQ=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><img src=/logo.jpg alt=Logo><span>Day Day Up</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><ul><li><p><a href=/docs/cs/><strong>Computer Science</strong></a></p></li><li><ul><li><a href=/docs/cs/database/>Database</a></li></ul></li><li><ul><li><a href=/docs/cs/software/>Software</a></li></ul></li><li><ul><li><a href=/docs/cs/build/>Building</a></li></ul></li><li><ul><li><a href=/docs/cs/operatingsystem/>Operating System</a></li></ul></li><li><ul><li><a href=/docs/cs/network/>Network</a></li></ul></li><li><ul><li><a href=/docs/cs/programming/>Programming</a></li></ul></li><li><ul><li><a href=/docs/cs/algo/>Algorithm</a></li></ul></li><li><ul><li><a href=/docs/cs/tools/>Tools</a></li></ul></li><li><p><a href=/docs/book/><strong>Book</strong></a></p></li><li><ul><li><a href=/docs/book/resource/>Resource</a></li></ul></li></ul><p></p><p></p><p><a href=/docs/cs/interviews/><strong>Interviews</strong></a></p><ul><li><p><a href=/docs/leetcode/><strong>LeetCode</strong></a></p></li><li><p><a href=/docs/cs/resource/><strong>Resource</strong></a></p></li></ul><ul><li><a href=/posts/>Blog</a></li><li><a href=https://github.com/cs-learning-every-day target=_blank rel=noopener>Github</a></li><li><a href=https://themes.gohugo.io/hugo-book/ target=_blank rel=noopener>Hugo Themes</a></li></ul></nav><script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu></label>
 <strong>Template</strong>
-<label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><ul><li><a href=#basic>Basic</a></li></ul></li></ul></nav></aside></header><article class=markdown><blockquote><p><a href=https://www.acwing.com/activity/content/11/>Acwing模板</a></p></blockquote><h3 id=basic>Basic
-<a class=anchor href=#basic>#</a></h3><h4 id=快速排序>快速排序
-<a class=anchor href=#%e5%bf%ab%e9%80%9f%e6%8e%92%e5%ba%8f>#</a></h4><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#66d9ef>void</span> <span style=color:#a6e22e>quick_sort</span>(<span style=color:#66d9ef>int</span> q[], <span style=color:#66d9ef>int</span> l, <span style=color:#66d9ef>int</span> r)
+<label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><ul><li><a href=#快速排序>快速排序</a></li><li><a href=#归并排序>归并排序</a></li><li><a href=#二分>二分</a></li><li><a href=#双指针>双指针</a></li><li><a href=#位运算>位运算</a></li><li><a href=#离散化>离散化</a></li><li><a href=#区间合并>区间合并</a></li><li><a href=#单链表>单链表</a></li><li><a href=#双链表>双链表</a></li><li><a href=#队列>队列</a></li><li><a href=#单调栈>单调栈</a></li><li><a href=#单调队列>单调队列</a></li><li><a href=#kmp>KMP</a></li><li><a href=#trie树>Trie树</a></li><li><a href=#并查集>并查集</a></li><li><a href=#堆>堆</a></li><li><a href=#一般哈希>一般哈希</a></li><li><a href=#字符串哈希>字符串哈希</a></li><li><a href=#c-stl简介>C++ STL简介</a></li></ul></li></ul></nav></aside></header><article class=markdown><blockquote><p><a href=https://www.acwing.com/activity/content/11/>Acwing模板</a></p></blockquote><h3 id=快速排序>快速排序
+<a class=anchor href=#%e5%bf%ab%e9%80%9f%e6%8e%92%e5%ba%8f>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#66d9ef>void</span> <span style=color:#a6e22e>quick_sort</span>(<span style=color:#66d9ef>int</span> q[], <span style=color:#66d9ef>int</span> l, <span style=color:#66d9ef>int</span> r)
 {
     <span style=color:#66d9ef>if</span> (l <span style=color:#f92672>&gt;=</span> r) <span style=color:#66d9ef>return</span>;
 
@@ -18,8 +17,8 @@
     }
     quick_sort(q, l, j), quick_sort(q, j <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>, r);
 }
-</code></pre></div><h4 id=归并排序>归并排序
-<a class=anchor href=#%e5%bd%92%e5%b9%b6%e6%8e%92%e5%ba%8f>#</a></h4><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#66d9ef>void</span> <span style=color:#a6e22e>merge_sort</span>(<span style=color:#66d9ef>int</span> q[], <span style=color:#66d9ef>int</span> l, <span style=color:#66d9ef>int</span> r)
+</code></pre></div><h3 id=归并排序>归并排序
+<a class=anchor href=#%e5%bd%92%e5%b9%b6%e6%8e%92%e5%ba%8f>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#66d9ef>void</span> <span style=color:#a6e22e>merge_sort</span>(<span style=color:#66d9ef>int</span> q[], <span style=color:#66d9ef>int</span> l, <span style=color:#66d9ef>int</span> r)
 {
     <span style=color:#66d9ef>if</span> (l <span style=color:#f92672>&gt;=</span> r) <span style=color:#66d9ef>return</span>;
 
@@ -37,8 +36,8 @@
 
     <span style=color:#66d9ef>for</span> (i <span style=color:#f92672>=</span> l, j <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>; i <span style=color:#f92672>&lt;=</span> r; i <span style=color:#f92672>++</span>, j <span style=color:#f92672>++</span> ) q[i] <span style=color:#f92672>=</span> tmp[j];
 }
-</code></pre></div><h4 id=二分>二分
-<a class=anchor href=#%e4%ba%8c%e5%88%86>#</a></h4><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#75715e>// 区间[l,r]划分成[l, mid], [mid + 1, r]
+</code></pre></div><h3 id=二分>二分
+<a class=anchor href=#%e4%ba%8c%e5%88%86>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#75715e>// 区间[l,r]划分成[l, mid], [mid + 1, r]
 </span><span style=color:#75715e></span><span style=color:#66d9ef>void</span> <span style=color:#a6e22e>binary_search1</span>(<span style=color:#66d9ef>int</span> l, <span style=color:#66d9ef>int</span> r) {
     <span style=color:#66d9ef>while</span> (l <span style=color:#f92672>&lt;</span> r) {
         <span style=color:#66d9ef>int</span> mid <span style=color:#f92672>=</span> l <span style=color:#f92672>+</span> r <span style=color:#f92672>&gt;&gt;</span> <span style=color:#ae81ff>1</span>;
@@ -60,8 +59,8 @@
         }
     }
 }
-</code></pre></div><h4 id=双指针>双指针
-<a class=anchor href=#%e5%8f%8c%e6%8c%87%e9%92%88>#</a></h4><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>, j <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>; i <span style=color:#f92672>&lt;</span> n; i <span style=color:#f92672>++</span> )
+</code></pre></div><h3 id=双指针>双指针
+<a class=anchor href=#%e5%8f%8c%e6%8c%87%e9%92%88>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>, j <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>; i <span style=color:#f92672>&lt;</span> n; i <span style=color:#f92672>++</span> )
 {
     <span style=color:#66d9ef>while</span> (j <span style=color:#f92672>&lt;</span> i <span style=color:#f92672>&amp;&amp;</span> check(i, j)) j <span style=color:#f92672>++</span> ;
 
@@ -70,11 +69,11 @@
 <span style=color:#960050;background-color:#1e0010>常见问题分类：</span>
     (<span style=color:#ae81ff>1</span>) <span style=color:#960050;background-color:#1e0010>对于一个序列，用两个指针维护一段区间</span>
     (<span style=color:#ae81ff>2</span>) <span style=color:#960050;background-color:#1e0010>对于两个序列，维护某种次序，比如归并排序中合并两个有序序列的操作</span>
-</code></pre></div><h4 id=位运算>位运算
-<a class=anchor href=#%e4%bd%8d%e8%bf%90%e7%ae%97>#</a></h4><pre><code>求n的第k位数字: n &gt;&gt; k &amp; 1
+</code></pre></div><h3 id=位运算>位运算
+<a class=anchor href=#%e4%bd%8d%e8%bf%90%e7%ae%97>#</a></h3><pre><code>求n的第k位数字: n &gt;&gt; k &amp; 1
 返回n的最后一位1：lowbit(n) = n &amp; -n
-</code></pre><h4 id=离散化>离散化
-<a class=anchor href=#%e7%a6%bb%e6%95%a3%e5%8c%96>#</a></h4><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++>vector<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> alls; <span style=color:#75715e>// 存储所有待离散化的值
+</code></pre><h3 id=离散化>离散化
+<a class=anchor href=#%e7%a6%bb%e6%95%a3%e5%8c%96>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++>vector<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> alls; <span style=color:#75715e>// 存储所有待离散化的值
 </span><span style=color:#75715e></span>sort(alls.begin(), alls.end()); <span style=color:#75715e>// 将所有值排序
 </span><span style=color:#75715e></span>alls.erase(unique(alls.begin(), alls.end()), alls.end());   <span style=color:#75715e>// 去掉重复元素
 </span><span style=color:#75715e></span>
@@ -90,8 +89,8 @@
     }
     <span style=color:#66d9ef>return</span> r <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>; <span style=color:#75715e>// 映射到1, 2, ...n
 </span><span style=color:#75715e></span>}
-</code></pre></div><h4 id=区间合并>区间合并
-<a class=anchor href=#%e5%8c%ba%e9%97%b4%e5%90%88%e5%b9%b6>#</a></h4><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#75715e>// 将所有存在交集的区间合并
+</code></pre></div><h3 id=区间合并>区间合并
+<a class=anchor href=#%e5%8c%ba%e9%97%b4%e5%90%88%e5%b9%b6>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#75715e>// 将所有存在交集的区间合并
 </span><span style=color:#75715e></span><span style=color:#66d9ef>void</span> <span style=color:#a6e22e>merge</span>(vector<span style=color:#f92672>&lt;</span>PII<span style=color:#f92672>&gt;</span> <span style=color:#f92672>&amp;</span>segs)
 {
     vector<span style=color:#f92672>&lt;</span>PII<span style=color:#f92672>&gt;</span> res;
@@ -111,8 +110,8 @@
 
     segs <span style=color:#f92672>=</span> res;
 }
-</code></pre></div><h4 id=单链表>单链表
-<a class=anchor href=#%e5%8d%95%e9%93%be%e8%a1%a8>#</a></h4><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#75715e>// head存储链表头，e[]存储节点的值，ne[]存储节点的next指针，idx表示当前用到了哪个节点
+</code></pre></div><h3 id=单链表>单链表
+<a class=anchor href=#%e5%8d%95%e9%93%be%e8%a1%a8>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#75715e>// head存储链表头，e[]存储节点的值，ne[]存储节点的next指针，idx表示当前用到了哪个节点
 </span><span style=color:#75715e></span><span style=color:#66d9ef>int</span> head, e[N], ne[N], idx;
 
 <span style=color:#75715e>// 初始化
@@ -133,8 +132,8 @@
 {
     head <span style=color:#f92672>=</span> ne[head];
 }
-</code></pre></div><h4 id=双链表>双链表
-<a class=anchor href=#%e5%8f%8c%e9%93%be%e8%a1%a8>#</a></h4><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#75715e>// e[]表示节点的值，l[]表示节点的左指针，r[]表示节点的右指针，idx表示当前用到了哪个节点
+</code></pre></div><h3 id=双链表>双链表
+<a class=anchor href=#%e5%8f%8c%e9%93%be%e8%a1%a8>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#75715e>// e[]表示节点的值，l[]表示节点的左指针，r[]表示节点的右指针，idx表示当前用到了哪个节点
 </span><span style=color:#75715e></span><span style=color:#66d9ef>int</span> e[N], l[N], r[N], idx;
 
 <span style=color:#75715e>// 初始化
@@ -176,8 +175,8 @@
 {
 
 }
-</code></pre></div><h4 id=队列>队列
-<a class=anchor href=#%e9%98%9f%e5%88%97>#</a></h4><ol><li>普通队列</li></ol><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#75715e>// hh 表示队头，tt表示队尾
+</code></pre></div><h3 id=队列>队列
+<a class=anchor href=#%e9%98%9f%e5%88%97>#</a></h3><ol><li>普通队列</li></ol><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#75715e>// hh 表示队头，tt表示队尾
 </span><span style=color:#75715e></span><span style=color:#66d9ef>int</span> q[N], hh <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>, tt <span style=color:#f92672>=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>;
 
 <span style=color:#75715e>// 向队尾插入一个数
@@ -213,16 +212,16 @@
 {
 
 }
-</code></pre></div><h4 id=单调栈>单调栈
-<a class=anchor href=#%e5%8d%95%e8%b0%83%e6%a0%88>#</a></h4><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#960050;background-color:#1e0010>常见模型：找出每个数左边离它最近的比它大</span><span style=color:#f92672>/</span><span style=color:#960050;background-color:#1e0010>小的数</span>
+</code></pre></div><h3 id=单调栈>单调栈
+<a class=anchor href=#%e5%8d%95%e8%b0%83%e6%a0%88>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#960050;background-color:#1e0010>常见模型：找出每个数左边离它最近的比它大</span><span style=color:#f92672>/</span><span style=color:#960050;background-color:#1e0010>小的数</span>
 <span style=color:#66d9ef>int</span> tt <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
 <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>; i <span style=color:#f92672>&lt;=</span> n; i <span style=color:#f92672>++</span> )
 {
     <span style=color:#66d9ef>while</span> (tt <span style=color:#f92672>&amp;&amp;</span> check(stk[tt], i)) tt <span style=color:#f92672>--</span> ;
     stk[ <span style=color:#f92672>++</span> tt] <span style=color:#f92672>=</span> i;
 }
-</code></pre></div><h4 id=单调队列>单调队列
-<a class=anchor href=#%e5%8d%95%e8%b0%83%e9%98%9f%e5%88%97>#</a></h4><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#960050;background-color:#1e0010>常见模型：找出滑动窗口中的最大值</span><span style=color:#f92672>/</span><span style=color:#960050;background-color:#1e0010>最小值</span>
+</code></pre></div><h3 id=单调队列>单调队列
+<a class=anchor href=#%e5%8d%95%e8%b0%83%e9%98%9f%e5%88%97>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#960050;background-color:#1e0010>常见模型：找出滑动窗口中的最大值</span><span style=color:#f92672>/</span><span style=color:#960050;background-color:#1e0010>最小值</span>
 <span style=color:#66d9ef>int</span> hh <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>, tt <span style=color:#f92672>=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>;
 <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>; i <span style=color:#f92672>&lt;</span> n; i <span style=color:#f92672>++</span> )
 {
@@ -230,6 +229,324 @@
 </span><span style=color:#75715e></span>    <span style=color:#66d9ef>while</span> (hh <span style=color:#f92672>&lt;=</span> tt <span style=color:#f92672>&amp;&amp;</span> check(q[tt], i)) tt <span style=color:#f92672>--</span> ;
     q[ <span style=color:#f92672>++</span> tt] <span style=color:#f92672>=</span> i;
 }
-</code></pre></div></article><footer class=book-footer><div class="flex flex-wrap justify-between"><div><a class="flex align-center" href=https://github.com/cs-learning-every-day/cs-learning-every-day/edit/main/content/docs/CS/Algo/Template.md target=_blank rel=noopener><img src=/svg/edit.svg class=book-icon alt=Edit>
+</code></pre></div><h3 id=kmp>KMP
+<a class=anchor href=#kmp>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#75715e>// s[]是长文本，p[]是模式串，n是s的长度，m是p的长度
+</span><span style=color:#75715e></span><span style=color:#960050;background-color:#1e0010>求模式串的</span>Next数组<span style=color:#960050;background-color:#1e0010>：</span>
+<span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>2</span>, j <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>; i <span style=color:#f92672>&lt;=</span> m; i <span style=color:#f92672>++</span> )
+{
+    <span style=color:#66d9ef>while</span> (j <span style=color:#f92672>&amp;&amp;</span> p[i] <span style=color:#f92672>!=</span> p[j <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>]) j <span style=color:#f92672>=</span> ne[j];
+    <span style=color:#66d9ef>if</span> (p[i] <span style=color:#f92672>==</span> p[j <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>]) j <span style=color:#f92672>++</span> ;
+    ne[i] <span style=color:#f92672>=</span> j;
+}
+
+<span style=color:#75715e>// 匹配
+</span><span style=color:#75715e></span><span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>, j <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>; i <span style=color:#f92672>&lt;=</span> n; i <span style=color:#f92672>++</span> )
+{
+    <span style=color:#66d9ef>while</span> (j <span style=color:#f92672>&amp;&amp;</span> s[i] <span style=color:#f92672>!=</span> p[j <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>]) j <span style=color:#f92672>=</span> ne[j];
+    <span style=color:#66d9ef>if</span> (s[i] <span style=color:#f92672>==</span> p[j <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>]) j <span style=color:#f92672>++</span> ;
+    <span style=color:#66d9ef>if</span> (j <span style=color:#f92672>==</span> m)
+    {
+        j <span style=color:#f92672>=</span> ne[j];
+        <span style=color:#75715e>// 匹配成功后的逻辑
+</span><span style=color:#75715e></span>    }
+}
+</code></pre></div><h3 id=trie树>Trie树
+<a class=anchor href=#trie%e6%a0%91>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#66d9ef>int</span> son[N][<span style=color:#ae81ff>26</span>], cnt[N], idx;
+<span style=color:#75715e>// 0号点既是根节点，又是空节点
+</span><span style=color:#75715e>// son[][]存储树中每个节点的子节点
+</span><span style=color:#75715e>// cnt[]存储以每个节点结尾的单词数量
+</span><span style=color:#75715e></span>
+<span style=color:#75715e>// 插入一个字符串
+</span><span style=color:#75715e></span><span style=color:#66d9ef>void</span> <span style=color:#a6e22e>insert</span>(<span style=color:#66d9ef>char</span> <span style=color:#f92672>*</span>str)
+{
+    <span style=color:#66d9ef>int</span> p <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
+    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>; str[i]; i <span style=color:#f92672>++</span> )
+    {
+        <span style=color:#66d9ef>int</span> u <span style=color:#f92672>=</span> str[i] <span style=color:#f92672>-</span> <span style=color:#e6db74>&#39;a&#39;</span>;
+        <span style=color:#66d9ef>if</span> (<span style=color:#f92672>!</span>son[p][u]) son[p][u] <span style=color:#f92672>=</span> <span style=color:#f92672>++</span> idx;
+        p <span style=color:#f92672>=</span> son[p][u];
+    }
+    cnt[p] <span style=color:#f92672>++</span> ;
+}
+
+<span style=color:#75715e>// 查询字符串出现的次数
+</span><span style=color:#75715e></span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>query</span>(<span style=color:#66d9ef>char</span> <span style=color:#f92672>*</span>str)
+{
+    <span style=color:#66d9ef>int</span> p <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
+    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>; str[i]; i <span style=color:#f92672>++</span> )
+    {
+        <span style=color:#66d9ef>int</span> u <span style=color:#f92672>=</span> str[i] <span style=color:#f92672>-</span> <span style=color:#e6db74>&#39;a&#39;</span>;
+        <span style=color:#66d9ef>if</span> (<span style=color:#f92672>!</span>son[p][u]) <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
+        p <span style=color:#f92672>=</span> son[p][u];
+    }
+    <span style=color:#66d9ef>return</span> cnt[p];
+}
+</code></pre></div><h3 id=并查集>并查集
+<a class=anchor href=#%e5%b9%b6%e6%9f%a5%e9%9b%86>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++>(<span style=color:#ae81ff>1</span>)<span style=color:#960050;background-color:#1e0010>朴素并查集：</span>
+
+    <span style=color:#66d9ef>int</span> p[N]; <span style=color:#75715e>//存储每个点的祖宗节点
+</span><span style=color:#75715e></span>
+    <span style=color:#75715e>// 返回x的祖宗节点
+</span><span style=color:#75715e></span>    <span style=color:#66d9ef>int</span> <span style=color:#a6e22e>find</span>(<span style=color:#66d9ef>int</span> x)
+    {
+        <span style=color:#66d9ef>if</span> (p[x] <span style=color:#f92672>!=</span> x) p[x] <span style=color:#f92672>=</span> find(p[x]);
+        <span style=color:#66d9ef>return</span> p[x];
+    }
+
+    <span style=color:#75715e>// 初始化，假定节点编号是1~n
+</span><span style=color:#75715e></span>    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>; i <span style=color:#f92672>&lt;=</span> n; i <span style=color:#f92672>++</span> ) p[i] <span style=color:#f92672>=</span> i;
+
+    <span style=color:#75715e>// 合并a和b所在的两个集合：
+</span><span style=color:#75715e></span>    p[find(a)] <span style=color:#f92672>=</span> find(b);
+
+
+(<span style=color:#ae81ff>2</span>)<span style=color:#960050;background-color:#1e0010>维护</span>size的并查集<span style=color:#960050;background-color:#1e0010>：</span>
+
+    <span style=color:#66d9ef>int</span> p[N], size[N];
+    <span style=color:#75715e>//p[]存储每个点的祖宗节点, size[]只有祖宗节点的有意义，表示祖宗节点所在集合中的点的数量
+</span><span style=color:#75715e></span>
+    <span style=color:#75715e>// 返回x的祖宗节点
+</span><span style=color:#75715e></span>    <span style=color:#66d9ef>int</span> <span style=color:#a6e22e>find</span>(<span style=color:#66d9ef>int</span> x)
+    {
+        <span style=color:#66d9ef>if</span> (p[x] <span style=color:#f92672>!=</span> x) p[x] <span style=color:#f92672>=</span> find(p[x]);
+        <span style=color:#66d9ef>return</span> p[x];
+    }
+
+    <span style=color:#75715e>// 初始化，假定节点编号是1~n
+</span><span style=color:#75715e></span>    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>; i <span style=color:#f92672>&lt;=</span> n; i <span style=color:#f92672>++</span> )
+    {
+        p[i] <span style=color:#f92672>=</span> i;
+        size[i] <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>;
+    }
+
+    <span style=color:#75715e>// 合并a和b所在的两个集合：
+</span><span style=color:#75715e></span>    size[find(b)] <span style=color:#f92672>+=</span> size[find(a)];
+    p[find(a)] <span style=color:#f92672>=</span> find(b);
+
+
+(<span style=color:#ae81ff>3</span>)<span style=color:#960050;background-color:#1e0010>维护到祖宗节点距离的并查集：</span>
+
+    <span style=color:#66d9ef>int</span> p[N], d[N];
+    <span style=color:#75715e>//p[]存储每个点的祖宗节点, d[x]存储x到p[x]的距离
+</span><span style=color:#75715e></span>
+    <span style=color:#75715e>// 返回x的祖宗节点
+</span><span style=color:#75715e></span>    <span style=color:#66d9ef>int</span> <span style=color:#a6e22e>find</span>(<span style=color:#66d9ef>int</span> x)
+    {
+        <span style=color:#66d9ef>if</span> (p[x] <span style=color:#f92672>!=</span> x)
+        {
+            <span style=color:#66d9ef>int</span> u <span style=color:#f92672>=</span> find(p[x]);
+            d[x] <span style=color:#f92672>+=</span> d[p[x]];
+            p[x] <span style=color:#f92672>=</span> u;
+        }
+        <span style=color:#66d9ef>return</span> p[x];
+    }
+
+    <span style=color:#75715e>// 初始化，假定节点编号是1~n
+</span><span style=color:#75715e></span>    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>; i <span style=color:#f92672>&lt;=</span> n; i <span style=color:#f92672>++</span> )
+    {
+        p[i] <span style=color:#f92672>=</span> i;
+        d[i] <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
+    }
+
+    <span style=color:#75715e>// 合并a和b所在的两个集合：
+</span><span style=color:#75715e></span>    p[find(a)] <span style=color:#f92672>=</span> find(b);
+    d[find(a)] <span style=color:#f92672>=</span> distance; <span style=color:#75715e>// 根据具体问题，初始化find(a)的偏移量
+</span></code></pre></div><h3 id=堆>堆
+<a class=anchor href=#%e5%a0%86>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#75715e>// h[N]存储堆中的值, h[1]是堆顶，x的左儿子是2x, 右儿子是2x + 1
+</span><span style=color:#75715e>// ph[k]存储第k个插入的点在堆中的位置
+</span><span style=color:#75715e>// hp[k]存储堆中下标是k的点是第几个插入的
+</span><span style=color:#75715e></span><span style=color:#66d9ef>int</span> h[N], ph[N], hp[N], size;
+
+<span style=color:#75715e>// 交换两个点，及其映射关系
+</span><span style=color:#75715e></span><span style=color:#66d9ef>void</span> <span style=color:#a6e22e>heap_swap</span>(<span style=color:#66d9ef>int</span> a, <span style=color:#66d9ef>int</span> b)
+{
+    swap(ph[hp[a]],ph[hp[b]]);
+    swap(hp[a], hp[b]);
+    swap(h[a], h[b]);
+}
+
+<span style=color:#66d9ef>void</span> <span style=color:#a6e22e>down</span>(<span style=color:#66d9ef>int</span> u)
+{
+    <span style=color:#66d9ef>int</span> t <span style=color:#f92672>=</span> u;
+    <span style=color:#66d9ef>if</span> (u <span style=color:#f92672>*</span> <span style=color:#ae81ff>2</span> <span style=color:#f92672>&lt;=</span> size <span style=color:#f92672>&amp;&amp;</span> h[u <span style=color:#f92672>*</span> <span style=color:#ae81ff>2</span>] <span style=color:#f92672>&lt;</span> h[t]) t <span style=color:#f92672>=</span> u <span style=color:#f92672>*</span> <span style=color:#ae81ff>2</span>;
+    <span style=color:#66d9ef>if</span> (u <span style=color:#f92672>*</span> <span style=color:#ae81ff>2</span> <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span> <span style=color:#f92672>&lt;=</span> size <span style=color:#f92672>&amp;&amp;</span> h[u <span style=color:#f92672>*</span> <span style=color:#ae81ff>2</span> <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>] <span style=color:#f92672>&lt;</span> h[t]) t <span style=color:#f92672>=</span> u <span style=color:#f92672>*</span> <span style=color:#ae81ff>2</span> <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>;
+    <span style=color:#66d9ef>if</span> (u <span style=color:#f92672>!=</span> t)
+    {
+        heap_swap(u, t);
+        down(t);
+    }
+}
+
+<span style=color:#66d9ef>void</span> <span style=color:#a6e22e>up</span>(<span style=color:#66d9ef>int</span> u)
+{
+    <span style=color:#66d9ef>while</span> (u <span style=color:#f92672>/</span> <span style=color:#ae81ff>2</span> <span style=color:#f92672>&amp;&amp;</span> h[u] <span style=color:#f92672>&lt;</span> h[u <span style=color:#f92672>/</span> <span style=color:#ae81ff>2</span>])
+    {
+        heap_swap(u, u <span style=color:#f92672>/</span> <span style=color:#ae81ff>2</span>);
+        u <span style=color:#f92672>&gt;&gt;=</span> <span style=color:#ae81ff>1</span>;
+    }
+}
+
+<span style=color:#75715e>// O(n)建堆
+</span><span style=color:#75715e></span><span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> n <span style=color:#f92672>/</span> <span style=color:#ae81ff>2</span>; i; i <span style=color:#f92672>--</span> ) down(i);
+</code></pre></div><h3 id=一般哈希>一般哈希
+<a class=anchor href=#%e4%b8%80%e8%88%ac%e5%93%88%e5%b8%8c>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++>(<span style=color:#ae81ff>1</span>) <span style=color:#960050;background-color:#1e0010>拉链法</span>
+    <span style=color:#66d9ef>int</span> h[N], e[N], ne[N], idx;
+
+    <span style=color:#75715e>// 向哈希表中插入一个数
+</span><span style=color:#75715e></span>    <span style=color:#66d9ef>void</span> <span style=color:#a6e22e>insert</span>(<span style=color:#66d9ef>int</span> x)
+    {
+        <span style=color:#66d9ef>int</span> k <span style=color:#f92672>=</span> (x <span style=color:#f92672>%</span> N <span style=color:#f92672>+</span> N) <span style=color:#f92672>%</span> N;
+        e[idx] <span style=color:#f92672>=</span> x;
+        ne[idx] <span style=color:#f92672>=</span> h[k];
+        h[k] <span style=color:#f92672>=</span> idx <span style=color:#f92672>++</span> ;
+    }
+
+    <span style=color:#75715e>// 在哈希表中查询某个数是否存在
+</span><span style=color:#75715e></span>    <span style=color:#66d9ef>bool</span> <span style=color:#a6e22e>find</span>(<span style=color:#66d9ef>int</span> x)
+    {
+        <span style=color:#66d9ef>int</span> k <span style=color:#f92672>=</span> (x <span style=color:#f92672>%</span> N <span style=color:#f92672>+</span> N) <span style=color:#f92672>%</span> N;
+        <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> h[k]; i <span style=color:#f92672>!=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>; i <span style=color:#f92672>=</span> ne[i])
+            <span style=color:#66d9ef>if</span> (e[i] <span style=color:#f92672>==</span> x)
+                <span style=color:#66d9ef>return</span> true;
+
+        <span style=color:#66d9ef>return</span> false;
+    }
+
+(<span style=color:#ae81ff>2</span>) <span style=color:#960050;background-color:#1e0010>开放寻址法</span>
+    <span style=color:#66d9ef>int</span> h[N];
+
+    <span style=color:#75715e>// 如果x在哈希表中，返回x的下标；如果x不在哈希表中，返回x应该插入的位置
+</span><span style=color:#75715e></span>    <span style=color:#66d9ef>int</span> <span style=color:#a6e22e>find</span>(<span style=color:#66d9ef>int</span> x)
+    {
+        <span style=color:#66d9ef>int</span> t <span style=color:#f92672>=</span> (x <span style=color:#f92672>%</span> N <span style=color:#f92672>+</span> N) <span style=color:#f92672>%</span> N;
+        <span style=color:#66d9ef>while</span> (h[t] <span style=color:#f92672>!=</span> null <span style=color:#f92672>&amp;&amp;</span> h[t] <span style=color:#f92672>!=</span> x)
+        {
+            t <span style=color:#f92672>++</span> ;
+            <span style=color:#66d9ef>if</span> (t <span style=color:#f92672>==</span> N) t <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
+        }
+        <span style=color:#66d9ef>return</span> t;
+    }
+</code></pre></div><h3 id=字符串哈希>字符串哈希
+<a class=anchor href=#%e5%ad%97%e7%ac%a6%e4%b8%b2%e5%93%88%e5%b8%8c>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c++ data-lang=c++><span style=color:#960050;background-color:#1e0010>核心思想：将字符串看成</span>P进制数<span style=color:#960050;background-color:#1e0010>，</span>P的经验值是131或13331<span style=color:#960050;background-color:#1e0010>，取这两个值的冲突概率低</span>
+<span style=color:#960050;background-color:#1e0010>小技巧：取模的数用</span><span style=color:#ae81ff>2</span><span style=color:#f92672>^</span><span style=color:#ae81ff>64</span><span style=color:#960050;background-color:#1e0010>，这样直接用</span><span style=color:#66d9ef>unsigned</span> <span style=color:#66d9ef>long</span> long存储<span style=color:#960050;background-color:#1e0010>，溢出的结果就是取模的结果</span>
+
+<span style=color:#66d9ef>typedef</span> <span style=color:#66d9ef>unsigned</span> <span style=color:#66d9ef>long</span> <span style=color:#66d9ef>long</span> ULL;
+ULL h[N], p[N]; <span style=color:#75715e>// h[k]存储字符串前k个字母的哈希值, p[k]存储 P^k mod 2^64
+</span><span style=color:#75715e></span>
+<span style=color:#75715e>// 初始化
+</span><span style=color:#75715e></span>p[<span style=color:#ae81ff>0</span>] <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>;
+<span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>; i <span style=color:#f92672>&lt;=</span> n; i <span style=color:#f92672>++</span> )
+{
+    h[i] <span style=color:#f92672>=</span> h[i <span style=color:#f92672>-</span> <span style=color:#ae81ff>1</span>] <span style=color:#f92672>*</span> P <span style=color:#f92672>+</span> str[i];
+    p[i] <span style=color:#f92672>=</span> p[i <span style=color:#f92672>-</span> <span style=color:#ae81ff>1</span>] <span style=color:#f92672>*</span> P;
+}
+
+<span style=color:#75715e>// 计算子串 str[l ~ r] 的哈希值
+</span><span style=color:#75715e></span>ULL <span style=color:#a6e22e>get</span>(<span style=color:#66d9ef>int</span> l, <span style=color:#66d9ef>int</span> r)
+{
+    <span style=color:#66d9ef>return</span> h[r] <span style=color:#f92672>-</span> h[l <span style=color:#f92672>-</span> <span style=color:#ae81ff>1</span>] <span style=color:#f92672>*</span> p[r <span style=color:#f92672>-</span> l <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>];
+}
+</code></pre></div><h3 id=c-stl简介>C++ STL简介
+<a class=anchor href=#c-stl%e7%ae%80%e4%bb%8b>#</a></h3><pre><code>vector, 变长数组，倍增的思想
+    size()  返回元素个数
+    empty()  返回是否为空
+    clear()  清空
+    front()/back()
+    push_back()/pop_back()
+    begin()/end()
+    []
+    支持比较运算，按字典序
+
+pair&lt;int, int&gt;
+    first, 第一个元素
+    second, 第二个元素
+    支持比较运算，以first为第一关键字，以second为第二关键字（字典序）
+
+string，字符串
+    size()/length()  返回字符串长度
+    empty()
+    clear()
+    substr(起始下标，(子串长度))  返回子串
+    c_str()  返回字符串所在字符数组的起始地址
+
+queue, 队列
+    size()
+    empty()
+    push()  向队尾插入一个元素
+    front()  返回队头元素
+    back()  返回队尾元素
+    pop()  弹出队头元素
+
+priority_queue, 优先队列，默认是大根堆
+    size()
+    empty()
+    push()  插入一个元素
+    top()  返回堆顶元素
+    pop()  弹出堆顶元素
+    定义成小根堆的方式：priority_queue&lt;int, vector&lt;int&gt;, greater&lt;int&gt;&gt; q;
+
+stack, 栈
+    size()
+    empty()
+    push()  向栈顶插入一个元素
+    top()  返回栈顶元素
+    pop()  弹出栈顶元素
+
+deque, 双端队列
+    size()
+    empty()
+    clear()
+    front()/back()
+    push_back()/pop_back()
+    push_front()/pop_front()
+    begin()/end()
+    []
+
+set, map, multiset, multimap, 基于平衡二叉树（红黑树），动态维护有序序列
+    size()
+    empty()
+    clear()
+    begin()/end()
+    ++, -- 返回前驱和后继，时间复杂度 O(logn)
+
+    set/multiset
+        insert()  插入一个数
+        find()  查找一个数
+        count()  返回某一个数的个数
+        erase()
+            (1) 输入是一个数x，删除所有x   O(k + logn)
+            (2) 输入一个迭代器，删除这个迭代器
+        lower_bound()/upper_bound()
+            lower_bound(x)  返回大于等于x的最小的数的迭代器
+            upper_bound(x)  返回大于x的最小的数的迭代器
+    map/multimap
+        insert()  插入的数是一个pair
+        erase()  输入的参数是pair或者迭代器
+        find()
+        []  注意multimap不支持此操作。 时间复杂度是 O(logn)
+        lower_bound()/upper_bound()
+
+unordered_set, unordered_map, unordered_multiset, unordered_multimap, 哈希表
+    和上面类似，增删改查的时间复杂度是 O(1)
+    不支持 lower_bound()/upper_bound()， 迭代器的++，--
+
+bitset, 圧位
+    bitset&lt;10000&gt; s;
+    ~, &amp;, |, ^
+    &gt;&gt;, &lt;&lt;
+    ==, !=
+    []
+
+    count()  返回有多少个1
+
+    any()  判断是否至少有一个1
+    none()  判断是否全为0
+
+    set()  把所有位置成1
+    set(k, v)  将第k位变成v
+    reset()  把所有位变成0
+    flip()  等价于~
+    flip(k) 把第k位取反
+</code></pre></article><footer class=book-footer><div class="flex flex-wrap justify-between"><div><a class="flex align-center" href=https://github.com/cs-learning-every-day/cs-learning-every-day/edit/main/content/docs/CS/Algo/Template.md target=_blank rel=noopener><img src=/svg/edit.svg class=book-icon alt=Edit>
 <span>Edit this page</span></a></div></div><script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
-document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><a href=#basic>Basic</a></li></ul></li></ul></nav></div></aside></main></body></html>
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><a href=#快速排序>快速排序</a></li><li><a href=#归并排序>归并排序</a></li><li><a href=#二分>二分</a></li><li><a href=#双指针>双指针</a></li><li><a href=#位运算>位运算</a></li><li><a href=#离散化>离散化</a></li><li><a href=#区间合并>区间合并</a></li><li><a href=#单链表>单链表</a></li><li><a href=#双链表>双链表</a></li><li><a href=#队列>队列</a></li><li><a href=#单调栈>单调栈</a></li><li><a href=#单调队列>单调队列</a></li><li><a href=#kmp>KMP</a></li><li><a href=#trie树>Trie树</a></li><li><a href=#并查集>并查集</a></li><li><a href=#堆>堆</a></li><li><a href=#一般哈希>一般哈希</a></li><li><a href=#字符串哈希>字符串哈希</a></li><li><a href=#c-stl简介>C++ STL简介</a></li></ul></li></ul></nav></div></aside></main></body></html>
