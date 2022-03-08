@@ -6,3 +6,4 @@ bookFlatSection: true
 - [Maven]({{< relref "/docs/CS/Tools/Maven.md" >}})
 - [Docker]({{< relref "/docs/CS/Tools/Docker.md" >}})
 - [GDB]({{< relref "/docs/CS/Tools/GDB.md" >}})
+- [Awesome cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)

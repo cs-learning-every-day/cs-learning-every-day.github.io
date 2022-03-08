@@ -18,3 +18,5 @@ bookFlatSection: true
 - [A hands-on approach to getting started with Go generics.](https://github.com/akutz/go-generics-the-hard-way)
 - [List of Golang books](https://github.com/dariubs/GoBooks)
 - [7 days golang programs from scratch](https://github.com/geektutu/7days-golang)
+- [GolangStudy: Golang 面试学习](https://github.com/cnymw/GolangStudy)
+- [Golang从入门到跑路](https://github.com/jiujuan/go-collection)
