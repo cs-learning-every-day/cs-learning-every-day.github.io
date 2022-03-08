@@ -61,6 +61,8 @@ bookFlatSection: true
 ### DFS
 - [17. 电话号码的字母组合]({{< relref "/docs/LeetCode/DFS/17.md">}})(M)
 - [37. 解数独]({{< relref "/docs/LeetCode/DFS/37.md">}})(H)
+- [51. N 皇后]({{< relref "/docs/LeetCode/DFS/51.md">}})(H)
+- [52. N 皇后 II]({{< relref "/docs/LeetCode/DFS/52.md">}})(H)
 - [139. Word Break]({{< relref "/docs/LeetCode/DFS/139.md">}})(M)
 
 ### Recursion
