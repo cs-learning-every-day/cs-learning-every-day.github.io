@@ -28,3 +28,5 @@ bookFlatSection: true
 - [836. 合并集合]({{< relref "/docs/Acwing/basic/836.md">}})
 - [838. 堆排序]({{< relref "/docs/Acwing/basic/838.md">}})
 - [840. 模拟散列表]({{< relref "/docs/Acwing/basic/840.md">}})
+- [842. 排列数字]({{< relref "/docs/Acwing/basic/842.md">}})
+- [843. N 皇后]({{< relref "/docs/Acwing/basic/843.md">}})
