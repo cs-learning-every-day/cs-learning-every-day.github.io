@@ -22,6 +22,7 @@ bookFlatSection: true
 - [10. 正则表达式匹配]({{< relref "/docs/LeetCode/DynamicProgramming/10.md">}})(H)
 - [44. 通配符匹配]({{< relref "/docs/LeetCode/DynamicProgramming/44.md">}})(H)
 - [45. 跳跃游戏 II]({{< relref "/docs/LeetCode/DynamicProgramming/45.md">}})(M)
+- [55. 跳跃游戏]({{< relref "/docs/LeetCode/DynamicProgramming/55.md">}})(M)
 - [62. Unique Paths]({{< relref "/docs/LeetCode/DynamicProgramming/62.md">}})(M)
 - [63. Unique Paths II]({{< relref "/docs/LeetCode/DynamicProgramming/63.md">}})(M)
 - [64. Minimum Path Sum]({{< relref "/docs/LeetCode/DynamicProgramming/64.md">}})(M)
@@ -134,7 +135,8 @@ bookFlatSection: true
 - [12. 整数转罗马数字]({{< relref "/docs/LeetCode/Simulation/12.md">}})(M)
 - [13. 罗马数字转整数]({{< relref "/docs/LeetCode/Simulation/13.md">}})(E)
 - [38. 外观数列]({{< relref "/docs/LeetCode/Simulation/38.md">}})(M)
-
+- [54. 螺旋矩阵]({{< relref "/docs/LeetCode/Simulation/54.md">}})(M)
+- [59. 螺旋矩阵 II]({{< relref "/docs/LeetCode/Simulation/59.md">}})(M)
 ### Design
 - [355. 设计推特]({{< relref "/docs/LeetCode/Design/355.md">}})(M)
 - [146. LRU 缓存]({{< relref "/docs/LeetCode/Design/146.md">}})(M)
