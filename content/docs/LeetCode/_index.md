@@ -112,6 +112,7 @@ bookFlatSection: true
 - [6. Z 字形变换]({{< relref "/docs/LeetCode/String/6.md">}})(M)
 - [8. 字符串转换整数 (atoi)]({{< relref "/docs/LeetCode/String/8.md">}})(M)
 - [14. 最长公共前缀]({{< relref "/docs/LeetCode/String/14.md">}})(E)
+- [58. 最后一个单词的长度]({{< relref "/docs/LeetCode/String/58.md">}})(E)
 * ``Manacher``
   - [5. 最长回文子串]({{< relref "/docs/LeetCode/String/5.md">}})(M)
 * ``KMP``
@@ -127,6 +128,8 @@ bookFlatSection: true
 - [36. 有效的数独]({{< relref "/docs/LeetCode/Others/36.md">}})(M)
 - [48. 旋转图像]({{< relref "/docs/LeetCode/Others/48.md">}})(M)
 - [50. Pow(x, n)]({{< relref "/docs/LeetCode/Others/50.md">}})(M)
+- [56. 合并区间]({{< relref "/docs/LeetCode/Others/56.md">}})(M)
+- [57. 插入区间]({{< relref "/docs/LeetCode/Others/57.md">}})(M)
 - [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)
 - [383. Ransom Note]({{< relref "/docs/LeetCode/Others/383.md">}})(E)
 - [748. Shortest Completing Word]({{< relref "/docs/LeetCode/Others/748.md">}})(E)

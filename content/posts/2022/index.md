@@ -11,6 +11,8 @@ title: 关于我的2022的一些记录
 | ------- | ------- | ---- | ---- |
 | [codedump的网络日志](https://www.codedump.info/) | 2022.02.17 | 系统知识 | 宝藏 |
 | [程序员的喵](https://catcoding.me) | 2022.02.18 | 成长 |  |
+| [Refactoring Guru](https://refactoring.guru/) | 2022.03.10 | 设计模式 |  |
+| [The Valuable Dev](https://thevaluable.dev/) | 2022.03.10 |  |  |
 
 
 ## 收藏的文章

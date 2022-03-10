@@ -7,3 +7,4 @@ bookFlatSection: true
 - [The Architecture of Open Source Applications](https://aosabook.org/en/index.html)
 - [My favorite papers](https://ordep.dev/posts/my-favorite-papers)
 - [papers-we-love](https://github.com/papers-we-love/papers-we-love)
+- [C++11全套设计模式-23种指针的用法](https://github.com/jaredtao/DesignPattern)

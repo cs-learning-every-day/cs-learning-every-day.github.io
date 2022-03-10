@@ -1,3 +1,8 @@
+### Resources
+- [Learning Git Branching](https://learngitbranching.js.org/?locale=zh_CN)
+- [Git Cheat Sheet: Commands and Best Practices](https://www.jrebel.com/blog/git-cheat-sheet)
+
+
 // 删除本地分支
 git branch -d localBranchName
 
