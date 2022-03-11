@@ -43,7 +43,10 @@ ltrace 命令用来跟踪程序运行时调用的库函数
 GDB
 #
 Segment Fault快速定位
-首先生成core文件 使用ulimit -a 查看core file size为0则是不会输出(改成不限制 ulimit -c unlimited) 运行程序出错则会输出，调试时gdb ./hello core list start ctrl + x + a</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/git/</guid><description>// 删除本地分支 git branch -d localBranchName
+首先生成core文件 使用ulimit -a 查看core file size为0则是不会输出(改成不限制 ulimit -c unlimited) 运行程序出错则会输出，调试时gdb ./hello core list start ctrl + x + a</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/git/</guid><description>Resources
+#
+Learning Git Branching
+Git Cheat Sheet: Commands and Best Practices // 删除本地分支 git branch -d localBranchName
 // 删除远程分支 git push origin &amp;ndash;delete remoteBranchName
 修改github 日期
 git commit
@@ -54,19 +57,31 @@ git hash-object -t commit -w tmp.txt
 git update-ref -m 'commit: foo' refs/heads/master \
 2ee8fcc02658e23219143f5bcfe6f9a4615745f9
 取消跟踪,删除远程文件
-git rm -r --cached .
-git add .
-git commit -m &amp;quot;update gitignore&amp;quot;
-配置全局信息
-&amp;ndash;local
-git config &amp;ndash;global user.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/jenkins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/jenkins/</guid><description>https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-20-04/
+git rm -r --cached .</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/jenkins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/jenkins/</guid><description>https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-20-04/
 https://www.cnblogs.com/chenxiaomeng/p/11412038.html
 https://www.cnblogs.com/ding2016/p/12988080.html
 service jenkins restart[start\stop]
-systemctl status jenkins</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/maven/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/maven/</guid><description>mvn install:install-file -DgroupId=com.aliyun -DartifactId=aliyun-sdk-vod-upload -Dversion=1.4.12 -Dpackaging=jar -Dfile=aliyun-java-vod-upload-1.4.12.jar</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/npm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/npm/</guid><description>npkill</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/regularexpression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/regularexpression/</guid><description>Resources
+systemctl status jenkins</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/linux/</guid><description>Resources
 #
-RegexLearn</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/vim/</guid><description>https://missing-semester-cn.github.io/2020/editors/
-https://vimawesome.com/</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</guid><description>WSL相关
+Awesome cheatsheets
+跟我一起写Makefile
+modern-cmake-by-example
+The Linux Command Handbook
+Dev on Windows with WSL
+Linux 内核揭秘
+Linux 命令行与 Shell 脚本教程(WIP) - ShellTutorial - Arch Linux Studio
+Master the command line, in one page
+shell编程的若干实用技巧 Tools
+#
+command-not-found.com
+A collection of modern/faster/saner alternatives to common unix commands.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/maven/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/maven/</guid><description>mvn install:install-file -DgroupId=com.aliyun -DartifactId=aliyun-sdk-vod-upload -Dversion=1.4.12 -Dpackaging=jar -Dfile=aliyun-java-vod-upload-1.4.12.jar</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/npm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/npm/</guid><description>npkill</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/regularexpression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/regularexpression/</guid><description>Resources
+#
+RegexLearn
+Regex One</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/vim/</guid><description>https://missing-semester-cn.github.io/2020/editors/
+https://vimawesome.com/
+Resources
+#
+Vim Cheat Sheet</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</guid><description>WSL相关
 #
 vscode server for wsl closed unexpectedly
 netsh winsock reset重置网络 或移除wsl中的~/.vscode-server</description></item></channel></rss>
