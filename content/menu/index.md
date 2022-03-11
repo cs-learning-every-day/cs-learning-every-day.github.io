@@ -33,6 +33,9 @@ headless: true
 
 <br />
 
+- [**English**]({{< relref "/docs/English" >}})
+<br />
+
 <!-- [**Courses**]({{< relref "/docs/CS/Courses" >}}) -->
 <br />
 

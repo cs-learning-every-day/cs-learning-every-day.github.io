@@ -59,6 +59,7 @@ bookFlatSection: true
   - [39. 组合总和 II]({{< relref "/docs/LeetCode/Math/40.md">}})(M)
   - [46. 全排列]({{< relref "/docs/LeetCode/Math/46.md">}})(M)
   - [47. 全排列 II]({{< relref "/docs/LeetCode/Math/47.md">}})(M)
+  - [60. 排列序列]({{< relref "/docs/LeetCode/Math/60.md">}})(H)
 ### DFS
 - [17. 电话号码的字母组合]({{< relref "/docs/LeetCode/DFS/17.md">}})(M)
 - [37. 解数独]({{< relref "/docs/LeetCode/DFS/37.md">}})(H)
