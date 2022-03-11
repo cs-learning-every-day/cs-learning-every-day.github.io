@@ -30,3 +30,7 @@ bookFlatSection: true
 - [840. 模拟散列表]({{< relref "/docs/Acwing/basic/840.md">}})
 - [842. 排列数字]({{< relref "/docs/Acwing/basic/842.md">}})
 - [843. N 皇后]({{< relref "/docs/Acwing/basic/843.md">}})
+- [844. 走迷宫]({{< relref "/docs/Acwing/basic/844.md">}})
+- [846. 树的重心]({{< relref "/docs/Acwing/basic/846.md">}})
+- [847. 图中点的层次]({{< relref "/docs/Acwing/basic/847.md">}})
+- [848. 有向图的拓扑序列]({{< relref "/docs/Acwing/basic/848.md">}})
