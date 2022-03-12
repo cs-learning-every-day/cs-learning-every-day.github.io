@@ -23,8 +23,8 @@ bookFlatSection: true
 - [44. 通配符匹配]({{< relref "/docs/LeetCode/DynamicProgramming/44.md">}})(H)
 - [45. 跳跃游戏 II]({{< relref "/docs/LeetCode/DynamicProgramming/45.md">}})(M)
 - [55. 跳跃游戏]({{< relref "/docs/LeetCode/DynamicProgramming/55.md">}})(M)
-- [62. Unique Paths]({{< relref "/docs/LeetCode/DynamicProgramming/62.md">}})(M)
-- [63. Unique Paths II]({{< relref "/docs/LeetCode/DynamicProgramming/63.md">}})(M)
+- [62. 不同路径]({{< relref "/docs/LeetCode/DynamicProgramming/62.md">}})(M)
+- [63. 不同路径 II]({{< relref "/docs/LeetCode/DynamicProgramming/63.md">}})(M)
 - [64. Minimum Path Sum]({{< relref "/docs/LeetCode/DynamicProgramming/64.md">}})(M)
 - [91. Decode Ways]({{< relref "/docs/LeetCode/DynamicProgramming/91.md">}})(M)
 - [118. Pascal's Triangle]({{< relref "/docs/LeetCode/DynamicProgramming/118.md">}})(E)
@@ -87,6 +87,7 @@ bookFlatSection: true
 - [23. 合并K个升序链表]({{< relref "/docs/LeetCode/LinkedList/23.md">}})(H)
 - [24. 两两交换链表中的节点]({{< relref "/docs/LeetCode/LinkedList/24.md">}})(M)
 - [25. K 个一组翻转链表]({{< relref "/docs/LeetCode/LinkedList/25.md">}})(H)
+- [61. 旋转链表]({{< relref "/docs/LeetCode/LinkedList/61.md">}})(H)
 
 ### Stack
 - [20. 有效的括号]({{< relref "/docs/LeetCode/Stack/20.md">}})(E)

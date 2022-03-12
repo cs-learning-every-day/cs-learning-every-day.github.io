@@ -39,6 +39,9 @@ headless: true
 <!-- [**Courses**]({{< relref "/docs/CS/Courses" >}}) -->
 <br />
 
+[**工具**]({{< relref "/docs/Tools" >}})
+<br />
+
 [**Interviews**]({{< relref "/docs/CS/Interviews" >}})
 <br />
 

@@ -8,6 +8,10 @@ bookFlatSection: true
 
 > 温故而知新,可以为师矣。
 
+《现代 JavaScript 教程》
+- 2022/3/12 Finish
+
+
 《现代 C++ 教程》
 - 2022/3/7 Ch1 ~ Ch2
 - 2022/3/8 Finish
@@ -37,6 +41,10 @@ bookFlatSection: true
 
 《深入理解Java模块系统》
 - 2022/3/11
+《深入理解Typescript》
+《深入理解JVM虚拟机》
+《Mysql技术内幕》
+《Java并发编程实战》
 
 《数据结构与算法分析：C语言描述》
 - 2021/10/14 P27
@@ -53,7 +61,6 @@ bookFlatSection: true
 《Java高并发编程详解：深入理解并发核心库》
 《Java程序员修炼之道》
 《编程之美》
-《深入理解Java模块系统》
 
 《gRPC与云原生应用开发：以Go和Java为例》
 - 2022/3/4 P54
@@ -170,6 +177,7 @@ bookFlatSection: true
 - 2021/12/4 Ch1
 - 2022/2/10 Ch2~Ch4
 - 2022/2/14 Ch5
+- 2022/3/12 Finish
 
 《如何科学学外语 语言习得的真相与方法》
 - 2022/2/2 Ch1~Ch4

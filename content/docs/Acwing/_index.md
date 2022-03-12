@@ -34,3 +34,6 @@ bookFlatSection: true
 - [846. 树的重心]({{< relref "/docs/Acwing/basic/846.md">}})
 - [847. 图中点的层次]({{< relref "/docs/Acwing/basic/847.md">}})
 - [848. 有向图的拓扑序列]({{< relref "/docs/Acwing/basic/848.md">}})
+- [849. Dijkstra求最短路 I]({{< relref "/docs/Acwing/basic/849.md">}})
+- [850. Dijkstra求最短路 II]({{< relref "/docs/Acwing/basic/850.md">}})
+- [853. 有边数限制的最短路]({{< relref "/docs/Acwing/basic/853.md">}})
