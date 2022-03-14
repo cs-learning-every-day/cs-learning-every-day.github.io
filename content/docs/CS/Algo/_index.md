@@ -5,6 +5,12 @@ bookFlatSection: true
 
 - [Templates]({{< relref "/docs/CS/Algo/Template" >}})
 
+#### Kata
+- [AIZU ONLINE JUDGE](https://onlinejudge.u-aizu.ac.jp/home)
+- [Code Kata collection for JVM Languages and Libraries.](https://github.com/BNYMellon/CodeKatas)
+- [Exercism](https://exercism.org/)
+- [Codewars](https://www.codewars.com/dashboard)
+- 
 #### Resources
 - [Summary of MIT Introduction to Algorithms course](https://catonmat.net/summary-of-mit-introduction-to-algorithms)
 - [algo-basic](https://github.com/iamshuaidi/algo-basic)

@@ -25,7 +25,8 @@ bookFlatSection: true
 - [55. 跳跃游戏]({{< relref "/docs/LeetCode/DynamicProgramming/55.md">}})(M)
 - [62. 不同路径]({{< relref "/docs/LeetCode/DynamicProgramming/62.md">}})(M)
 - [63. 不同路径 II]({{< relref "/docs/LeetCode/DynamicProgramming/63.md">}})(M)
-- [64. Minimum Path Sum]({{< relref "/docs/LeetCode/DynamicProgramming/64.md">}})(M)
+- [64. 最小路径和]({{< relref "/docs/LeetCode/DynamicProgramming/64.md">}})(M)
+- [70. 爬楼梯]({{< relref "/docs/LeetCode/DynamicProgramming/70.md">}})(E)
 - [91. Decode Ways]({{< relref "/docs/LeetCode/DynamicProgramming/91.md">}})(M)
 - [118. Pascal's Triangle]({{< relref "/docs/LeetCode/DynamicProgramming/118.md">}})(E)
 - [119. Pascal's Triangle II]({{< relref "/docs/LeetCode/DynamicProgramming/119.md">}})(E)
@@ -50,6 +51,8 @@ bookFlatSection: true
 
 ### Math
 - [43. 字符串相乘]({{< relref "/docs/LeetCode/Math/43.md">}})(M)
+- [66. 加一]({{< relref "/docs/LeetCode/Math/61.md">}})(E)
+- [67. 二进制求和]({{< relref "/docs/LeetCode/Math/67.md">}})(E)
 - [384. Shuffle an Array]({{< relref "/docs/LeetCode/Math/384.md">}})(E)
 - [519. Random Flip Matrix]({{< relref "/docs/LeetCode/Math/519.md">}})(M)
 - [1979. Find Greatest Common Divisor of Array]({{< relref "/docs/LeetCode/Math/1979.md">}})(E)
@@ -115,6 +118,7 @@ bookFlatSection: true
 - [8. 字符串转换整数 (atoi)]({{< relref "/docs/LeetCode/String/8.md">}})(M)
 - [14. 最长公共前缀]({{< relref "/docs/LeetCode/String/14.md">}})(E)
 - [58. 最后一个单词的长度]({{< relref "/docs/LeetCode/String/58.md">}})(E)
+- [65. 有效数字]({{< relref "/docs/LeetCode/String/65.md">}})(H)
 * ``Manacher``
   - [5. 最长回文子串]({{< relref "/docs/LeetCode/String/5.md">}})(M)
 * ``KMP``
