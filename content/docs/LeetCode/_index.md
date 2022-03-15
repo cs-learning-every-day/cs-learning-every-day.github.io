@@ -73,10 +73,7 @@ bookFlatSection: true
 ### Recursion
 - [1492. The kth Factor of n]({{< relref "/docs/LeetCode/Recursion/1492.md">}})(M)
 
-### BinarySearch
-[33. 搜索旋转排序数组]({{< relref "/docs/LeetCode/BinarySearch/33.md">}})(M)
-[34. 在排序数组中查找元素的第一个和最后一个位置]({{< relref "/docs/LeetCode/BinarySearch/34.md">}})(M)
-[35. 搜索插入位置]({{< relref "/docs/LeetCode/BinarySearch/35.md">}})(E)
+
 ### Sorts
 * ``Quick Select``
   - [215. Kth Largest Element in an Array]({{< relref "/docs/LeetCode/Sorts/215.md">}})
@@ -91,6 +88,7 @@ bookFlatSection: true
 - [24. 两两交换链表中的节点]({{< relref "/docs/LeetCode/LinkedList/24.md">}})(M)
 - [25. K 个一组翻转链表]({{< relref "/docs/LeetCode/LinkedList/25.md">}})(H)
 - [61. 旋转链表]({{< relref "/docs/LeetCode/LinkedList/61.md">}})(H)
+- [83. 删除排序链表中的重复元素]({{< relref "/docs/LeetCode/LinkedList/83.md">}})(E)
 
 ### Stack
 - [20. 有效的括号]({{< relref "/docs/LeetCode/Stack/20.md">}})(E)
@@ -107,11 +105,18 @@ bookFlatSection: true
 - [18. 四数之和]({{< relref "/docs/LeetCode/TwoPointers/18.md">}})(M)
 - [26. 删除有序数组中的重复项]({{< relref "/docs/LeetCode/TwoPointers/26.md">}})(E)
 - [27. 移除元素]({{< relref "/docs/LeetCode/TwoPointers/27.md">}})(E)
+- [88. 合并两个有序数组]({{< relref "/docs/LeetCode/TwoPointers/87.md">}})(E)
 
 * ``Sliding window``
   - [3. 无重复字符的最长子串]({{< relref "/docs/LeetCode/TwoPointers/3.md">}})(M)
   - [4. 寻找两个正序数组的中位数]({{< relref "/docs/LeetCode/TwoPointers/4.md">}})(H)
   - [30. 串联所有单词的子串]({{< relref "/docs/LeetCode/TwoPointers/30.md">}})(H)
+
+* ``Binary Search``
+  - [33. 搜索旋转排序数组]({{< relref "/docs/LeetCode/TwoPointers/33.md">}})(M)
+  - [34. 在排序数组中查找元素的第一个和最后一个位置]({{< relref "/docs/LeetCode/TwoPointers/34.md">}})(M)
+  - [35. 搜索插入位置]({{< relref "/docs/LeetCode/TwoPointers/35.md">}})(E)
+  - [69. x 的平方根 ]({{< relref "/docs/LeetCode/TwoPointers/69.md">}})(E)
 
 ### String
 - [6. Z 字形变换]({{< relref "/docs/LeetCode/String/6.md">}})(M)
@@ -119,6 +124,7 @@ bookFlatSection: true
 - [14. 最长公共前缀]({{< relref "/docs/LeetCode/String/14.md">}})(E)
 - [58. 最后一个单词的长度]({{< relref "/docs/LeetCode/String/58.md">}})(E)
 - [65. 有效数字]({{< relref "/docs/LeetCode/String/65.md">}})(H)
+- [68. 文本左右对齐]({{< relref "/docs/LeetCode/String/68.md">}})(H)
 * ``Manacher``
   - [5. 最长回文子串]({{< relref "/docs/LeetCode/String/5.md">}})(M)
 * ``KMP``

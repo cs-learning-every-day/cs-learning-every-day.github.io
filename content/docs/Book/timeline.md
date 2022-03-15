@@ -45,7 +45,9 @@ bookFlatSection: true
 - 2022/3/13 Ch1
 
 
-《深入理解JVM虚拟机》
+《深入理解Java虚拟机：JVM高级特性与最佳实践》
+- 2022/3/15 Ch1
+
 《Mysql技术内幕》
 《Java并发编程实战》
 
