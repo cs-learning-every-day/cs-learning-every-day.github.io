@@ -10,6 +10,8 @@ bookFlatSection: true
                                   -- 乔治 R.R. 马丁
 ```
 
+《你真的会写代码吗》
+
 《现代 JavaScript 教程》
 - 2022/3/12 Finish
 
@@ -187,6 +189,7 @@ bookFlatSection: true
 - 2022/2/14 Ch5
 - 2022/3/13 Ch7
 - 2022/3/14 Ch8 ~ Ch10
+- 2022/3/16 Finish
 
 《如何科学学外语 语言习得的真相与方法》
 - 2022/2/2 Ch1~Ch4
