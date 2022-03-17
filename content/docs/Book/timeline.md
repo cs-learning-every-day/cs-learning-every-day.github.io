@@ -15,6 +15,8 @@ bookFlatSection: true
 《现代 JavaScript 教程》
 - 2022/3/12 Finish
 
+《C专家编程》
+《Spring Boot实战派让开发像搭积木一样简单》
 
 《现代 C++ 教程》
 - 2022/3/7 Ch1 ~ Ch2
