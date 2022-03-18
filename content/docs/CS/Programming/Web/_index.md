@@ -3,7 +3,7 @@ bookFlatSection: true
 ---
 
 #### Resources
-
+https://css-speedrun.netlify.app/
 
 #### Framework
 - [Next Ui](https://nextui.org/)

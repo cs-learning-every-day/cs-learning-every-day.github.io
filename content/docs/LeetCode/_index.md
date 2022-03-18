@@ -27,6 +27,7 @@ bookFlatSection: true
 - [63. 不同路径 II]({{< relref "/docs/LeetCode/DynamicProgramming/63.md">}})(M)
 - [64. 最小路径和]({{< relref "/docs/LeetCode/DynamicProgramming/64.md">}})(M)
 - [70. 爬楼梯]({{< relref "/docs/LeetCode/DynamicProgramming/70.md">}})(E)
+- [72. 编辑距离]({{< relref "/docs/LeetCode/DynamicProgramming/72.md">}})(H)
 - [91. Decode Ways]({{< relref "/docs/LeetCode/DynamicProgramming/91.md">}})(M)
 - [118. Pascal's Triangle]({{< relref "/docs/LeetCode/DynamicProgramming/118.md">}})(E)
 - [119. Pascal's Triangle II]({{< relref "/docs/LeetCode/DynamicProgramming/119.md">}})(E)
@@ -152,6 +153,7 @@ bookFlatSection: true
 - [38. 外观数列]({{< relref "/docs/LeetCode/Simulation/38.md">}})(M)
 - [54. 螺旋矩阵]({{< relref "/docs/LeetCode/Simulation/54.md">}})(M)
 - [59. 螺旋矩阵 II]({{< relref "/docs/LeetCode/Simulation/59.md">}})(M)
+- [73. 矩阵置零]({{< relref "/docs/LeetCode/Simulation/73.md">}})(M)
 ### Design
 - [355. 设计推特]({{< relref "/docs/LeetCode/Design/355.md">}})(M)
 - [146. LRU 缓存]({{< relref "/docs/LeetCode/Design/146.md">}})(M)

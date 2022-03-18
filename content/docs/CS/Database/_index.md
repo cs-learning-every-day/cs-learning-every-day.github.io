@@ -6,3 +6,4 @@ bookFlatSection: true
 - [电子科技大学分布式存储与计算实验室新生训练计划](https://github.com/CDDSCLab/training-plan)
 - [😋 A curated reading list about database systems](https://github.com/Sunt-ing/database-system-readings)
 - [Readings in Databases](https://github.com/rxin/db-readings)
+- [A list of papers about distributed consensus.](https://github.com/heidihoward/distributed-consensus-reading-list)
