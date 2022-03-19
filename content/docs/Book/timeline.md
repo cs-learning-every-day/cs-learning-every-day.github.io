@@ -10,6 +10,8 @@ bookFlatSection: true
                                   -- 乔治 R.R. 马丁
 ```
 
+《挑战程序设计竞赛2-算法和数据结构》
+
 《你真的会写代码吗》
 
 《现代 JavaScript 教程》
@@ -36,8 +38,6 @@ bookFlatSection: true
 - 2022/1/3   Ch2.4
 
 《Java并发编程实战》
-- 2021/11/15 CH1
-- 2021/12/20 Ch2
 
 《深度思考不断逼近问题的本质》
 - 2021/10/10
@@ -61,12 +61,13 @@ bookFlatSection: true
 
 《English++ (English for Computer Science Students)》
 
-
 《C专家编程》
 - 2022/1/1 Ch1
+- 2022/3/18 2.4.2
 
 《Spring Boot实战派让开发像搭积木一样简单》
 - 2022/3/18 P33
+- 2022/3/19 Finish
 
 《现代 C++ 教程》
 - 2022/3/7 Ch1 ~ Ch2
@@ -101,6 +102,10 @@ bookFlatSection: true
 
 《深入理解Java虚拟机：JVM高级特性与最佳实践》
 - 2022/3/15 Ch1
+
+《MySQL是怎样运行的：从根儿上理解MySQL》
+- 2022/3/19
+
 
 《Mysql技术内幕》
 《Java并发编程实战》
@@ -192,6 +197,7 @@ bookFlatSection: true
 - 2021/12/13 Ch3
 - 2021/12/30 P102
 - 2022/1/4 Ch4.5
+- 2022/3/18 P126
 
 《操作系统真象还原》
 - 2021/10/21 
@@ -221,6 +227,8 @@ bookFlatSection: true
 - 2022/1/31 Ch6
 - 2022/2/16 Ch7
 - 2022/3/10 Ch8
+- 2022/3/18 P319
+- 2022/3/19 Ch9
 
 《现代C++白皮书》
 - 2021/12/30 P60

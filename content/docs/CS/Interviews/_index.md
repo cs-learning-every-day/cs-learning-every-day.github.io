@@ -9,6 +9,7 @@ bookFlatSection: true
 - [bugstack 虫洞栈](https://bugstack.cn/)
 - [Java 全栈知识体系](https://pdai.tech/)
 - [JavaGuide](https://javaguide.cn/)
+- [bestJavaer](https://github.com/crisxuan/bestJavaer)
 - [JavaFamily](https://github.com/AobingJava/JavaFamily)
 - [JavaTutorial](https://github.com/dunwu/java-tutorial)
 - [learning-note](https://github.com/rbmonster/learning-note)

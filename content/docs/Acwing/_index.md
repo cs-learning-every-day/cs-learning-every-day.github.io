@@ -54,6 +54,13 @@ bookFlatSection: true
 - [859. Kruskal算法求最小生成树]({{< relref "/docs/Acwing/basic/859.md">}})
 - [860. 染色法判断二分圈]({{< relref "/docs/Acwing/basic/860.md">}})
 - [861. 二分圈的最大匹配]({{< relref "/docs/Acwing/basic/861.md">}})
+- [866. 试除法判定质数]({{< relref "/docs/Acwing/basic/866.md">}})
+- [867. 分解质因数]({{< relref "/docs/Acwing/basic/867.md">}})
+- [868. 筛质数]({{< relref "/docs/Acwing/basic/868.md">}})
+- [869. 试除法求约数]({{< relref "/docs/Acwing/basic/869.md">}})
+- [870. 约数个数]({{< relref "/docs/Acwing/basic/870.md">}})
+- [871. 约数之和]({{< relref "/docs/Acwing/basic/871.md">}})
+- [872. 最大公约数]({{< relref "/docs/Acwing/basic/872.md">}})
 
 ![image](https://cdn.jsdelivr.net/gh/XmchxUp/cloudimg@master/20220310/image.5na96b29dxw0.webp)
 ![image](https://cdn.jsdelivr.net/gh/XmchxUp/cloudimg@master/20220310/image.6y0ig1q0guo0.webp)

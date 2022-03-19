@@ -118,6 +118,7 @@ bookFlatSection: true
   - [34. 在排序数组中查找元素的第一个和最后一个位置]({{< relref "/docs/LeetCode/TwoPointers/34.md">}})(M)
   - [35. 搜索插入位置]({{< relref "/docs/LeetCode/TwoPointers/35.md">}})(E)
   - [69. x 的平方根 ]({{< relref "/docs/LeetCode/TwoPointers/69.md">}})(E)
+  - [74. 搜索二维矩阵]({{< relref "/docs/LeetCode/TwoPointers/74.md">}})(M)
 
 ### String
 - [6. Z 字形变换]({{< relref "/docs/LeetCode/String/6.md">}})(M)
