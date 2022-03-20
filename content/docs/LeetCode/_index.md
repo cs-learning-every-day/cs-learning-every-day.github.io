@@ -69,6 +69,8 @@ bookFlatSection: true
 - [37. 解数独]({{< relref "/docs/LeetCode/DFS/37.md">}})(H)
 - [51. N 皇后]({{< relref "/docs/LeetCode/DFS/51.md">}})(H)
 - [52. N 皇后 II]({{< relref "/docs/LeetCode/DFS/52.md">}})(H)
+- [77. 组合]({{< relref "/docs/LeetCode/DFS/77.md">}})(M)
+- [78. 子集]({{< relref "/docs/LeetCode/DFS/78.md">}})(M)
 - [139. Word Break]({{< relref "/docs/LeetCode/DFS/139.md">}})(M)
 
 ### Recursion
@@ -112,6 +114,7 @@ bookFlatSection: true
   - [3. 无重复字符的最长子串]({{< relref "/docs/LeetCode/TwoPointers/3.md">}})(M)
   - [4. 寻找两个正序数组的中位数]({{< relref "/docs/LeetCode/TwoPointers/4.md">}})(H)
   - [30. 串联所有单词的子串]({{< relref "/docs/LeetCode/TwoPointers/30.md">}})(H)
+  - [76. 最小覆盖子串]({{< relref "/docs/LeetCode/TwoPointers/76.md">}})(H)
 
 * ``Binary Search``
   - [33. 搜索旋转排序数组]({{< relref "/docs/LeetCode/TwoPointers/33.md">}})(M)
