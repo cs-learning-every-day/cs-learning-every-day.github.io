@@ -1,4 +1,26 @@
-# Study Path
+# 自学指南
+
+> CS不仅靠天赋，更靠兴趣与努力！
+## 目前正在学习的课程
+``CS61A CS61B CS61C CS106B CS106L uw-programming algs4``
+
+
+## Schedule
+
+**This week's schedule**
+
+> 5:00~6:00  Memorize English
+> 9:00~11:30 Reading
+> 13:00~17:00 Anything
+> 17:00~18:00 Running
+> 17:30~18:00 Eating
+> 18:00~20:00 English
+> 20:00~22:00 Solve dues
+> 22:00~22:30 Memorize English
+## Thanks
+
+感谢[CS自学指南](https://github.com/PKUFlyingPig/cs-self-learning)对于信息的整合。你也可以和我一起在[这里](https://csdiy.wiki/)找到自己心仪的课程。
+
 
 - [MIT 6.Null The Missing Semester of Your CS Education]
 ## 编程入门

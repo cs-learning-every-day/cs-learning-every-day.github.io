@@ -36,7 +36,7 @@ headless: true
 - [**English**]({{< relref "/docs/English" >}})
 <br />
 
-<!-- [**Courses**]({{< relref "/docs/CS/Courses" >}}) -->
+[**Courses**]({{< relref "/docs/CS/Courses" >}})
 <br />
 
 [**工具**]({{< relref "/docs/Tools" >}})

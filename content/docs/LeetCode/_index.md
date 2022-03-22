@@ -3,6 +3,9 @@ bookFlatSection: true
 ---
 
 - [CodeTop](https://codetop.cc/home)
+- [宫水三叶的刷题日记](https://github.com/SharingSource/LogicStack-LeetCode/wiki)
+- [This repository contains the solutions and explanations to the algorithm problems on LeetCode.](https://github.com/wisdompeak/LeetCode)
+- 
 
 ## 目前分类目录
 ### [剑指 Offer]({{< relref "/docs/LeetCode/剑指Offer">}})
@@ -11,7 +14,7 @@ bookFlatSection: true
 ### 国区周寨
 - 第273场
   - [5963. 反转两次的数字]({{< relref "/docs/LeetCode/Others/5963.md">}})(E)
-  - [5964. 执行所有后缀指令]({{< relref "/docs/LeetCode/DFS/5964.md">}})(M)
+  - [5964. 执行所有后缀指令]({{< relref "/docs/LeetCode/Search/5964.md">}})(M)
   - [5965. 相同元素的间隔之和]({{< relref "/docs/LeetCode/Others/5965.md">}})(M)
 
 - 第274场
@@ -64,15 +67,18 @@ bookFlatSection: true
   - [46. 全排列]({{< relref "/docs/LeetCode/Math/46.md">}})(M)
   - [47. 全排列 II]({{< relref "/docs/LeetCode/Math/47.md">}})(M)
   - [60. 排列序列]({{< relref "/docs/LeetCode/Math/60.md">}})(H)
-### DFS
-- [17. 电话号码的字母组合]({{< relref "/docs/LeetCode/DFS/17.md">}})(M)
-- [37. 解数独]({{< relref "/docs/LeetCode/DFS/37.md">}})(H)
-- [51. N 皇后]({{< relref "/docs/LeetCode/DFS/51.md">}})(H)
-- [52. N 皇后 II]({{< relref "/docs/LeetCode/DFS/52.md">}})(H)
-- [77. 组合]({{< relref "/docs/LeetCode/DFS/77.md">}})(M)
-- [78. 子集]({{< relref "/docs/LeetCode/DFS/78.md">}})(M)
-- [139. Word Break]({{< relref "/docs/LeetCode/DFS/139.md">}})(M)
+### Search
+* ``Search``
+- [17. 电话号码的字母组合]({{< relref "/docs/LeetCode/Search/17.md">}})(M)
+- [37. 解数独]({{< relref "/docs/LeetCode/Search/37.md">}})(H)
+- [51. N 皇后]({{< relref "/docs/LeetCode/Search/51.md">}})(H)
+- [52. N 皇后 II]({{< relref "/docs/LeetCode/Search/52.md">}})(H)
+- [77. 组合]({{< relref "/docs/LeetCode/Search/77.md">}})(M)
+- [78. 子集]({{< relref "/docs/LeetCode/Search/78.md">}})(M)
+- [139. Word Break]({{< relref "/docs/LeetCode/Search/139.md">}})(M)
 
+* ``BFS``
+- [79. 单词搜索]({{< relref "/docs/LeetCode/Search/79.md">}})(M)
 ### Recursion
 - [1492. The kth Factor of n]({{< relref "/docs/LeetCode/Recursion/1492.md">}})(M)
 
@@ -108,6 +114,8 @@ bookFlatSection: true
 - [18. 四数之和]({{< relref "/docs/LeetCode/TwoPointers/18.md">}})(M)
 - [26. 删除有序数组中的重复项]({{< relref "/docs/LeetCode/TwoPointers/26.md">}})(E)
 - [27. 移除元素]({{< relref "/docs/LeetCode/TwoPointers/27.md">}})(E)
+- [75. 颜色分类]({{< relref "/docs/LeetCode/TwoPointers/75.md">}})(M)
+- [80. 删除有序数组中的重复项 II]({{< relref "/docs/LeetCode/TwoPointers/80.md">}})(M)
 - [88. 合并两个有序数组]({{< relref "/docs/LeetCode/TwoPointers/87.md">}})(E)
 
 * ``Sliding window``
