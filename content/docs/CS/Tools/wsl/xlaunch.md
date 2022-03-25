@@ -25,9 +25,8 @@ sudo bash -c 'echo "[network]" > /etc/wsl.conf'
 sudo bash -c 'echo "generateResolvConf = false" >> /etc/wsl.conf'
  
  
-$ vim ~/.bashrc
-# 在文件最后追加下面内容,地址使用上面查看到的
-export DISPLAY=192.168.112.1:0
+# 导出
+$ export DISPLAY=192.168.112.1:0
 
 # 启动
 sudo startxfce4
