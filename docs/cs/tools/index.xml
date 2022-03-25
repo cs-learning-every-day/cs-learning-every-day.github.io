@@ -72,7 +72,8 @@ Linux 内核揭秘
 Linux 命令行与 Shell 脚本教程(WIP) - ShellTutorial - Arch Linux Studio
 Master the command line, in one page
 shell编程的若干实用技巧
-Shell How Tools
+Shell How
+鸟哥的Linux私房菜：基础学习篇 第四版 Tools
 #
 command-not-found.com
 A collection of modern/faster/saner alternatives to common unix commands.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/maven/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/maven/</guid><description>mvn install:install-file -DgroupId=com.aliyun -DartifactId=aliyun-sdk-vod-upload -Dversion=1.4.12 -Dpackaging=jar -Dfile=aliyun-java-vod-upload-1.4.12.jar</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/npm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/npm/</guid><description>npkill</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/regularexpression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/regularexpression/</guid><description>Resources
