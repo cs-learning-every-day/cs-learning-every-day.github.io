@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Day Day Up</title><link>https://cs-learning-every-day.github.io/docs/cs/tools/wsl/</link><description>Recent content on Day Day Up</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://cs-learning-every-day.github.io/docs/cs/tools/wsl/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/wsl/xlaunch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/wsl/xlaunch/</guid><description>Windows安装VcXsrc
+#
+下载
+选择显示模式 默认选择，最后勾选 允许防火墙 WSL配置与启动xfce4
+#
+sudo apt install -y xfce4 # 首先需要查看Windows系统和WSL2通信使用的虚拟网卡地址 $ sudo vim /etc/resolv.conf # nameserver后面的地址就是Windows系统虚拟网卡的地址,记一下,同时需要取消下面两行内容的注释,禁用自动重新生成配置文件,否则重启后这个地址会变 [network] generateResolvConf = false $ vim ~/.bashrc # 在文件最后追加下面内容,地址使用上面查看到的 export DISPLAY=192.168.112.1:0 # 启动 sudo startxfce4</description></item></channel></rss>

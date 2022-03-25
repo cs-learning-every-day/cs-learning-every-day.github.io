@@ -183,7 +183,8 @@ Dev on Windows with WSL
 Linux 内核揭秘
 Linux 命令行与 Shell 脚本教程(WIP) - ShellTutorial - Arch Linux Studio
 Master the command line, in one page
-shell编程的若干实用技巧 Tools
+shell编程的若干实用技巧
+Shell How Tools
 #
 command-not-found.com
 A collection of modern/faster/saner alternatives to common unix commands.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/maven/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/maven/</guid><description>mvn install:install-file -DgroupId=com.aliyun -DartifactId=aliyun-sdk-vod-upload -Dversion=1.4.12 -Dpackaging=jar -Dfile=aliyun-java-vod-upload-1.4.12.jar</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/npm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/npm/</guid><description>npkill</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/regularexpression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/regularexpression/</guid><description>Resources
@@ -196,7 +197,12 @@ Resources
 Vim Cheat Sheet</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</guid><description>WSL相关
 #
 vscode server for wsl closed unexpectedly
-netsh winsock reset重置网络 或移除wsl中的~/.vscode-server</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/design/146/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/design/146/</guid><description>Link
+netsh winsock reset重置网络 或移除wsl中的~/.vscode-server</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/wsl/xlaunch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/wsl/xlaunch/</guid><description>Windows安装VcXsrc
+#
+下载
+选择显示模式 默认选择，最后勾选 允许防火墙 WSL配置与启动xfce4
+#
+sudo apt install -y xfce4 # 首先需要查看Windows系统和WSL2通信使用的虚拟网卡地址 $ sudo vim /etc/resolv.conf # nameserver后面的地址就是Windows系统虚拟网卡的地址,记一下,同时需要取消下面两行内容的注释,禁用自动重新生成配置文件,否则重启后这个地址会变 [network] generateResolvConf = false $ vim ~/.bashrc # 在文件最后追加下面内容,地址使用上面查看到的 export DISPLAY=192.168.112.1:0 # 启动 sudo startxfce4</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/design/146/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/design/146/</guid><description>Link
 使用java的双向链表LinkedList有坑啊，过不了。
 class LRUCache { private int capacity; private DoubleList list; private Map&amp;lt;Integer, Node&amp;gt; map; public LRUCache(int capacity) { this.capacity = capacity; this.list = new DoubleList(); this.map = new HashMap&amp;lt;&amp;gt;(); } public int get(int key) { Node node = map.get(key); if (node == null) { return -1; } put(node.key, node.val); return node.val; } public void put(int key, int value) { Node node = map.get(key); if (node != null) { node = map.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/design/355/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/design/355/</guid><description>Link
 class Twitter { private Map&amp;lt;Integer, List&amp;lt;Integer&amp;gt;&amp;gt; follows; private Map&amp;lt;Integer, PriorityQueue&amp;lt;Integer&amp;gt;&amp;gt; tweets; private static final AtomicInteger ai = new AtomicInteger(0); private static final Map&amp;lt;Integer, Integer&amp;gt; orders = new HashMap&amp;lt;&amp;gt;(); public Twitter() { follows = new HashMap&amp;lt;&amp;gt;(); tweets = new HashMap&amp;lt;&amp;gt;(); } public void postTweet(int userId, int tweetId) { PriorityQueue&amp;lt;Integer&amp;gt; tmp = tweets.get(userId); if (tmp == null) { tmp = new PriorityQueue&amp;lt;Integer&amp;gt;((a, b) -&amp;gt; b - a); tweets.put(userId, tmp); } int key = ai.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/10/</guid><description>Link
