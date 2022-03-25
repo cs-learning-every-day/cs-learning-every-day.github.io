@@ -11,13 +11,7 @@
 
 > 5:00~6:00  Memorize English
 
-> 9:00~11:30 Reading
-
-> 13:00~17:00 Anything
-
-> 17:00~18:00 Running
-
-> 17:30~18:00 Eating
+> 6:00~11:30 Reading
 
 > 18:00~20:00 English
 

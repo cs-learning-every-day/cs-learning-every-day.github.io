@@ -68,14 +68,16 @@ bookFlatSection: true
   - [47. 全排列 II]({{< relref "/docs/LeetCode/Math/47.md">}})(M)
   - [60. 排列序列]({{< relref "/docs/LeetCode/Math/60.md">}})(H)
 ### Search
-* ``Search``
+* ``DFS``
 - [17. 电话号码的字母组合]({{< relref "/docs/LeetCode/Search/17.md">}})(M)
 - [37. 解数独]({{< relref "/docs/LeetCode/Search/37.md">}})(H)
 - [51. N 皇后]({{< relref "/docs/LeetCode/Search/51.md">}})(H)
 - [52. N 皇后 II]({{< relref "/docs/LeetCode/Search/52.md">}})(H)
 - [77. 组合]({{< relref "/docs/LeetCode/Search/77.md">}})(M)
 - [78. 子集]({{< relref "/docs/LeetCode/Search/78.md">}})(M)
+- [90. 子集 II]({{< relref "/docs/LeetCode/Search/78.md">}})(M)
 - [139. Word Break]({{< relref "/docs/LeetCode/Search/139.md">}})(M)
+- [216. 组合总和 III]({{< relref "/docs/LeetCode/Search/216.md">}})(M)
 
 * ``BFS``
 - [79. 单词搜索]({{< relref "/docs/LeetCode/Search/79.md">}})(M)
