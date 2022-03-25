@@ -17,10 +17,12 @@ sudo apt install -y xfce4
 ```
 ```shell
 # 首先需要查看Windows系统和WSL2通信使用的虚拟网卡地址
-$ sudo vim /etc/resolv.conf
-# nameserver后面的地址就是Windows系统虚拟网卡的地址,记一下,同时需要取消下面两行内容的注释,禁用自动重新生成配置文件,否则重启后这个地址会变
-[network]
-generateResolvConf = false
+$ cat vim /etc/resolv.conf
+
+sudo rm /etc/resolv.conf
+sudo bash -c 'echo "nameserver windows ip" > /etc/resolv.conf'
+sudo bash -c 'echo "[network]" > /etc/wsl.conf'
+sudo bash -c 'echo "generateResolvConf = false" >> /etc/wsl.conf'
  
  
 $ vim ~/.bashrc
@@ -29,4 +31,9 @@ export DISPLAY=192.168.112.1:0
 
 # 启动
 sudo startxfce4
+
+# 上面有坑，文件会被覆盖
+# https://blog.csdn.net/IToBeNo_1/article/details/116333419
+需要在cmd里wsl --shutdown
+我目前是连的手机热点所以会变IP，不需要配置固定的windows IP
 ```
