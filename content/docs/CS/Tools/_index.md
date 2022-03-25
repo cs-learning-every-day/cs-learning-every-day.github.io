@@ -7,3 +7,4 @@ bookFlatSection: true
 - [Docker]({{< relref "/docs/CS/Tools/Docker.md" >}})
 - [GDB]({{< relref "/docs/CS/Tools/GDB.md" >}})
 - [Linux]({{< relref "/docs/CS/Tools/Linux.md" >}})
+- [WSL]({{< relref "/docs/CS/Tools/wsl" >}})

@@ -9,6 +9,7 @@
 - [Linux 命令行与 Shell 脚本教程(WIP) - ShellTutorial - Arch Linux Studio](https://archlinuxstudio.github.io/ShellTutorial/#/)
 - [Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line)
 - [shell编程的若干实用技巧](https://zhuanlan.zhihu.com/p/46100771)
+- [Shell How](https://www.shell.how/)
 
 
 ### Tools

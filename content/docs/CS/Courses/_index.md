@@ -11,8 +11,6 @@
 
 > 5:00~6:00  Memorize English
 
-> 6:00~11:30 Reading
-
 > 18:00~20:00 English
 
 > 20:00~22:00 Solve dues
