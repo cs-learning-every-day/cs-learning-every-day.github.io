@@ -21,7 +21,7 @@
 感谢[CS自学指南](https://github.com/PKUFlyingPig/cs-self-learning)对于信息的整合。你也可以和我一起在[这里](https://csdiy.wiki/)找到自己心仪的课程。
 
 
-- [MIT 6.Null The Missing Semester of Your CS Education]
+- [ ] MIT 6.Null The Missing Semester of Your CS Education
 ## 编程入门
 - [x] CSE 251 Programming in C
 - [ ] Programming Languages, Part A
