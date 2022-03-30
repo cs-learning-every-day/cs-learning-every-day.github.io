@@ -10,6 +10,18 @@ bookFlatSection: true
                                   -- 乔治 R.R. 马丁
 ```
 
+《Beginning linux programming 4th edition》
+《The Linux programming interface》
+《Advance programming in the Unix environment 3th edition》
+《Unix Network Programming The Sockets Networking API 3th edition》
+《Unix Network Programming Interprocess Communications 2th edition》
+《TCP/IP Illustrate Volume 1》
+《Linux system programming》
+《The Algorithm Design Manual 3rd Edition》
+《Computer Systems A Programmer’s Perspective 3rd ed》
+
+《Linux 系统编程》
+
 《Vim实用技巧》
 - 2022/3/23 P48
 
@@ -20,10 +32,6 @@ bookFlatSection: true
 - 2022/3/21 Ch1
 
 《你真的会写代码吗》
-
-《现代 JavaScript 教程》
-- 2022/3/12 Finish
-
 
 《剑指Offer：名企面试官精讲典型编程题-电子工业出版社 (2017)》
 - 2022/1/26 2.3.3
@@ -36,6 +44,8 @@ bookFlatSection: true
 
 《图解TCP/IP》
 - 2022/1/15
+
+《TCP/IP网络编程》
 
 《Java编程思想》
 - 2021/12/23 5.7
@@ -65,6 +75,7 @@ bookFlatSection: true
 - 2021/11/9 
 
 《现代操作系统》
+- 2022/3/28 P14
 
 《English++ (English for Computer Science Students)》
 
@@ -107,12 +118,15 @@ bookFlatSection: true
 - 2022/3/13 Ch1
 
 
+《程序员健康指南》
+- 2022/3/20 Finish
+
 《深入理解Java虚拟机：JVM高级特性与最佳实践》
 - 2022/3/15 Ch1
+- 2022/3/29 P86
 
 《MySQL是怎样运行的：从根儿上理解MySQL》
 - 2022/3/19
-
 
 《Mysql技术内幕》
 《Java并发编程实战》
@@ -138,13 +152,6 @@ bookFlatSection: true
 - 2022/3/5 P73
 - 2022/3/6 Finish
 
-《精力管理》
-- 2022/3/5 Ch3
-
-
-《巨人的工具》
-- 2022/3/5
-
 《领域驱动设计：软件核心复杂性应对之道》
 
 《测试驱动开发》
@@ -162,6 +169,7 @@ bookFlatSection: true
 
 《软件设计的哲学》
 - 2022/2/22 Ch1 ~ Ch4
+- 2022/3/29 Ch5 ~ Ch6
 
 《Atomic Kotlin》
 - 2022/3/1 P38
@@ -181,6 +189,7 @@ bookFlatSection: true
 - 2022/3/13 Ch6
 - 2022/3/20 Ch7
 - 2022/3/22 Ch8 ~ Ch10
+- 2022/3/30 Ch11
 
 《TCP-IP详解 卷1：协议》
 - 2021/10/16 CH1
@@ -190,7 +199,7 @@ bookFlatSection: true
 - 2021/11/20 Ch9、Ch10
 - 2022/3/4 Ch11
 
-《LinuxUNIX系统编程》
+《Linux/UNIX系统编程手册》
 - 2021/10/11 P46
 - 2021/10/21 CH3
 - 2021/11/4  CH4、5、6

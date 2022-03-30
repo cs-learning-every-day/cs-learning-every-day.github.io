@@ -25,6 +25,7 @@ bookFlatSection: true
 - [10. 正则表达式匹配]({{< relref "/docs/LeetCode/DynamicProgramming/10.md">}})(H)
 - [44. 通配符匹配]({{< relref "/docs/LeetCode/DynamicProgramming/44.md">}})(H)
 - [45. 跳跃游戏 II]({{< relref "/docs/LeetCode/DynamicProgramming/45.md">}})(M)
+- [53. 最大子数组和]({{< relref "/docs/LeetCode/DynamicProgramming/53.md">}})(E)
 - [55. 跳跃游戏]({{< relref "/docs/LeetCode/DynamicProgramming/55.md">}})(M)
 - [62. 不同路径]({{< relref "/docs/LeetCode/DynamicProgramming/62.md">}})(M)
 - [63. 不同路径 II]({{< relref "/docs/LeetCode/DynamicProgramming/63.md">}})(M)

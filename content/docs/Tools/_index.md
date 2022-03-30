@@ -10,6 +10,7 @@ bookFlatSection: true
 - [Windows镜像](https://tb.rg-adguard.net/public.php)
 - [Github Wrapped](https://wrapped.run/)
 - [lol 对局先知 上等马 牛马分析程序 选人阶段判断己方大爹 大坑, 明确对局目标 基于lol client api 合法不封号](https://github.com/real-web-world/hh-lol-prophet)
+- [百度网盘批量转存工具](https://github.com/hxz393/BaiduPanFilesTransfers)
 
 #### 影视
 - https://www.btnull.org/mv/

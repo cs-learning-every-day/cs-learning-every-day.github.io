@@ -29,3 +29,4 @@ bookFlatSection: true
 - [💻📖对开发人员有用的定律、理论、原则和模式](https://github.com/nusr/hacker-laws-zh)
 - [给新员工和实习生的生存指南](https://github.com/lazyparser/survivial-manual-for-interns)
 - [Audit Over 700 CS Classes From Renowned Universities](https://collegecompendium.org/)
+- [📃 论文阅读笔记（分布式系统、虚拟化、机器学习](https://github.com/dyweb/papers-notebook)
