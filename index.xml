@@ -65,20 +65,10 @@ Let Me Read，点击验证码，跳转DirectLink直接下载。</description></i
 温故而知新,可以为师矣。
 喜欢读书的人在死之前，活过1000次，不读书的人只活过一次。
 -- 乔治 R.R. 马丁
+《Beginning linux programming 4th edition》 《The Linux programming interface》 《Advance programming in the Unix environment 3th edition》 《Unix Network Programming The Sockets Networking API 3th edition》 《Unix Network Programming Interprocess Communications 2th edition》 《TCP/IP Illustrate Volume 1》 《Linux system programming》 《The Algorithm Design Manual 3rd Edition》 《Computer Systems A Programmer’s Perspective 3rd ed》
+《Linux 系统编程》
 《Vim实用技巧》
-2022/3/23 P48 《Java程序员修炼之道》
-2022/3/23 P77 《挑战程序设计竞赛2-算法和数据结构》
-2022/3/21 Ch1 《你真的会写代码吗》
-《现代 JavaScript 教程》
-2022/3/12 Finish 《剑指Offer：名企面试官精讲典型编程题-电子工业出版社 (2017)》
-2022/1/26 2.3.3 《计算的本质：深入剖析程序和计算机》
-2022/1/26 Ch1 《人月神话》
-2022/1/23 《图解TCP/IP》
-2022/1/15 《Java编程思想》
-2021/12/23 5.7 《C++ Primer》
-2021/12/6 P57 2022/1/3 Ch2.4 《Java并发编程实战》
-《深度思考不断逼近问题的本质》
-2021/10/10 2021/10/12 P58 《设计模式：可复用面向对象软件的基础》</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/algo/template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/algo/template/</guid><description>Acwing模板
+2022/3/23 P48 《Java程序员修炼之道》</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/algo/template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/algo/template/</guid><description>Acwing模板
 快速排序
 #
 void quick_sort(int q[], int l, int r) { if (l &amp;gt;= r) return; int i = l - 1, j = r + 1, x = q[l + r &amp;gt;&amp;gt; 1]; while (i &amp;lt; j) { do i ++ ; while (q[i] &amp;lt; x); do j -- ; while (q[j] &amp;gt; x); if (i &amp;lt; j) swap(q[i], q[j]); } quick_sort(q, l, j), quick_sort(q, j + 1, r); } 归并排序
@@ -158,7 +148,8 @@ Segment Fault快速定位
 首先生成core文件 使用ulimit -a 查看core file size为0则是不会输出(改成不限制 ulimit -c unlimited) 运行程序出错则会输出，调试时gdb ./hello core list start ctrl + x + a</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/git/</guid><description>Resources
 #
 Learning Git Branching
-Git Cheat Sheet: Commands and Best Practices // 删除本地分支 git branch -d localBranchName
+Git Cheat Sheet: Commands and Best Practices
+Visualizing Git Concepts with D3 // 删除本地分支 git branch -d localBranchName
 // 删除远程分支 git push origin &amp;ndash;delete remoteBranchName
 修改github 日期
 git commit
@@ -168,8 +159,7 @@ git hash-object -t commit -w tmp.txt
 #=&amp;gt; 2ee8fcc02658e23219143f5bcfe6f9a4615745f9
 git update-ref -m 'commit: foo' refs/heads/master \
 2ee8fcc02658e23219143f5bcfe6f9a4615745f9
-取消跟踪,删除远程文件
-git rm -r --cached .</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/jenkins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/jenkins/</guid><description>https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-20-04/
+取消跟踪,删除远程文件</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/jenkins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/jenkins/</guid><description>https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-20-04/
 https://www.cnblogs.com/chenxiaomeng/p/11412038.html
 https://www.cnblogs.com/ding2016/p/12988080.html
 service jenkins restart[start\stop]
@@ -185,7 +175,8 @@ Linux 命令行与 Shell 脚本教程(WIP) - ShellTutorial - Arch Linux Studio
 Master the command line, in one page
 shell编程的若干实用技巧
 Shell How
-鸟哥的Linux私房菜：基础学习篇 第四版 Tools
+鸟哥的Linux私房菜：基础学习篇 第四版
+你管这破玩意叫操作系统源码 — 像小说一样品读 Linux 0.11 核心代码 Tools
 #
 command-not-found.com
 A collection of modern/faster/saner alternatives to common unix commands.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/maven/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/maven/</guid><description>mvn install:install-file -DgroupId=com.aliyun -DartifactId=aliyun-sdk-vod-upload -Dversion=1.4.12 -Dpackaging=jar -Dfile=aliyun-java-vod-upload-1.4.12.jar</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/npm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/npm/</guid><description>npkill</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/regularexpression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/regularexpression/</guid><description>Resources
@@ -230,7 +221,9 @@ public boolean isMatch(String s, String p) { int m = s.length(), n = p.length();
 Link
 public int jump(int[] nums) { int n = nums.length; // f[i]: 最少的跳跃次数到达i int[] f = new int[n]; for (int i = 1, j = 0; i &amp;lt; n; i++) { while (j + nums[j] &amp;lt; i) j++; f[i] = f[j] + 1; } return f[n - 1]; }</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/509/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/509/</guid><description>
 Link
-public int fib(int n) { int p2 = 0, p1 = 1; for (int i = 1; i &amp;lt;= n; i++) { int tmp = p1; p1 = p1 + p2; p2 = tmp; } return p2; }</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/55/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/55/</guid><description>
+public int fib(int n) { int p2 = 0, p1 = 1; for (int i = 1; i &amp;lt;= n; i++) { int tmp = p1; p1 = p1 + p2; p2 = tmp; } return p2; }</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/53/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/53/</guid><description>Link
+分治思想：分成两部分，求出左右两边的最大子数组和，在求出(左区间包含左区间里最后一个数的最大子数组和) + (右区间包含右区间里的第一个数的最大子数组和)，答案就是三者里的最大值。
+// 分治思相：来自数据结构与算法C语言描述 class Solution { public: int maxSubArray(vector&amp;lt;int&amp;gt;&amp;amp; nums) { return help(nums, 0, nums.size() - 1); } int help(vector&amp;lt;int&amp;gt;&amp;amp; nums, int l, int r) { if (l == r) { return nums[l]; } int mid = (l + r) &amp;gt;&amp;gt; 1; int maxSubArrayLeft = help(nums, l, mid); int maxSubArrayRight = help(nums, mid + 1, r); int s1 = nums[mid], s2 = nums[mid]; for (int i = mid - 1; i &amp;gt;= l; i--) { s2 += nums[i]; if (s2 &amp;gt; s1) s1 = s2; } int maxCenterSum = s1; s2 = s1 = nums[mid + 1]; for (int i = mid + 2; i &amp;lt;= r; i++) { s2 += nums[i]; if (s2 &amp;gt; s1) s1 = s2; } maxCenterSum += s1; return max(maxSubArrayLeft, max(maxSubArrayRight, maxCenterSum)); } }; DP思想：f[i]表示0.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/55/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/55/</guid><description>
 Link
 class Solution { public boolean canJump(int[] nums) { for (int i = 0, j = 0; i &amp;lt; nums.length; i++) { if (j &amp;lt; i) return false; j = Math.max(j, i + nums[i]); } return true; } }</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/62/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/dynamicprogramming/62/</guid><description>Link
 DP
@@ -354,10 +347,9 @@ Link
 class Solution { public List&amp;lt;Integer&amp;gt; spiralOrder(int[][] matrix) { List&amp;lt;Integer&amp;gt; ans = new ArrayList&amp;lt;&amp;gt;(); int n = matrix.length, m = matrix[0].length; int[] dx = new int[]{0, 1, 0, -1}; int[] dy = new int[]{1, 0, -1, 0}; boolean[][] st = new boolean[n][m]; for (int i = 0, d = 0, x = 0, y = 0; i &amp;lt; n * m; i++) { ans.add(matrix[x][y]); st[x][y] = true; int a = x + dx[d], b = y + dy[d]; if (a &amp;lt; 0 || a &amp;gt;= n || b &amp;lt; 0 || b &amp;gt;= m || st[a][b]) { d = (d + 1) % 4; a = x + dx[d]; b = y + dy[d]; } x = a; y = b; } return ans; } }</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/simulation/59/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/simulation/59/</guid><description>Link
 class Solution { public int[][] generateMatrix(int n) { int[][] res = new int[n][n]; int[] dx = {0, 1, 0, -1}, dy = {1, 0, -1, 0}; for (int i = 1, x = 0, y = 0, d = 0; i &amp;lt;= n * n; i++) { res[x][y] = i; int a = x + dx[d], b = y + dy[d]; if (a &amp;lt; 0 || a &amp;gt;= n || b &amp;lt; 0 || b &amp;gt;= n || res[a][b] !</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/simulation/73/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/simulation/73/</guid><description>
 Link
-public void setZeroes(int[][] matrix) { int m = matrix.length, n = matrix[0].length; // 将第一行和第一列看成 (m - 1) * (n - 1) 行和列为0的标识 // 再用两个变量标识第一行和第一列 int r1 = 1, c1 = 1; for (int i = 0; i &amp;lt; n; i++) { if (matrix[0][i] == 0) { r1 = 0; break; } } for (int i = 0; i &amp;lt; m; i++) { if (matrix[i][0] == 0) { c1 = 0; break; } } // 设置列 for (int i = 1; i &amp;lt; m; i++) for (int j = 0; j &amp;lt; n; j++) if (matrix[i][j] == 0) matrix[0][j] = 0; // 设置行 for (int i = 0; i &amp;lt; n; i++) for (int j = 1; j &amp;lt; m; j++) if (matrix[j][i] == 0) matrix[j][0] = 0; // 设置 (m - 1) * (n - 1) for (int i = 1; i &amp;lt; m; i++) if (matrix[i][0] == 0) for (int j = 1; j &amp;lt; n; j++) matrix[i][j] = 0; for (int i = 1; i &amp;lt; n; i++) if (matrix[0][i] == 0) for (int j = 1; j &amp;lt; m; j++) matrix[j][i] = 0; if (r1 == 0) for (int i = 0; i &amp;lt; n; i++) matrix[0][i] = 0; if (c1 == 0) for (int i = 0; i &amp;lt; m; i++) matrix[i][0] = 0; }</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/sorts/215/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/sorts/215/</guid><description>
-Link
-使用优先队列
-// Time Complexity: O(nlgn) // Space Complexity: O(k) public int findKthLargest(int[] nums, int k) { PriorityQueue&amp;lt;Integer&amp;gt; q = new PriorityQueue&amp;lt;&amp;gt;(); for (int num : nums) { if (q.size() == k) { if (num &amp;gt; q.peek()) { q.poll(); q.offer(num); } } else { q.offer(num); } } return q.peek(); }</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/sorts/41/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/sorts/41/</guid><description>Link
+public void setZeroes(int[][] matrix) { int m = matrix.length, n = matrix[0].length; // 将第一行和第一列看成 (m - 1) * (n - 1) 行和列为0的标识 // 再用两个变量标识第一行和第一列 int r1 = 1, c1 = 1; for (int i = 0; i &amp;lt; n; i++) { if (matrix[0][i] == 0) { r1 = 0; break; } } for (int i = 0; i &amp;lt; m; i++) { if (matrix[i][0] == 0) { c1 = 0; break; } } // 设置列 for (int i = 1; i &amp;lt; m; i++) for (int j = 0; j &amp;lt; n; j++) if (matrix[i][j] == 0) matrix[0][j] = 0; // 设置行 for (int i = 0; i &amp;lt; n; i++) for (int j = 1; j &amp;lt; m; j++) if (matrix[j][i] == 0) matrix[j][0] = 0; // 设置 (m - 1) * (n - 1) for (int i = 1; i &amp;lt; m; i++) if (matrix[i][0] == 0) for (int j = 1; j &amp;lt; n; j++) matrix[i][j] = 0; for (int i = 1; i &amp;lt; n; i++) if (matrix[0][i] == 0) for (int j = 1; j &amp;lt; m; j++) matrix[j][i] = 0; if (r1 == 0) for (int i = 0; i &amp;lt; n; i++) matrix[0][i] = 0; if (c1 == 0) for (int i = 0; i &amp;lt; m; i++) matrix[i][0] = 0; }</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/sorts/215/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/sorts/215/</guid><description>Link
+快速选择
+class Solution { public int findKthLargest(int[] nums, int k) { return quickSelect(nums, k, 0, nums.length - 1); } private int quickSelect(int[] nums, int k, int l, int r) { if (l &amp;gt;= r) return nums[l]; int i = l - 1, j = r + 1, x = nums[(l + r) &amp;gt;&amp;gt; 1]; while (i &amp;lt; j) { do i++; while(nums[i] &amp;lt; x); do j--; while(nums[j] &amp;gt; x); if (i &amp;lt; j) { int tmp = nums[i]; nums[i] = nums[j]; nums[j] = tmp; } } // 右边区间元素个数 if (r - j &amp;gt;= k) { return quickSelect(nums, k, j + 1, r); } return quickSelect(nums, k - (r - j), l, j); } } 使用优先队列</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/sorts/41/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/sorts/41/</guid><description>Link
 class Solution { public int firstMissingPositive(int[] nums) { for (int i = 0; i &amp;lt; nums.length; i++) { while (nums[i] &amp;gt; 0 &amp;amp;&amp;amp; nums[i] != i + 1 &amp;amp;&amp;amp; nums[i] &amp;lt;= nums.length &amp;amp;&amp;amp; nums[i] != nums[nums[i] - 1]) { int tmp = nums[nums[i] - 1]; nums[nums[i] - 1] = nums[i]; nums[i] = tmp; } } for (int i = 0; i &amp;lt; nums.length; i++) { if (nums[i] !</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/stack/20/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/stack/20/</guid><description>Link
 查阅Ascii码表进行简化
 public boolean isValid(String s) { Stack&amp;lt;Character&amp;gt; st = new Stack&amp;lt;&amp;gt;(); int n = s.length(); for (int i = 0; i &amp;lt; n; i++) { if (s.charAt(i) == &amp;#39;(&amp;#39; || s.charAt(i) == &amp;#39;{&amp;#39; || s.charAt(i) == &amp;#39;[&amp;#39;) { st.push(s.charAt(i)); } else { if (st.size() &amp;gt; 0 &amp;amp;&amp;amp; Math.abs(st.peek() - s.charAt(i)) &amp;lt;= 2) { st.pop(); } else { return false; } } } return st.size() == 0; } public boolean isValid(String s) { Stack&amp;lt;Character&amp;gt; st = new Stack&amp;lt;&amp;gt;(); int n = s.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/leetcode/stack/32/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/leetcode/stack/32/</guid><description>Link
