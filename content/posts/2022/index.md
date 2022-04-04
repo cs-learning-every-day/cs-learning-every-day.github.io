@@ -17,12 +17,14 @@ title: 关于我的2022的一些记录
 | [ROBERT HEATON](https://robertheaton.com/) | 2022.03.20 |  |  |
 | [CalliCoder](https://www.callicoder.com/) | 2022.03.27 | Java Web |  |
 | [Brendan Gregg's Homepage](https://www.brendangregg.com/index.html) | 2022.03.28 |大牛 |  |
+| [胡神](https://conanhujinming.github.io/) | 2022.04.02 |  |  |
 
 
 ## 收藏的文章
 | 文章名称 | 添加日期 | type | 备注 |
 | ------- | ------- | ---- | ---- |
-| - [我在职业生涯中学到的所有良好实践](https://rchaves.app/good-practices/) | 2022.02.06 | 技术文章 | 宝藏 |
-| - [聊聊微软面试](https://mp.weixin.qq.com/s/-NESGyGBbF3WakPFieAT0w) | 2022.02.18 | 面试 | 宝藏 |
-| - [Raft 分布式共识算法动画演示](http://www.kailing.pub/raft/index.html) | 2022.03.02 |  |  |
-
+| [我在职业生涯中学到的所有良好实践](https://rchaves.app/good-practices/) | 2022.02.06 | 技术文章 | 宝藏 |
+| [聊聊微软面试](https://mp.weixin.qq.com/s/-NESGyGBbF3WakPFieAT0w) | 2022.02.18 | 面试 | 宝藏 |
+| [Raft 分布式共识算法动画演示](http://www.kailing.pub/raft/index.html) | 2022.03.02 |  |  |
+| [校招面试不完全指南](https://www.zackwu.com/posts/2020-10-05-an-incomplete-guide-to-campus-recruitment-interviews/) | 2022.04.02 |  |  |
+| [左耳朵耗子：技术人如何更好地把控发展趋势？](https://mp.weixin.qq.com/s/Cedl9lIk2mAd9b_NUCnj_g) | 2022.03.02 |  |  |

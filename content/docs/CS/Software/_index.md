@@ -9,3 +9,4 @@ bookFlatSection: true
 - [papers-we-love](https://github.com/papers-we-love/papers-we-love)
 - [C++11全套设计模式-23种指针的用法](https://github.com/jaredtao/DesignPattern)
 - [Design Patterns for Humans](https://roadmap.sh/guides/design-patterns-for-humans)
+- [grokking-system-design](https://cnwangzhou.gitbook.io/grokking-system-design/)

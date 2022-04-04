@@ -4,3 +4,4 @@ https://vimawesome.com/
 
 ### Resources
 - [Vim Cheat Sheet](https://vim.rtorr.com/lang/zh_cn)
+- http://vimcdoc.sourceforge.net/doc/insert.html#insert.txt
