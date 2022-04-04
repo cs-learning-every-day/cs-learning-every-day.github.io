@@ -80,11 +80,12 @@ command-not-found.com
 A collection of modern/faster/saner alternatives to common unix commands.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/maven/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/maven/</guid><description>mvn install:install-file -DgroupId=com.aliyun -DartifactId=aliyun-sdk-vod-upload -Dversion=1.4.12 -Dpackaging=jar -Dfile=aliyun-java-vod-upload-1.4.12.jar</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/npm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/npm/</guid><description>npkill</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/regularexpression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/regularexpression/</guid><description>Resources
 #
 RegexLearn
-Regex One</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/vim/</guid><description>https://missing-semester-cn.github.io/2020/editors/
+Regex One
+Regex-Vis</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/vim/</guid><description>https://missing-semester-cn.github.io/2020/editors/
 https://vimawesome.com/
 Resources
 #
-Vim Cheat Sheet</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</guid><description>WSL相关
+Vim Cheat Sheet http://vimcdoc.sourceforge.net/doc/insert.html#insert.txt</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</guid><description>WSL相关
 #
 vscode server for wsl closed unexpectedly
 netsh winsock reset重置网络 或移除wsl中的~/.vscode-server</description></item></channel></rss>
