@@ -19,3 +19,4 @@ bookFlatSection: true
 - https://www.languagereactor.com/ 视频
 - [How to learn English](https://www.antimoon.com/how/howtolearn.htm)
 - [Learn English 🇬🇧🇺🇸](https://www.englishclub.com/learn-english.htm)
+- [人人都能用英语](https://lixiaolai.com/#%2Feveryone-can-use-english%2F=)

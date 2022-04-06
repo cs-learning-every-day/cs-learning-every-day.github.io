@@ -10,3 +10,6 @@ bookFlatSection: true
 - [jetbrain.in](https://jetbra.in/s) [Zhile](https://zhile.io/)
 - [芋道源码 —— 纯源码解析博客](https://www.iocoder.cn/)
 - [深入浅出Java多线程](http://concurrent.redspider.group/RedSpider.html)
+
+### Library
+- [Eclipse Collections](https://www.eclipse.org/collections/#start)

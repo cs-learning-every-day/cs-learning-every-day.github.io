@@ -8,3 +8,4 @@ bookFlatSection: true
 - [GDB]({{< relref "/docs/CS/Tools/GDB.md" >}})
 - [Linux]({{< relref "/docs/CS/Tools/Linux.md" >}})
 - [WSL]({{< relref "/docs/CS/Tools/wsl" >}})
+- [Learning-Markdown (Markdown 入门参考)](http://itmyhome.com/markdown/index.html)

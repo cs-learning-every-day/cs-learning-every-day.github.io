@@ -18,6 +18,7 @@ title: 关于我的2022的一些记录
 | [CalliCoder](https://www.callicoder.com/) | 2022.03.27 | Java Web |  |
 | [Brendan Gregg's Homepage](https://www.brendangregg.com/index.html) | 2022.03.28 |大牛 |  |
 | [胡神](https://conanhujinming.github.io/) | 2022.04.02 |  |  |
+| [李笑来](https://lixiaolai.com/) | 2022.04.05 |  |  |
 
 
 ## 收藏的文章
