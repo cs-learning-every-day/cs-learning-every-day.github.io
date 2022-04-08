@@ -148,7 +148,8 @@ Segment Fault快速定位
 #
 Learning Git Branching
 Git Cheat Sheet: Commands and Best Practices
-Visualizing Git Concepts with D3 // 删除本地分支 git branch -d localBranchName
+Visualizing Git Concepts with D3 // 将本地分支推送到远程 git push &amp;lt;远程主机名&amp;gt; &amp;lt;本地分支名&amp;gt;:&amp;lt;远程分支名&amp;gt;
+// 删除本地分支 git branch -d localBranchName
 // 删除远程分支 git push origin &amp;ndash;delete remoteBranchName
 修改github 日期
 git commit
