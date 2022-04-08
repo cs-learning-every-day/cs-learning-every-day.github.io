@@ -20,3 +20,4 @@ bookFlatSection: true
 - [How to learn English](https://www.antimoon.com/how/howtolearn.htm)
 - [Learn English 🇬🇧🇺🇸](https://www.englishclub.com/learn-english.htm)
 - [人人都能用英语](https://lixiaolai.com/#%2Feveryone-can-use-english%2F=)
+- [经济学人(含音频)、纽约客、自然、新科学人、卫报、科学美国人、连线、大西洋月刊、国家地理等英语杂志免费下载、订阅(kindle推送),支持epub、mobi、pdf格式, 每周更新. T](https://github.com/hehonghui/the-economist-ebooks)

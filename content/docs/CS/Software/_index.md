@@ -8,5 +8,5 @@ bookFlatSection: true
 - [My favorite papers](https://ordep.dev/posts/my-favorite-papers)
 - [papers-we-love](https://github.com/papers-we-love/papers-we-love)
 - [C++11全套设计模式-23种指针的用法](https://github.com/jaredtao/DesignPattern)
-- [Design Patterns for Humans](https://roadmap.sh/guides/design-patterns-for-humans)
+- [Design Patterns for Humans](https://roadmap.sh/guides/design-patterns-for-humans) [中文版](https://www.guanguans.cn/design-patterns-for-humans-cn/)
 - [grokking-system-design](https://cnwangzhou.gitbook.io/grokking-system-design/)

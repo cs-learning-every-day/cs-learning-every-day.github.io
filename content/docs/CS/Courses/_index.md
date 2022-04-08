@@ -24,7 +24,10 @@
 - [ ] MIT 6.Null The Missing Semester of Your CS Education
 ## 编程入门
 - [x] CSE 251 Programming in C
-- [ ] Programming Languages, Part A
+- [ ] Programming Languages UW 
+  - [ ] Part A
+  - [ ] Part B
+  - [ ] Part C
 - [ ] Standford CS106L C++ Programming
 - [ ] CS 61A: Structure and Interpretation of Computer Programs
 

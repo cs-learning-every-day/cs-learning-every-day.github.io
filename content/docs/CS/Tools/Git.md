@@ -3,6 +3,8 @@
 - [Git Cheat Sheet: Commands and Best Practices](https://www.jrebel.com/blog/git-cheat-sheet)
 - [Visualizing Git Concepts with D3](https://onlywei.github.io/explain-git-with-d3/#commit)
 
+// 将本地分支推送到远程
+git push <远程主机名> <本地分支名>:<远程分支名>
 
 // 删除本地分支
 git branch -d localBranchName
@@ -56,6 +58,7 @@ ssh-keygen –t rsa –C "youremail@gmail.com"
 ```
 
 ### 有用的别名
+git lol
 ```
 git config --global alias.lol "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 ```

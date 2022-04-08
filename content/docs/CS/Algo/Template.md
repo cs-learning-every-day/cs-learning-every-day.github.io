@@ -1517,3 +1517,9 @@ SG(G) = SG(G1) ^ SG(G2) ^ … ^ SG(Gm)
     }
 
 ```
+
+
+## DP
+### 树形DP
+> [解析](https://leetcode-cn.com/problems/minimum-height-trees/solution/by-ac_oier-7xio/)
+

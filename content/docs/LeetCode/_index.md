@@ -5,7 +5,7 @@ bookFlatSection: true
 - [CodeTop](https://codetop.cc/home)
 - [宫水三叶的刷题日记](https://github.com/SharingSource/LogicStack-LeetCode/wiki)
 - [This repository contains the solutions and explanations to the algorithm problems on LeetCode.](https://github.com/wisdompeak/LeetCode)
-- 
+- [Play Leetcode](https://github.com/liuyubobobo/Play-Leetcode)
 
 ## 目前分类目录
 ### [剑指 Offer]({{< relref "/docs/LeetCode/剑指Offer">}})

@@ -19,6 +19,8 @@ title: 关于我的2022的一些记录
 | [Brendan Gregg's Homepage](https://www.brendangregg.com/index.html) | 2022.03.28 |大牛 |  |
 | [胡神](https://conanhujinming.github.io/) | 2022.04.02 |  |  |
 | [李笑来](https://lixiaolai.com/) | 2022.04.05 |  |  |
+| [沧海月明](https://www.inlighting.org/) | 2022.04.08 |  | 学习 |
+| [TXY](https://tanxinyu.work/)  | 2022.04.08 |  | 学习 |
 
 
 ## 收藏的文章
@@ -29,3 +31,5 @@ title: 关于我的2022的一些记录
 | [Raft 分布式共识算法动画演示](http://www.kailing.pub/raft/index.html) | 2022.03.02 |  |  |
 | [校招面试不完全指南](https://www.zackwu.com/posts/2020-10-05-an-incomplete-guide-to-campus-recruitment-interviews/) | 2022.04.02 |  |  |
 | [左耳朵耗子：技术人如何更好地把控发展趋势？](https://mp.weixin.qq.com/s/Cedl9lIk2mAd9b_NUCnj_g) | 2022.03.02 |  |  |
+| [Debugging Under Unix: gdb Tutorial](https://www.cs.cmu.edu/~gilpin/tutorial/) | 2022.04.08 |  |  |
+| [111qqz](https://111qqz.com/) | 2022.04.09 |  |  |
