@@ -32,3 +32,5 @@ bookFlatSection: true
 - [📃 论文阅读笔记（分布式系统、虚拟化、机器学习](https://github.com/dyweb/papers-notebook)
 - [study-is-wonderful](https://github.com/xioacd99/study-is-wonderful)
 - [职场对标](https://duibiao.info/)
+- [How-to-be-a-good-programmer](https://github.com/niudai/How-to-be-a-good-programmer)
+- [CS Notes](https://github.com/huangrt01/CS-Notes)
