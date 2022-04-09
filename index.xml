@@ -68,7 +68,7 @@ Let Me Read，点击验证码，跳转DirectLink直接下载。</description></i
 《Beginning linux programming 4th edition》 《The Linux programming interface》 《Advance programming in the Unix environment 3th edition》 《Unix Network Programming The Sockets Networking API 3th edition》 《Unix Network Programming Interprocess Communications 2th edition》 《TCP/IP Illustrate Volume 1》 《Linux system programming》 《The Algorithm Design Manual 3rd Edition》 《Computer Systems A Programmer’s Perspective 3rd ed》
 《Linux 系统编程》
 《程序员的自我修养—链接、装载与库.pdf by 程序员的自我修养—链接、装载与库》
-《Vim实用技巧》</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/algo/template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/algo/template/</guid><description>Acwing模板
+《Vim实用技巧》</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/algo/template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/algo/template/</guid><description>Acwing模板 时间复杂度分析
 快速排序
 #
 void quick_sort(int q[], int l, int r) { if (l &amp;gt;= r) return; int i = l - 1, j = r + 1, x = q[l + r &amp;gt;&amp;gt; 1]; while (i &amp;lt; j) { do i ++ ; while (q[i] &amp;lt; x); do j -- ; while (q[j] &amp;gt; x); if (i &amp;lt; j) swap(q[i], q[j]); } quick_sort(q, l, j), quick_sort(q, j + 1, r); } 归并排序
@@ -148,20 +148,15 @@ Segment Fault快速定位
 #
 Learning Git Branching
 Git Cheat Sheet: Commands and Best Practices
-Visualizing Git Concepts with D3 // 将本地分支推送到远程 git push &amp;lt;远程主机名&amp;gt; &amp;lt;本地分支名&amp;gt;:&amp;lt;远程分支名&amp;gt;
+Visualizing Git Concepts with D3
+Bitbucket // 将本地分支推送到远程 git push &amp;lt;远程主机名&amp;gt; &amp;lt;本地分支名&amp;gt;:&amp;lt;远程分支名&amp;gt;
 // 删除本地分支 git branch -d localBranchName
 // 删除远程分支 git push origin &amp;ndash;delete remoteBranchName
 修改github 日期
 git commit
 git cat-file -p HEAD &amp;gt; tmp.txt
 # at this point, edit the file to replace the timestamp
-git hash-object -t commit -w tmp.txt
-#=&amp;gt; 2ee8fcc02658e23219143f5bcfe6f9a4615745f9
-git update-ref -m 'commit: foo' refs/heads/master \
-2ee8fcc02658e23219143f5bcfe6f9a4615745f9
-取消跟踪,删除远程文件
-#
-git rm -r --cached .</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/jenkins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/jenkins/</guid><description>https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-20-04/
+git hash-object -t commit -w tmp.</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/jenkins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/jenkins/</guid><description>https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-20-04/
 https://www.cnblogs.com/chenxiaomeng/p/11412038.html
 https://www.cnblogs.com/ding2016/p/12988080.html
 service jenkins restart[start\stop]
