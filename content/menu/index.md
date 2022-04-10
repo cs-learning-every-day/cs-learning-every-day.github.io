@@ -15,6 +15,9 @@ headless: true
 - - [Operating System]({{< relref "/docs/CS/OperatingSystem" >}})
 <br />
 
+- - [Distributed System]({{< relref "/docs/CS/DistributedSystem" >}})
+<br />
+
 - - [Network]({{< relref "/docs/CS/Network" >}})
 <br />
 

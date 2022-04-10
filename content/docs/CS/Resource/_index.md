@@ -34,3 +34,4 @@ bookFlatSection: true
 - [职场对标](https://duibiao.info/)
 - [How-to-be-a-good-programmer](https://github.com/niudai/How-to-be-a-good-programmer)
 - [CS Notes](https://github.com/huangrt01/CS-Notes)
+- [公开课笔记](https://zhenghe.gitbook.io/open-courses/)

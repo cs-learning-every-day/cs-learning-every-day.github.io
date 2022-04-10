@@ -10,3 +10,5 @@ bookFlatSection: true
 - [C++11全套设计模式-23种指针的用法](https://github.com/jaredtao/DesignPattern)
 - [Design Patterns for Humans](https://roadmap.sh/guides/design-patterns-for-humans) [中文版](https://www.guanguans.cn/design-patterns-for-humans-cn/)
 - [grokking-system-design](https://cnwangzhou.gitbook.io/grokking-system-design/)
+- [凤凰架构](https://icyfenix.cn/)
+- [《重学Java设计模式》](https://github.com/fuzhengwei/itstack-demo-design)
