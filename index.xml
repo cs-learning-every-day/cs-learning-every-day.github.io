@@ -180,11 +180,14 @@ A collection of modern/faster/saner alternatives to common unix commands.</descr
 #
 RegexLearn
 Regex One
-Regex-Vis</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/vim/</guid><description>https://missing-semester-cn.github.io/2020/editors/
-https://vimawesome.com/
-Resources
+Regex-Vis</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/vim/</guid><description>Resources
 #
-Vim Cheat Sheet http://vimcdoc.sourceforge.net/doc/insert.html#insert.txt</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</guid><description>WSL相关
+Vim Cheat Sheet
+Vim Awesome
+Vim Golf
+Vim 笔记 Vim 速查表
+在VSCode中使用Vim的正确方式 Notes
+#</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/vscode/</guid><description>WSL相关
 #
 vscode server for wsl closed unexpectedly
 netsh winsock reset重置网络 或移除wsl中的~/.vscode-server</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/wsl/xlaunch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/wsl/xlaunch/</guid><description>Windows安装VcXsrc
