@@ -21,3 +21,4 @@ bookFlatSection: true
 - [GolangStudy: Golang 面试学习](https://github.com/cnymw/GolangStudy)
 - [Golang从入门到跑路](https://github.com/jiujuan/go-collection)
 - [golang面试题集合](https://github.com/lifei6671/interview-go)
+- [Multi-threading examples, including a boids simulation in Go Lang](https://github.com/cutajarj/multithreadingingo)
