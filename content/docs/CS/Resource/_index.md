@@ -35,3 +35,4 @@ bookFlatSection: true
 - [How-to-be-a-good-programmer](https://github.com/niudai/How-to-be-a-good-programmer)
 - [CS Notes](https://github.com/huangrt01/CS-Notes)
 - [公开课笔记](https://zhenghe.gitbook.io/open-courses/)
+- [开发内功修炼](https://github.com/yanfeizhang/coder-kung-fu)

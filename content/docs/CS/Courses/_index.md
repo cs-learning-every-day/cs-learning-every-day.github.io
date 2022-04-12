@@ -2,7 +2,7 @@
 
 > CS不仅靠天赋，更靠兴趣与努力！
 ## 目前正在学习的课程
-``CS61A CS61B CS61C CS106B CS106L uw-programming algs4``
+``CS61A CS61B CS61C CS106B CS106L uw-programming algs4 cs144 cmu15-445``
 
 
 ## Schedule
@@ -11,9 +11,7 @@
 
 > 5:00~6:00  Memorize English
 
-> 18:00~20:00 English
-
-> 20:00~22:00 Solve dues
+> 19:00~22:00 Solve dues
 
 > 22:00~22:30 Memorize English
 ## Thanks
