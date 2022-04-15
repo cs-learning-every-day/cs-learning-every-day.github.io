@@ -1,4 +1,4 @@
-'use strict';(function(){const searchDataURL='/en.search-data.min.5ca9274e8fb0294bca7b7648bc8f873f6f3b874d8d42e87c68aecaaa6a56cf95.json';const indexConfig=Object.assign({cache:true},{doc:{id:'id',field:['title','content'],store:['title','href','section']}});const input=document.querySelector('#book-search-input');const results=document.querySelector('#book-search-results');if(!input){return}
+'use strict';(function(){const searchDataURL='/en.search-data.min.3a870691164d3742ce5132819712d88d1d7323c4f190d82b96ba20a49384c618.json';const indexConfig=Object.assign({cache:true},{doc:{id:'id',field:['title','content'],store:['title','href','section']}});const input=document.querySelector('#book-search-input');const results=document.querySelector('#book-search-results');if(!input){return}
 input.addEventListener('focus',init);input.addEventListener('keyup',search);document.addEventListener('keypress',focusSearchFieldOnKeyPress);function focusSearchFieldOnKeyPress(event){if(input===document.activeElement){return;}
 const characterPressed=String.fromCharCode(event.charCode);if(!isHotkey(characterPressed)){return;}
 input.focus();event.preventDefault();}
