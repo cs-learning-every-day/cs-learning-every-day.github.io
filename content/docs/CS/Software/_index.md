@@ -12,3 +12,4 @@ bookFlatSection: true
 - [grokking-system-design](https://cnwangzhou.gitbook.io/grokking-system-design/)
 - [凤凰架构](https://icyfenix.cn/)
 - [《重学Java设计模式》](https://github.com/fuzhengwei/itstack-demo-design)
+- [Refactoring.Guru makes it easy for you to discover everything you need to know about refactoring, design patterns, SOLID principles, and other smart programming topics.](https://refactoring.guru/)

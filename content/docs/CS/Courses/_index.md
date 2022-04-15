@@ -1,6 +1,7 @@
 # 自学指南
 
 > CS不仅靠天赋，更靠兴趣与努力！
+
 ## 目前正在学习的课程
 ``CS61A CS61B CS61C CS106B CS106L uw-programming algs4 cs144 cmu15-445``
 

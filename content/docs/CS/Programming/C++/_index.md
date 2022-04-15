@@ -11,6 +11,7 @@ bookFlatSection: true
 - [《C++ 17 The Complete Guide》翻译](https://github.com/CnTransGroup/Cpp17TheCompleteGuideChinese)
 - [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
 - [Cppreference](https://en.cppreference.com/w/)
+- [30天自制C++服务器](https://github.com/yuesong-feng/30dayMakeCppServer)
 
 ### Tools
 - [modern-cmake-by-example](https://github.com/richardchien/modern-cmake-by-example)

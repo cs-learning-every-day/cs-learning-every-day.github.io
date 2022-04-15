@@ -17,8 +17,17 @@ bookFlatSection: true
 《Unix Network Programming Interprocess Communications 2th edition》
 《TCP/IP Illustrate Volume 1》
 《Linux system programming》
-《The Algorithm Design Manual 3rd Edition》
+
 《Computer Systems A Programmer’s Perspective 3rd ed》
+
+《The Algorithm Design Manual 3rd Edition》
+
+《Atomic Kotlin》
+- 2022/3/1 P38
+- 2022/3/2 P56
+- 2022/3/7 P86
+
+《On Java8》
 
 《Linux 系统编程》
 
@@ -195,13 +204,6 @@ bookFlatSection: true
 - 2022/2/22 Ch1 ~ Ch4
 - 2022/3/29 Ch5 ~ Ch6
 
-《Atomic Kotlin》
-- 2022/3/1 P38
-- 2022/3/2 P56
-- 2022/3/7 P86
-
-《On Java8》
-
 《Linux就该这么学》
 
 《UNIX网络编程 卷1：套接字联网API》
@@ -236,6 +238,10 @@ bookFlatSection: true
 - 2022/2/24 Ch15 ~ Ch19
 - 2022/4/11 Ch20
 
+《Building Git》
+- 2022/4/14 P1
+- 2022/4/15 P4
+
 《计算机科学概论》
 - 2022/4/1 Ch1
 
@@ -247,6 +253,7 @@ bookFlatSection: true
 - 2022/1/4 Ch4.5
 - 2022/3/18 P126
 - 2022/3/24 Ch5
+- 2022/4/13 P128
 
 《操作系统真象还原》
 - 2021/10/21 
