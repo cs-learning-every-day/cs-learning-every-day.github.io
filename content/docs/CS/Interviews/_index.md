@@ -12,6 +12,9 @@ bookFlatSection: true
 - [Awesome Resume](https://github.com/resumejob/awesome-resume)
 - [An elegant \LaTeX\ résumé template.](https://github.com/billryan/resume)
 
+### Go
+- [go 后端程序员宝典](https://github.com/shgopher/GOFamily)
+
 
 ### Java
 - [bugstack 虫洞栈](https://bugstack.cn/)
@@ -34,7 +37,7 @@ bookFlatSection: true
 - [汇总java生态圈常用技术框架、开源中间件，系统架构、数据库、大公司架构案例、常用三方类库、项目管理、线上问题排查、个人成长、思考等知识](https://github.com/aalansehaiyang/technology-talk)
 - [秒杀系统设计与实现.互联网工程师进阶与分析🙋🐓](https://github.com/qiurunze123/miaosha)
 - [framework-learning](https://github.com/guang19/framework-learning)
-- [Java Notes](https://github.com/DreamCats/java-notes)
+- [Java Notes](https://github.com/DreamCats/java-notes) [JavaNotes](https://github.com/niumoo/JavaNotes)
 - [Java 虚拟机底层原理知识总结](https://github.com/doocs/jvm)
 - [JAVA高级架构师技术栈](https://github.com/Byron4j/CookBook)
 
