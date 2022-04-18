@@ -22,6 +22,11 @@ bookFlatSection: true
 
 《The Algorithm Design Manual 3rd Edition》
 
+《Just Enough English Grammar Illustrated》
+
+《Java OOP Done Right》
+《ultimate go notebook》
+
 《Atomic Kotlin》
 - 2022/3/1 P38
 - 2022/3/2 P56
@@ -77,7 +82,7 @@ bookFlatSection: true
 
 《C++ Primer》
 - 2021/12/6 P57
-- 2022/1/3   Ch2.4
+- 2022/1/3  Ch2.4
 
 《深入理解Java虚拟机：JVM高级特性与最佳实践》
 - 2022/3/15 Ch1
@@ -254,6 +259,8 @@ bookFlatSection: true
 - 2022/3/24 Ch5
 - 2022/4/13 P128
 - 2022/4/16 Ch6 Ch7.2
+- 2022/4/17 Ch7、8、9
+- 2022/4/18 Ch10
 
 《操作系统真象还原》
 - 2021/10/21 

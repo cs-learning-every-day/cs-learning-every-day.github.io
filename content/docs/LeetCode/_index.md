@@ -95,9 +95,11 @@ bookFlatSection: true
 
 ### Sorts
 * ``Quick Select``
-  - [215. Kth Largest Element in an Array]({{< relref "/docs/LeetCode/Sorts/215.md">}})
+  - [215. 数组中的第K个最大元素]({{< relref "/docs/LeetCode/Sorts/215.md">}})(M)
 * ``Index Sort``
   - [41. 缺失的第一个正数]({{< relref "/docs/LeetCode/Sorts/41.md">}})(H)
+* ``Merge Sort``
+  - [148. 排序链表]({{< relref "/docs/LeetCode/Sorts/148.md">}})(M)
 
 ### LinkedList
 - [2. 两数相加]({{< relref "/docs/LeetCode/LinkedList/2.md">}})(M)
