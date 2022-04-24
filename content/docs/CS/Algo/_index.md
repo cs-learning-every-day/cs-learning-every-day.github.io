@@ -18,6 +18,7 @@ bookFlatSection: true
 - [MEGA](https://mega.nz/fm/okgUXbia)
 - [Elementary Algorithms](https://github.com/liuxinyu95/AlgoXY)
 - [Golang 算法竞赛模板库](https://github.com/EndlessCheng/codeforces-go)
+- [algo-template-cpp](https://github.com/aguang-xyz/algo-template-cpp)
 
 #### Tools
 - [VisuAlgo.net](https://visualgo.net/en)

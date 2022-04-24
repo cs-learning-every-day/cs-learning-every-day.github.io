@@ -9,3 +9,4 @@ bookFlatSection: true
 - [OSDev.org](https://wiki.osdev.org/Main_Page)
 - [Dive into Systems](https://diveintosystems.org/book/index.html)
 - [A Simple 32-bit OS lab tutorial.](https://github.com/YatSenOS/YatSenOS-Tutorial-Volume-1)
+- [A VM That is Dynamic and Fast](https://github.com/FastVM/minivm)

@@ -65,3 +65,7 @@
 
 ## 系统安全
 - [ ] UCB CS161: Computer Security
+
+
+## Udemy Course
+- [ ] Mastering Multithreading Programming with Go (Golang) [Code](https://github.com/cutajarj/multithreadingingo) [Video](https://www.bilibili.com/video/BV1kq4y1a729?p=3)

@@ -22,7 +22,9 @@ title: 关于我的2022的一些记录
 | [沧海月明](https://www.inlighting.org/) | 2022.04.08 |  | 学习 |
 | [TXY](https://tanxinyu.work/)  | 2022.04.08 |  | 学习 |
 | [111qqz](https://111qqz.com/) | 2022.04.09 |  |  |
-| [叉鸽](https://mrcroxx.github.io/) | 2022.04.018 |  | 数据库 |
+| [叉鸽](https://mrcroxx.github.io/) | 2022.04.18 |  | 数据库 |
+| [Ruslan's Blog](https://ruslanspivak.com/) | 2022.04.24 |  | Let's Build XXX |
+| [More Than Code](heavensheep) | 2022.04.24 |  | 很多公开课笔记 |
 
 ## 收藏的文章
 | 文章名称 | 添加日期 | type | 备注 |

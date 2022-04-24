@@ -110,6 +110,7 @@ bookFlatSection: true
 - [25. K 个一组翻转链表]({{< relref "/docs/LeetCode/LinkedList/25.md">}})(H)
 - [61. 旋转链表]({{< relref "/docs/LeetCode/LinkedList/61.md">}})(H)
 - [83. 删除排序链表中的重复元素]({{< relref "/docs/LeetCode/LinkedList/83.md">}})(E)
+- [86. 分隔链表]({{< relref "/docs/LeetCode/LinkedList/86.md">}})(M)
 
 ### Stack
 - [20. 有效的括号]({{< relref "/docs/LeetCode/Stack/20.md">}})(E)

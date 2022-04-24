@@ -4,4 +4,5 @@
 - [A book about Rust Data Structures and Algorithms.](https://github.com/QMHTMY/RustBook)
 - [Rust语言圣经](https://github.com/sunface/rust-course)
 - https://crates.io/
+- [Learning Rust By Practice](https://github.com/sunface/rust-by-practice)
 

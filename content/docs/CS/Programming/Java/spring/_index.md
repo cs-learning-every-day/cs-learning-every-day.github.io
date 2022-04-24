@@ -4,3 +4,4 @@ bookFlatSection: true
 
 - [Spring Boot REST API authentication best practices using JWT (2022)](https://iamprafful.medium.com/spring-boot-rest-api-authentication-best-practices-using-jwt-2022-fd3d7ab61d3)
 - [spring-security-jwt-guide](https://github.com/Snailclimb/spring-security-jwt-guide)
+- [Mini Spring](https://github.com/DerekYRC/mini-spring/blob/main/README_CN.md)

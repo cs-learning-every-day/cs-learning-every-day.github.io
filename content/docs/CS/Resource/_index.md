@@ -36,3 +36,4 @@ bookFlatSection: true
 - [CS Notes](https://github.com/huangrt01/CS-Notes)
 - [公开课笔记](https://zhenghe.gitbook.io/open-courses/)
 - [开发内功修炼](https://github.com/yanfeizhang/coder-kung-fu)
+- [100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.](https://github.com/GorvGoyl/Clone-Wars)
