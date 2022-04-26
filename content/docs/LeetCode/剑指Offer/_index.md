@@ -8,6 +8,7 @@ bookFlatSection: true
 - [剑指 Offer 05. 替换空格]({{< relref "/docs/LeetCode/剑指Offer/code/05.md">}})(E)
 - [剑指 Offer 06. 从尾到头打印链表]({{< relref "/docs/LeetCode/剑指Offer/code/06.md">}})(E)
 - [剑指 Offer 09. 用两个栈实现队列]({{< relref "/docs/LeetCode/剑指Offer/code/09.md">}})(E)
+- [剑指 Offer 11. 旋转数组的最小数字]({{< relref "/docs/LeetCode/剑指Offer/code/11.md">}})(E)
 - [剑指 Offer 12. 矩阵中的路径]({{< relref "/docs/LeetCode/剑指Offer/code/12.md">}})(M)
 - [剑指 Offer 13. 机器人的运动范围]({{< relref "/docs/LeetCode/剑指Offer/code/13.md">}})(M)
 - [剑指 Offer 15. 二进制中1的个数]({{< relref "/docs/LeetCode/剑指Offer/code/15.md">}})(E)

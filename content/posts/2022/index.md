@@ -35,3 +35,5 @@ title: 关于我的2022的一些记录
 | [校招面试不完全指南](https://www.zackwu.com/posts/2020-10-05-an-incomplete-guide-to-campus-recruitment-interviews/) | 2022.04.02 |  |  |
 | [左耳朵耗子：技术人如何更好地把控发展趋势？](https://mp.weixin.qq.com/s/Cedl9lIk2mAd9b_NUCnj_g) | 2022.03.02 |  |  |
 | [Debugging Under Unix: gdb Tutorial](https://www.cs.cmu.edu/~gilpin/tutorial/) | 2022.04.08 |  |  |
+| [GitHub OAuth 第三方登录示例教程](https://www.ruanyifeng.com/blog/2019/04/github-oauth.html)  | 2022.04.24 |  |  |
+| [Spring, Spring Boot Annotations Cheat sheet](https://medium.com/@sureshkumar_95502/spring-spring-boot-annotations-cheat-sheet-de546e0b03d4)  | 2022.04.24 |  |  |
