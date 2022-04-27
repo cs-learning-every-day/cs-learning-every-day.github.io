@@ -13,6 +13,7 @@ bookFlatSection: true
 ](https://github.com/ufoym/cpp-core-guidelines-cheatsheet)
 - [Cppreference](https://en.cppreference.com/w/)
 - [30天自制C++服务器](https://github.com/yuesong-feng/30dayMakeCppServer)
+- [C++ Concurrency in Action 2ed 笔记：C++11/14/17/20 多线程，掌握操作系统原理，解锁并发编程技术](https://github.com/downdemo/Cpp-Concurrency-in-Action-2ed)
 
 
 ### Tools

@@ -13,6 +13,7 @@ bookFlatSection: true
 - [百度网盘批量转存工具](https://github.com/hxz393/BaiduPanFilesTransfers)
 - [复制即翻译的外文辅助阅读翻译解决方案](https://copytranslator.gitee.io/)
 - [中国法律快查手册](https://lawrefbook.github.io/)
+- [高颜值的第三方网易云播放器，支持 Windows / macOS / Linux :electron:](https://github.com/qier222/YesPlayMusic)
 
 #### 开发
 - [Cronitor](https://crontab.guru/)

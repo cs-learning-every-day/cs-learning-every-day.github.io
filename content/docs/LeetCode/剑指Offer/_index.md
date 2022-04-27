@@ -18,6 +18,8 @@ bookFlatSection: true
 - [剑指 Offer 24. 反转链表]({{< relref "/docs/LeetCode/剑指Offer/code/24.md">}})(E)
 - [剑指 Offer 25. 合并两个排序的链表]({{< relref "/docs/LeetCode/剑指Offer/code/25.md">}})(M)
 - [剑指 Offer 26. 树的子结构]({{< relref "/docs/LeetCode/剑指Offer/code/26.md">}})(M)
+- [剑指 Offer 27. 二叉树的镜像]({{< relref "/docs/LeetCode/剑指Offer/code/27.md">}})(E)
+- [剑指 Offer 28. 对称的二叉树]({{< relref "/docs/LeetCode/剑指Offer/code/28.md">}})(E)
 - [剑指 Offer 30. 包含min函数的栈]({{< relref "/docs/LeetCode/剑指Offer/code/30.md">}})(E)
 - [剑指 Offer 32 - I. 从上到下打印二叉树]({{< relref "/docs/LeetCode/剑指Offer/code/32_1.md">}})(M)
 - [剑指 Offer 32 - II. 从上到下打印二叉树 II]({{< relref "/docs/LeetCode/剑指Offer/code/32_2.md">}})(E)

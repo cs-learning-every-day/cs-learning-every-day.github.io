@@ -19,6 +19,7 @@ bookFlatSection: true
 - [Elementary Algorithms](https://github.com/liuxinyu95/AlgoXY)
 - [Golang 算法竞赛模板库](https://github.com/EndlessCheng/codeforces-go)
 - [algo-template-cpp](https://github.com/aguang-xyz/algo-template-cpp)
+- [C++ Containers library](https://en.cppreference.com/w/cpp/container)
 
 #### Tools
 - [VisuAlgo.net](https://visualgo.net/en)
