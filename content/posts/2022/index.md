@@ -6,6 +6,8 @@ title: 关于我的2022的一些记录
 | 播客名称 | 添加日期 | type | 备注 |
 | ------- | ------- | ---- | ---- |
 | [Happy Path Programming](https://anchor.fm/happypathprogramming) | 2022.02.19 |  |  |
+
+
 ## 收藏的博客
 | 博客名称 | 添加日期 | type | 备注 |
 | ------- | ------- | ---- | ---- |
@@ -37,3 +39,5 @@ title: 关于我的2022的一些记录
 | [Debugging Under Unix: gdb Tutorial](https://www.cs.cmu.edu/~gilpin/tutorial/) | 2022.04.08 |  |  |
 | [GitHub OAuth 第三方登录示例教程](https://www.ruanyifeng.com/blog/2019/04/github-oauth.html)  | 2022.04.24 |  |  |
 | [Spring, Spring Boot Annotations Cheat sheet](https://medium.com/@sureshkumar_95502/spring-spring-boot-annotations-cheat-sheet-de546e0b03d4)  | 2022.04.24 |  |  |
+| [程序员必会的六条黄金 Git 命令，让你效率提高百分之百](https://vikingz.me/pro-git/) | 2022.04.30 |  |  |
+| [Tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html) | 2022.05.01 |  |  |

@@ -19,13 +19,22 @@ bookFlatSection: true
 《Linux system programming》
 
 《Computer Systems A Programmer’s Perspective 3rd ed》
-
+《Crafting Interpreters》
 《The Algorithm Design Manual 3rd Edition》
 
 《Just Enough English Grammar Illustrated》
 
 《Java OOP Done Right》
 《ultimate go notebook》
+《编程之美》
+《领域驱动设计：软件核心复杂性应对之道》
+《Linux就该这么学》
+《你真的会写代码吗》
+《TCP/IP网络编程》
+《计算机网络 自顶向下方法》
+《重构-改善既有代码的设计》
+《Java高并发编程详解：多线程与架构设计》
+《Java高并发编程详解：深入理解并发核心库》
 
 《Atomic Kotlin》
 - 2022/3/1 P38
@@ -33,10 +42,8 @@ bookFlatSection: true
 - 2022/3/7 P86
 
 《On Java8》
-
 《Linux 系统编程》
-
-《程序员的自我修养—链接、装载与库.pdf by 程序员的自我修养—链接、装载与库》
+《程序员的自我修养—链接、装载与库》
 
 《Vim实用技巧》
 - 2022/3/23 P48
@@ -44,11 +51,8 @@ bookFlatSection: true
 《Linux C编程一站式学习》
 - 2022/4/8
 
-
 《Java程序员修炼之道》
 - 2022/3/23 P77
-
-《你真的会写代码吗》
 
 《计算的本质：深入剖析程序和计算机》
 - 2022/1/26 Ch1
@@ -66,8 +70,6 @@ bookFlatSection: true
 《图解TCP/IP》
 - 2022/1/15
 
-《TCP/IP网络编程》
-
 《Java并发编程实战》
 - 2022/4/16 Ch1
 
@@ -79,8 +81,6 @@ bookFlatSection: true
 《Java编程思想》
 - 2022/3/31 Ch15
 
-《计算机网络 自顶向下方法》
-
 《C++ Primer》
 - 2021/12/6 P57
 - 2022/1/3  Ch2.4
@@ -88,8 +88,6 @@ bookFlatSection: true
 《深入理解Java虚拟机：JVM高级特性与最佳实践》
 - 2022/3/15 Ch1
 - 2022/3/29 P86
-
-《重构-改善既有代码的设计》
 
 《MySQL是怎样运行的：从根儿上理解MySQL》
 - 2022/3/19 Ch0
@@ -115,13 +113,6 @@ bookFlatSection: true
 《设计模式：可复用面向对象软件的基础》
 - 2021/10/14 
 - 2021/11/4 CH1
-
-《Netty实战》
-- 2022/3/9 Ch1 ~ Ch3
-- 2022/4/7 Ch5.3.2
-
-《Java高并发编程详解：多线程与架构设计》
-《Java高并发编程详解：深入理解并发核心库》
 
 《深度思考不断逼近问题的本质》
 - 2021/10/10
@@ -184,35 +175,12 @@ bookFlatSection: true
 - 2022/3/4 P47
 - 2022/3/8 Ch3
 
-
-《Java程序员修炼之道》
-《编程之美》
-
-《gRPC与云原生应用开发：以Go和Java为例》
-- 2022/3/4 P54
-- 2022/3/5 P73
-- 2022/3/6 Finish
-
-《领域驱动设计：软件核心复杂性应对之道》
-
-《测试驱动开发》
-- 2022/3/2 Ch1 ~ Ch8
-- 2022/3/3 Ch9 ~ Ch19
-- 2022/3/4 Finish
-
-《图解HTTP》
-- 2022/2/26 Ch1 ~ Ch6
-- 2022/2/27 Ch7 ~ Ch8
-- 2022/2/28 Finish
-
 《网络基本功系列》
 - 2022/2/23 Ch1 ~ Ch3
 
 《软件设计的哲学》
 - 2022/2/22 Ch1 ~ Ch4
 - 2022/3/29 Ch5 ~ Ch6
-
-《Linux就该这么学》
 
 《UNIX网络编程 卷1：套接字联网API》
 - 2021/12/8 P17
@@ -267,6 +235,10 @@ bookFlatSection: true
 - 2022/4/19 Ch10.5.1
 - 2022/4/20 Ch10
 
+《计算机程序的构造和解释》
+- 2022/2/13 3.5
+
+
 《操作系统真象还原》
 - 2021/10/21 
 - 2021/10/29 Ch0
@@ -304,12 +276,30 @@ bookFlatSection: true
 《现代C++白皮书》
 - 2021/12/30 P60
 
-《计算机程序的构造和解释》
-- 2022/2/13 3.5
-
 《Redis设计与实现》
 - 2021/10/13 CH7
 - 2021/10/25 CH8、CH9
+
+《Netty实战》
+- 2022/3/9 Ch1 ~ Ch3
+- 2022/4/7 Ch5.3.2
+- 2022/4/30 Ch8
+- 2022/5/1 Ch11
+
+《gRPC与云原生应用开发：以Go和Java为例》
+- 2022/3/4 P54
+- 2022/3/5 P73
+- 2022/3/6 Finish
+
+《测试驱动开发》
+- 2022/3/2 Ch1 ~ Ch8
+- 2022/3/3 Ch9 ~ Ch19
+- 2022/3/4 Finish
+
+《图解HTTP》
+- 2022/2/26 Ch1 ~ Ch6
+- 2022/2/27 Ch7 ~ Ch8
+- 2022/2/28 Finish
 
 《Wireshark数据包分析实战》
 - 2021/12/4 Ch1

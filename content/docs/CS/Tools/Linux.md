@@ -17,3 +17,4 @@
 ### Tools
 - [command-not-found.com](https://command-not-found.com/)
 - [A collection of modern/faster/saner alternatives to common unix commands.](https://github.com/ibraheemdev/modern-unix)
+- [Tmux Cheat Sheet & Quick Reference](https://tmuxcheatsheet.com/)

@@ -2,28 +2,13 @@
 
 > CS不仅靠天赋，更靠兴趣与努力！
 
-## 目前正在学习的课程
-``CS61A CS61B CS61C CS106B CS106L uw-programming algs4 cs144 cmu15-445``
-
-
-## Schedule
-
-**This week's schedule**
-
-> 5:00~6:00  Memorize English
-
-> 19:00~22:00 Solve dues
-
-> 22:00~22:30 Memorize English
-
 ## 工具
 - [ ] MIT 6.Null The Missing Semester of Your CS Education
-
 
 ## 编程入门
 - [x] CSE 251 Programming in C
 - [ ] Programming Languages UW 
-  - [ ] Part A
+  - [x] Part A
   - [ ] Part B
   - [ ] Part C
 - [ ] Standford CS106L C++ Programming

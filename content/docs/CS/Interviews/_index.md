@@ -41,6 +41,7 @@ bookFlatSection: true
 - [Java 虚拟机底层原理知识总结](https://github.com/doocs/jvm)
 - [JAVA高级架构师技术栈](https://github.com/Byron4j/CookBook)
 - [JavaInterview](https://github.com/hello-java-maker/JavaInterview)
+- [Java知识总结:MySQL实战45讲,多线程和JVM知识总结，，SpringBoot，SpringCloud，Storm系列，微信小程序开发，ELK,《JAVA核心技术36讲笔记》，《深入理解JVM虚拟机笔记》,《高性能MySQL笔记》，《数据结构与算法》等等](https://github.com/qinxuewu/docs/tree/master)
 
 
 ### C++
