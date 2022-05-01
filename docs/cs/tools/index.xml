@@ -33,7 +33,8 @@ docker create &amp;lt;image_name&amp;gt; docker run &amp;lt;image_name&amp;gt; d
 docker run &amp;ndash;name mysqlsvr -p 12345:3306 -e MYSQL_ROOT_PASSWORD=sfy1314 -d mysql</description></item><item><title/><link>https://cs-learning-every-day.github.io/docs/cs/tools/gdb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cs-learning-every-day.github.io/docs/cs/tools/gdb/</guid><description>Resources
 #
 用GDB调试程序
-100-gdb-tips GCC
+100-gdb-tips
+gdb-dashboard GCC
 #
 -E 获取预处理后的文件内容
 -V 将编译、链接过程打印
