@@ -32,6 +32,7 @@ bookFlatSection: true
 - [剑指 Offer 47. 礼物的最大价值]({{< relref "/docs/LeetCode/剑指Offer/code/47.md">}})(M)
 - [剑指 Offer 48. 最长不含重复字符的子字符串]({{< relref "/docs/LeetCode/剑指Offer/code/48.md">}})(M)
 - [剑指 Offer 50. 第一个只出现一次的字符]({{< relref "/docs/LeetCode/剑指Offer/code/50.md">}})(E)
+- [剑指 Offer 52. 两个链表的第一个公共节点]({{< relref "/docs/LeetCode/剑指Offer/code/52.md">}})(E)
 - [剑指 Offer 53 - I. 在排序数组中查找数字 I]({{< relref "/docs/LeetCode/剑指Offer/code/53.md">}})(E)
 - [剑指 Offer 54. 二叉搜索树的第k大节点]({{< relref "/docs/LeetCode/剑指Offer/code/54.md">}})(M)
 - [剑指 Offer 55 - I. 二叉树的深度]({{< relref "/docs/LeetCode/剑指Offer/code/55_1.md">}})(E)
