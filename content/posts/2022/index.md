@@ -27,6 +27,7 @@ title: 关于我的2022的一些记录
 | [叉鸽](https://mrcroxx.github.io/) | 2022.04.18 |  | 数据库 |
 | [Ruslan's Blog](https://ruslanspivak.com/) | 2022.04.24 |  | Let's Build XXX |
 | [More Than Code](heavensheep) | 2022.04.24 |  | 很多公开课笔记 |
+| [马大伟](https://www.bmpi.dev/) | 2022.05.04 |  | 有很多有用的方法论 |
 
 ## 收藏的文章
 | 文章名称 | 添加日期 | type | 备注 |
@@ -41,3 +42,4 @@ title: 关于我的2022的一些记录
 | [Spring, Spring Boot Annotations Cheat sheet](https://medium.com/@sureshkumar_95502/spring-spring-boot-annotations-cheat-sheet-de546e0b03d4)  | 2022.04.24 |  |  |
 | [程序员必会的六条黄金 Git 命令，让你效率提高百分之百](https://vikingz.me/pro-git/) | 2022.04.30 |  |  |
 | [Tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html) | 2022.05.01 |  |  |
+| [如何学习一门技术](https://www.bmpi.dev/dev/how-to-learn-tech/) | 2022.05.04 |  |  |

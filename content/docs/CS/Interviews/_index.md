@@ -62,6 +62,8 @@ bookFlatSection: true
 - [《后端架构师技术图谱》](https://github.com/xingshaocheng/architect-awesome)
 - [大厂面试指北](http://notfound9.github.io/interviewGuide/)
 - [阿秀的求职笔记](https://interviewguide.cn/#%2F=)
+- [图解计算机网络、操作系统、计算机组成、数据库，共 1000 张图 + 50 万字，破除晦涩难懂的计算机基础知识，让天下没有难懂的八股文！🚀 在线阅读：https://xiaolincoding.com](https://github.com/xiaolincoder/CS-Base)
+- [程序员的自我修养](https://www.kancloud.cn/kancloud/a-programmer-prepares/78160)
 
 ### 算法
 - [hello-algorithm](https://github.com/geekxh/hello-algorithm)

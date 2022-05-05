@@ -9,6 +9,7 @@ bookFlatSection: true
 - http://skesl.com/
 - https://www.speechace.com/ 口语
 - https://www.vocabulary.com/play/ 单词
+- https://www.dictionary.com/
 - [The New York Times](https://www.nytimes.com/) 新闻
 - [ScienceDaily](https://www.sciencedaily.com/news/) 新闻
 - https://english-e-reader.net/ 免费分级书籍

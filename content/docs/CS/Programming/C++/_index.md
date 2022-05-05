@@ -14,10 +14,16 @@ bookFlatSection: true
 - [Cppreference](https://en.cppreference.com/w/)
 - [30天自制C++服务器](https://github.com/yuesong-feng/30dayMakeCppServer)
 - [C++ Concurrency in Action 2ed 笔记：C++11/14/17/20 多线程，掌握操作系统原理，解锁并发编程技术](https://github.com/downdemo/Cpp-Concurrency-in-Action-2ed)
+- [Learn Cpp](https://www.learncpp.com/)
+- [C++ Primer 5 answers](https://github.com/Mooophy/Cpp-Primer)
+- [Cplus Cplus](https://cplusplus.com/)
+- [服务器编程新手入门](https://liuhaohua.com/server-programming-guide/)
+- [Efficient Programming with Components](https://justinmeiners.github.io/efficient-programming-with-components/index.html)
 
 
 ### Tools
 - [modern-cmake-by-example](https://github.com/richardchien/modern-cmake-by-example)
+- [Useful CMake Examples](https://github.com/ttroy50/cmake-examples)
 
 
 ### Projects

@@ -10,3 +10,5 @@ bookFlatSection: true
 - [Dive into Systems](https://diveintosystems.org/book/index.html)
 - [A Simple 32-bit OS lab tutorial.](https://github.com/YatSenOS/YatSenOS-Tutorial-Volume-1)
 - [A VM That is Dynamic and Fast](https://github.com/FastVM/minivm)
+- [自己动手写编译器](https://pandolia.net/tinyc/index.html)
+- [南京大学 操作系统：设计与实现 (2022 春季学期)](http://jyywiki.cn/OS/2022/)

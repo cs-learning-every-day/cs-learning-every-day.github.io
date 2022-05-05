@@ -23,9 +23,10 @@ bookFlatSection: true
 《The Algorithm Design Manual 3rd Edition》
 
 《Just Enough English Grammar Illustrated》
-
+- TODO 1.5
 《Java OOP Done Right》
 《ultimate go notebook》
+- TODO 1.4
 《编程之美》
 《领域驱动设计：软件核心复杂性应对之道》
 《Linux就该这么学》

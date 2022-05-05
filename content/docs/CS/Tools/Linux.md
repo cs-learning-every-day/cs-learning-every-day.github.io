@@ -2,7 +2,6 @@
 ### Resources
 - [Awesome cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)
 - [跟我一起写Makefile](https://seisman.github.io/how-to-write-makefile/index.html)
-- [modern-cmake-by-example](https://github.com/richardchien/modern-cmake-by-example)
 - [The Linux Command Handbook](https://thevaluable.dev/)
 - [Dev on Windows with WSL](https://dowww.spencerwoo.com/)
 - [Linux 内核揭秘](https://xinqiu.gitbooks.io/linux-insides-cn/content/index.html)

@@ -17,7 +17,6 @@ bookFlatSection: true
 - [《algorithm-note》中文版](https://github.com/Dairongpeng/algorithm-note)
 - [MEGA](https://mega.nz/fm/okgUXbia)
 - [Elementary Algorithms](https://github.com/liuxinyu95/AlgoXY)
-- [Golang 算法竞赛模板库](https://github.com/EndlessCheng/codeforces-go)
 - [algo-template-cpp](https://github.com/aguang-xyz/algo-template-cpp)
 - [Golang 算法竞赛模板库 | Solutions to Codeforces by Go 💭💡🎈](https://github.com/EndlessCheng/codeforces-go)
 - [C++ Containers library](https://en.cppreference.com/w/cpp/container)
