@@ -14,8 +14,13 @@ bookFlatSection: true
 - [复制即翻译的外文辅助阅读翻译解决方案](https://copytranslator.gitee.io/)
 - [中国法律快查手册](https://lawrefbook.github.io/)
 - [高颜值的第三方网易云播放器，支持 Windows / macOS / Linux :electron:](https://github.com/qier222/YesPlayMusic)
+- [全历史](https://www.allhistory.com/)
+- Udemy课程下载 https://tutflix.org/ https://tutsnode.net/
+- [free4.chat 是一个匿名语音群聊服务](https://free4.chat/)
 
 #### 开发
 - [Cronitor](https://crontab.guru/)
+
+
 #### 影视
 - https://www.btnull.org/mv/

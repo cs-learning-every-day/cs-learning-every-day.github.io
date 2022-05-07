@@ -43,6 +43,8 @@ bookFlatSection: true
 - [JavaInterview](https://github.com/hello-java-maker/JavaInterview)
 - [Java知识总结:MySQL实战45讲,多线程和JVM知识总结，，SpringBoot，SpringCloud，Storm系列，微信小程序开发，ELK,《JAVA核心技术36讲笔记》，《深入理解JVM虚拟机笔记》,《高性能MySQL笔记》，《数据结构与算法》等等](https://github.com/qinxuewu/docs/tree/master)
 - [📙 致力打造完善的 Java 后端知识体系.](https://github.com/veal98/cs-wiki)
+- [Java生态研究(Spring Boot + Redis + Dubbo + RocketMQ + Elasticsearch)🔥🔥🔥🔥🔥](https://github.com/javahongxi/whatsmars)
+- [《进击的java菜鸟》](https://github.com/FHfirehuo/Attacking-Java-Rookie)
 
 
 ### C++

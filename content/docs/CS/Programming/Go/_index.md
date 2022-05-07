@@ -22,3 +22,5 @@ bookFlatSection: true
 - [Golang从入门到跑路](https://github.com/jiujuan/go-collection)
 - [golang面试题集合](https://github.com/lifei6671/interview-go)
 - [Multi-threading examples, including a boids simulation in Go Lang](https://github.com/cutajarj/multithreadingingo)
+- [📚 µGo语言实现(从头开发一个迷你Go语言编译器)[Go版本+Rust版本]](https://github.com/wa-lang/ugo-compiler-book)
+- [https://github.com/xxjwxc/uber_go_guide_cn](Uber Go 语言编码规范中文版. The Uber Go Style Guide .)
