@@ -56,7 +56,8 @@ bookFlatSection: true
 ### Others
 - [互联网公司常用框架源码赏析](https://doocs.github.io/source-code-hunter/#/)
 - [Tech Interview Handbook](https://techinterviewhandbook.org/)
-- [CS-Notes](https://github.com/CyC2018/CS-Notes)
+- [📚 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计](https://github.com/CyC2018/CS-Notes) 好用的八股文
+- [CS Notes](https://github.com/huangrt01/CS-Notes)
 - [Everything you need to know to get the job.](https://github.com/kdn251/interviews)
 - [🔎 互联网内推信息（社招、校招、实习）](https://github.com/CyC2018/Job-Recommend)
 - [技术面试最后反问面试官的话](https://github.com/yifeikong/reverse-interview-zh)
@@ -66,6 +67,9 @@ bookFlatSection: true
 - [阿秀的求职笔记](https://interviewguide.cn/#%2F=)
 - [图解计算机网络、操作系统、计算机组成、数据库，共 1000 张图 + 50 万字，破除晦涩难懂的计算机基础知识，让天下没有难懂的八股文！🚀 在线阅读：https://xiaolincoding.com](https://github.com/xiaolincoder/CS-Base)
 - [程序员的自我修养](https://www.kancloud.cn/kancloud/a-programmer-prepares/78160)
+- [开发内功修炼](https://github.com/yanfeizhang/coder-kung-fu)
+- [📃 论文阅读笔记（分布式系统、虚拟化、机器学习](https://github.com/dyweb/papers-notebook)
+- [💻📖对开发人员有用的定律、理论、原则和模式](https://github.com/nusr/hacker-laws-zh)
 
 ### 算法
 - [hello-algorithm](https://github.com/geekxh/hello-algorithm)

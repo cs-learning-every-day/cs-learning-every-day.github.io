@@ -24,3 +24,8 @@ bookFlatSection: true
 
 #### 影视
 - https://www.btnull.org/mv/
+
+
+#### 社区
+- [电鸭](https://eleduck.com/)
+- [V2ex](https://www.v2ex.com/)
