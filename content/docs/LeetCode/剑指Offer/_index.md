@@ -29,6 +29,7 @@ bookFlatSection: true
 - [剑指 Offer 34. 二叉树中和为某一值的路径]({{< relref "/docs/LeetCode/剑指Offer/code/34.md">}})(M)
 - [剑指 Offer 35. 复杂链表的复制]({{< relref "/docs/LeetCode/剑指Offer/code/35.md">}})(M)
 - [剑指 Offer 36. 二叉搜索树与双向链表]({{< relref "/docs/LeetCode/剑指Offer/code/36.md">}})(M)
+- [剑指 Offer 40. 最小的k个数]({{< relref "/docs/LeetCode/剑指Offer/code/40.md">}})(E)
 - [剑指 Offer 42. 连续子数组的最大和]({{< relref "/docs/LeetCode/剑指Offer/code/42.md">}})(E)
 - [剑指 Offer 45. 把数组排成最小的数]({{< relref "/docs/LeetCode/剑指Offer/code/45.md">}})(M)
 - [剑指 Offer 46. 把数字翻译成字符串]({{< relref "/docs/LeetCode/剑指Offer/code/46.md">}})(M)

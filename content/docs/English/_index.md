@@ -17,7 +17,7 @@ bookFlatSection: true
 - [OGDEN's BASIC ENGLISH](http://ogden.basic-english.org/)
 - [Longman Dictionary](https://www.ldoceonline.com/)
 - [聚合工具](https://www.up-6.com/)
-- https://www.languagereactor.com/ 视频
+- https://www.languagereactor.com/ 视频字幕学习插件
 - [How to learn English](https://www.antimoon.com/how/howtolearn.htm)
 - [Learn English 🇬🇧🇺🇸](https://www.englishclub.com/learn-english.htm)
 - [人人都能用英语](https://lixiaolai.com/#%2Feveryone-can-use-english%2F=)
@@ -26,3 +26,4 @@ bookFlatSection: true
 - [News in Levels](https://www.newsinlevels.com/)
 - [Learn English speaking FREE with TalkEnglish.com](https://www.talkenglish.com/)
 - [Lyricstraining](https://lyricstraining.com/)
+- https://preply.com/en/learn/english/test-your-vocab
