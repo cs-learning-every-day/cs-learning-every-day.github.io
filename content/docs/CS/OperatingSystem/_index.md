@@ -12,3 +12,4 @@ bookFlatSection: true
 - [A VM That is Dynamic and Fast](https://github.com/FastVM/minivm)
 - [自己动手写编译器](https://pandolia.net/tinyc/index.html)
 - [南京大学 操作系统：设计与实现 (2022 春季学期)](http://jyywiki.cn/OS/2022/)
+- [一生一芯官方文档](https://ysyx.oscc.cc/docs/)
