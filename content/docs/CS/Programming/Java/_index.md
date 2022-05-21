@@ -21,3 +21,7 @@ bookFlatSection: true
 
 ### Library
 - [Eclipse Collections](https://www.eclipse.org/collections/#start)
+
+
+### Idea
+- [关于Win10 Jetbains全家桶2020.2.2以后版本启动报错Address already in use: bind的解决办法](https://blog.csdn.net/u013771353/article/details/108977186)
