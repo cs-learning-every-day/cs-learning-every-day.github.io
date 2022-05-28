@@ -49,3 +49,6 @@ headless: true
 
 - [**Resource**]({{< relref "/docs/CS/Resource" >}})
 <br />
+
+- [**Game**]({{< relref "/docs/Game" >}})
+<br />

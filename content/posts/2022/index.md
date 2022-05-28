@@ -46,3 +46,4 @@ title: 关于我的2022的一些记录
 | [程序员必会的六条黄金 Git 命令，让你效率提高百分之百](https://vikingz.me/pro-git/) | 2022.04.30 |  |  |
 | [Tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html) | 2022.05.01 |  |  |
 | [如何学习一门技术](https://www.bmpi.dev/dev/how-to-learn-tech/) | 2022.05.04 |  |  |
+| [A Simple Guide to String Formatting in Python Using f-strings](https://towardsdatascience.com/a-simple-guide-to-string-formatting-in-python-using-f-strings-39e5c39589c3) | 2022.05.27 | python | Data Science |

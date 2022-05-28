@@ -13,3 +13,4 @@ bookFlatSection: true
 - [Scala]({{< relref "/docs/CS/Programming/Scala">}})
 - [Kotlin]({{< relref "/docs/CS/Programming/Kotlin">}})
 - [Web]({{< relref "/docs/CS/Programming/Web">}})
+- [Lisp]({{< relref "/docs/CS/Programming/Lisp">}})

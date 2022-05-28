@@ -7,6 +7,7 @@ bookFlatSection: true
 - [This repository contains the solutions and explanations to the algorithm problems on LeetCode.](https://github.com/wisdompeak/LeetCode)
 - [Play Leetcode](https://github.com/liuyubobobo/Play-Leetcode)
 - [Leetcode面试高频题分类刷题总结](https://zhuanlan.zhihu.com/p/349940945)
+- [LeetCode 101：和你一起你轻松刷题（C++）](https://github.com/changgyhub/leetcode_101/)
 
 
 > 高频：宽度优先搜索（BFS），深度优先搜索（DFS），二分法（Binary Search），双指针（2 Pointer），堆、栈、队列、哈希表（Heap，Stack，Queue，HashMap/HashSet），前缀和（Prefix Sum），链表（LinkedList），二叉树（Binary Tree），二叉搜索树（Binary Search Tree），快速排序与归并排序（Quick Sort/ Merge Sort）
@@ -187,3 +188,7 @@ bookFlatSection: true
 ### Design
 - [355. 设计推特]({{< relref "/docs/LeetCode/Design/355.md">}})(M)
 - [146. LRU 缓存]({{< relref "/docs/LeetCode/Design/146.md">}})(M)
+
+
+### Greedy
+- [455. 分发饼干]({{< relref "/docs/LeetCode/Greedy/455.md">}})(E)
