@@ -3,6 +3,7 @@ bookFlatSection: true
 ---
 
 ### CS Resources
+- [计算机专业学习路线](https://hackway.org/docs/cs/intro)
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 - [📚 List of awesome university courses for learning Computer Science!](https://github.com/prakhar1989/awesome-courses)
 - [A complete computer science study plan to become a software engineer.](https://github.com/jwasham/coding-interview-university)

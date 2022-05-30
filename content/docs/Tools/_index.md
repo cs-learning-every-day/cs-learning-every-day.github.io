@@ -18,6 +18,7 @@ bookFlatSection: true
 - Udemy课程下载 https://tutflix.org/ https://tutsnode.net/
 - [free4.chat 是一个匿名语音群聊服务](https://free4.chat/)
 - [Presentation Slides for Developers](https://github.com/slidevjs/slidev)
+- [朋友圈转发截图生成工具](https://github.com/TransparentLC/WechatMomentScreenshot)
 
 #### 开发
 - [Cronitor](https://crontab.guru/)

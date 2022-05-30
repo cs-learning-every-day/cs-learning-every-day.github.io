@@ -6,3 +6,8 @@ bookFlatSection: true
 - [build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
 - [Project Based Learning](https://github.com/practical-tutorials/project-based-learning#java)
 - [Google 开源项目风格指南 (中文版)](https://github.com/zh-google-styleguide/zh-google-styleguide)
+
+
+#### Learning
+- [A Java clone of the Windows Minesweeper](https://github.com/drjinying/Minesweeper)
+- 
