@@ -9,7 +9,6 @@ bookFlatSection: true
 - [阿虚同学的储物间](https://axutongxue.github.io/)
 - [Windows镜像](https://tb.rg-adguard.net/public.php)
 - [Github Wrapped](https://wrapped.run/)
-- [lol 对局先知 上等马 牛马分析程序 选人阶段判断己方大爹 大坑, 明确对局目标 基于lol client api 合法不封号](https://github.com/real-web-world/hh-lol-prophet)
 - [百度网盘批量转存工具](https://github.com/hxz393/BaiduPanFilesTransfers)
 - [复制即翻译的外文辅助阅读翻译解决方案](https://copytranslator.gitee.io/)
 - [中国法律快查手册](https://lawrefbook.github.io/)

@@ -147,6 +147,8 @@ bookFlatSection: true
   - [35. 搜索插入位置]({{< relref "/docs/LeetCode/TwoPointers/35.md">}})(E)
   - [69. x 的平方根 ]({{< relref "/docs/LeetCode/TwoPointers/69.md">}})(E)
   - [74. 搜索二维矩阵]({{< relref "/docs/LeetCode/TwoPointers/74.md">}})(M)
+  - [1011. 在 D 天内送达包裹的能力]({{< relref "/docs/LeetCode/TwoPointers/1011.md">}})(M)
+  - [2226. 每个小孩最多能分到多少糖果]({{< relref "/docs/LeetCode/TwoPointers/2226.md">}})(M)
 
 ### String
 - [6. Z 字形变换]({{< relref "/docs/LeetCode/String/6.md">}})(M)
