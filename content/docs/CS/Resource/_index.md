@@ -1,7 +1,10 @@
 ---
 bookFlatSection: true
 ---
-
+### For Study
+- [《Learning How to Learn》课程笔记](https://linghao.io/posts/notes-learning-how-to-learn)
+- [高效学习的几个技巧](https://zhuanlan.zhihu.com/p/353397028)
+- [书魔的学习方法-1:读书的飞轮](https://zhuanlan.zhihu.com/p/55804099)
 ### CS Resources
 - [计算机专业学习路线](https://hackway.org/docs/cs/intro)
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/)

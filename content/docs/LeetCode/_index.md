@@ -8,6 +8,8 @@ bookFlatSection: true
 - [Play Leetcode](https://github.com/liuyubobobo/Play-Leetcode)
 - [Leetcode面试高频题分类刷题总结](https://zhuanlan.zhihu.com/p/349940945)
 - [LeetCode 101：和你一起你轻松刷题（C++）](https://github.com/changgyhub/leetcode_101/)
+- [论如何4个月高效刷满 500 题并形成长期记忆](https://leetcode.cn/circle/discuss/jq9Zke/)
+- [残酷刷题群](http://board.cruelcoding.com/)
 
 
 > 高频：宽度优先搜索（BFS），深度优先搜索（DFS），二分法（Binary Search），双指针（2 Pointer），堆、栈、队列、哈希表（Heap，Stack，Queue，HashMap/HashSet），前缀和（Prefix Sum），链表（LinkedList），二叉树（Binary Tree），二叉搜索树（Binary Search Tree），快速排序与归并排序（Quick Sort/ Merge Sort）
@@ -148,6 +150,7 @@ bookFlatSection: true
   - [69. x 的平方根 ]({{< relref "/docs/LeetCode/TwoPointers/69.md">}})(E)
   - [74. 搜索二维矩阵]({{< relref "/docs/LeetCode/TwoPointers/74.md">}})(M)
   - [1011. 在 D 天内送达包裹的能力]({{< relref "/docs/LeetCode/TwoPointers/1011.md">}})(M)
+  - [1608. Special Array With X Elements Greater Than or Equal X]({{< relref "/docs/LeetCode/TwoPointers/1608.md">}})(E)
   - [2226. 每个小孩最多能分到多少糖果]({{< relref "/docs/LeetCode/TwoPointers/2226.md">}})(M)
 
 ### String
