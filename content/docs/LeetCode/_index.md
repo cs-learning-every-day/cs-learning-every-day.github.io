@@ -150,7 +150,10 @@ bookFlatSection: true
   - [69. x 的平方根 ]({{< relref "/docs/LeetCode/TwoPointers/69.md">}})(E)
   - [74. 搜索二维矩阵]({{< relref "/docs/LeetCode/TwoPointers/74.md">}})(M)
   - [1011. 在 D 天内送达包裹的能力]({{< relref "/docs/LeetCode/TwoPointers/1011.md">}})(M)
+  - [1283. Find the Smallest Divisor Given a Threshold]({{< relref "/docs/LeetCode/TwoPointers/1283.md">}})(M)
+  - [1300. Sum of Mutated Array Closest to Target]({{< relref "/docs/LeetCode/TwoPointers/1300.md">}})(M)
   - [1608. Special Array With X Elements Greater Than or Equal X]({{< relref "/docs/LeetCode/TwoPointers/1608.md">}})(E)
+  - [1870. Minimum Speed to Arrive on Time]({{< relref "/docs/LeetCode/TwoPointers/1870.md">}})(M)
   - [2226. 每个小孩最多能分到多少糖果]({{< relref "/docs/LeetCode/TwoPointers/2226.md">}})(M)
 
 ### String
