@@ -140,7 +140,7 @@ bookFlatSection: true
 * ``Sliding window``
   - [3. 无重复字符的最长子串]({{< relref "/docs/LeetCode/TwoPointers/3.md">}})(M)
   - [4. 寻找两个正序数组的中位数]({{< relref "/docs/LeetCode/TwoPointers/4.md">}})(H)
-  - [30. 串联所有单词的子串]({{< relref "/docs/LeetCode/TwoPointers/30.md">}})(H)
+  - [30. 串联所有单词的子串]({{< relref "/docs/Le  etCode/TwoPointers/30.md">}})(H)
   - [76. 最小覆盖子串]({{< relref "/docs/LeetCode/TwoPointers/76.md">}})(H)
 
 * ``Binary Search``
@@ -151,9 +151,11 @@ bookFlatSection: true
   - [74. 搜索二维矩阵]({{< relref "/docs/LeetCode/TwoPointers/74.md">}})(M)
   - [1011. 在 D 天内送达包裹的能力]({{< relref "/docs/LeetCode/TwoPointers/1011.md">}})(M)
   - [1283. Find the Smallest Divisor Given a Threshold]({{< relref "/docs/LeetCode/TwoPointers/1283.md">}})(M)
+  - [1292. 元素和小于等于阈值的正方形的最大边长]({{< relref "/docs/LeetCode/TwoPointers/1292.md">}})(M)
   - [1300. Sum of Mutated Array Closest to Target]({{< relref "/docs/LeetCode/TwoPointers/1300.md">}})(M)
   - [1608. Special Array With X Elements Greater Than or Equal X]({{< relref "/docs/LeetCode/TwoPointers/1608.md">}})(E)
   - [1870. Minimum Speed to Arrive on Time]({{< relref "/docs/LeetCode/TwoPointers/1870.md">}})(M)
+  - [2064. 分配给商店的最多商品的最小值]({{< relref "/docs/LeetCode/TwoPointers/2064.md">}})(M)
   - [2226. 每个小孩最多能分到多少糖果]({{< relref "/docs/LeetCode/TwoPointers/2226.md">}})(M)
 
 ### String
