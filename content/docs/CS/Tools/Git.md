@@ -4,18 +4,23 @@
 - [Visualizing Git Concepts with D3](https://onlywei.github.io/explain-git-with-d3/#commit)
 - [Bitbucket](https://www.atlassian.com/git/tutorials)
 - [Git for Computer Scientists](https://eagain.net/articles/git-for-computer-scientists/)
+- [Git 约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0-beta.4/#%e7%ba%a6%e5%ae%9a%e5%bc%8f%e6%8f%90%e4%ba%a4%e8%a7%84%e8%8c%83)
 
+```git
 // 将本地分支推送到远程
 git push <远程主机名> <本地分支名>:<远程分支名>
 
-// 删除本地分支
+删除本地分支
 git branch -d localBranchName
+
+重命名
+git branch -m Tesla-feat/trainning
 
 // 删除远程分支
 git push origin --delete remoteBranchName
 
 修改github 日期
-```git
+
 git commit
 git cat-file -p HEAD > tmp.txt
 # at this point, edit the file to replace the timestamp
