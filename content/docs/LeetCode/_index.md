@@ -115,8 +115,10 @@ bookFlatSection: true
 - [24. 两两交换链表中的节点]({{< relref "/docs/LeetCode/LinkedList/24.md">}})(M)
 - [25. K 个一组翻转链表]({{< relref "/docs/LeetCode/LinkedList/25.md">}})(H)
 - [61. 旋转链表]({{< relref "/docs/LeetCode/LinkedList/61.md">}})(H)
+- [82. 删除排序链表中的重复元素 II]({{< relref "/docs/LeetCode/LinkedList/82.md">}})(M)
 - [83. 删除排序链表中的重复元素]({{< relref "/docs/LeetCode/LinkedList/83.md">}})(E)
 - [86. 分隔链表]({{< relref "/docs/LeetCode/LinkedList/86.md">}})(M)
+- [206. 反转链表]({{< relref "/docs/LeetCode/LinkedList/206.md">}})(E)
 
 ### Stack
 - [20. 有效的括号]({{< relref "/docs/LeetCode/Stack/20.md">}})(E)
@@ -126,6 +128,7 @@ bookFlatSection: true
 
 ### Hash Table
 - [49. 字母异位词分组]({{< relref "/docs/LeetCode/HashTable/49.md">}})(M)
+- [242. 有效的字母异位词]({{< relref "/docs/LeetCode/HashTable/242.md">}})(E)
 ### Two Pointers
 - [11. 盛最多水的容器]({{< relref "/docs/LeetCode/TwoPointers/11.md">}})(M)
 - [15. 三数之和]({{< relref "/docs/LeetCode/TwoPointers/15.md">}})(M)

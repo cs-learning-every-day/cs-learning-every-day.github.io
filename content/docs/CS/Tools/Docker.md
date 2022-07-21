@@ -67,7 +67,7 @@ docker stop $(docker ps -q) & docker rm $(docker ps -aq)
   - docker exec -it <container_id> bash 登陆到容器中
 
 ## 案例
-docker run --name mysqlsvr -p 12345:3306 -e MYSQL_ROOT_PASSWORD=sfy1314 -d mysql
+docker run --name mysqlsvr -p 12345:3306 -e MYSQL_ROOT_PASSWORD=ubuntu -d mysql
 
 docker run -p 6379:6379 -v $PWD/data:/data -d redis redis-server --appendonly yes
 
