@@ -185,9 +185,10 @@ bookFlatSection: true
 - [50. Pow(x, n)]({{< relref "/docs/LeetCode/Others/50.md">}})(M)
 - [56. 合并区间]({{< relref "/docs/LeetCode/Others/56.md">}})(M)
 - [57. 插入区间]({{< relref "/docs/LeetCode/Others/57.md">}})(M)
-- [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)
+- [238. 除自身以外数组的乘积]({{< relref "/docs/LeetCode/Others/238.md">}})(M)
 - [383. Ransom Note]({{< relref "/docs/LeetCode/Others/383.md">}})(E)
 - [748. Shortest Completing Word]({{< relref "/docs/LeetCode/Others/748.md">}})(E)
+- [1005. Maximize Sum Of Array After K Negations]({{< relref "/docs/LeetCode/Others/1005.md">}})(E)
 
 ### Simulation
 - [12. 整数转罗马数字]({{< relref "/docs/LeetCode/Simulation/12.md">}})(M)
@@ -204,6 +205,7 @@ bookFlatSection: true
 
 
 ### Greedy
+- [121. 买卖股票的最佳时机]({{< relref "/docs/LeetCode/Greedy/121.md">}})(E)
 - [135. 分发糖果]({{< relref "/docs/LeetCode/Greedy/135.md">}})(H)
 - [435. 无重叠区间]({{< relref "/docs/LeetCode/Greedy/435.md">}})(M)
 - [455. 分发饼干]({{< relref "/docs/LeetCode/Greedy/455.md">}})(E)

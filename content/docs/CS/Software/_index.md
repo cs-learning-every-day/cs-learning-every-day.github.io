@@ -15,3 +15,4 @@ bookFlatSection: true
 - [Refactoring.Guru makes it easy for you to discover everything you need to know about refactoring, design patterns, SOLID principles, and other smart programming topics.](https://refactoring.guru/)
 - [Google 开源项目风格指南中文版](https://zh-google-styleguide.readthedocs.io/en/latest/contents/)
 - [Google Cloud API 设计指南](https://cloud.google.com/apis/design/)
+- [FOSDEM is a free event for software developers to meet, share ideas and collaborate.](https://fosdem.org/2022/)
