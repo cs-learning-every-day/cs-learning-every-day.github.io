@@ -11,6 +11,8 @@
 - [Shell How](https://www.shell.how/)
 - [鸟哥的Linux私房菜：基础学习篇 第四版](https://wizardforcel.gitbooks.io/vbird-linux-basic-4e/content/index.html)
 - [你管这破玩意叫操作系统源码 — 像小说一样品读 Linux 0.11 核心代码](https://github.com/sunym1993/flash-linux0.11-talk)
+- [Linux 银河漫游指南](https://linuxhitchhiker.github.io/THGLG/)
+- [Explain Shell](https://explainshell.com/)
 
 
 ### Tools

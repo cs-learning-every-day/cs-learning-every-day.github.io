@@ -29,11 +29,11 @@ title: 关于我的2022的一些记录
 | [111qqz](https://111qqz.com/) | 2022.04.09 |  |  |
 | [叉鸽](https://mrcroxx.github.io/) | 2022.04.18 |  | 数据库 |
 | [Ruslan's Blog](https://ruslanspivak.com/) | 2022.04.24 |  | Let's Build XXX |
-| [More Than Code](heavensheep) | 2022.04.24 |  | 很多公开课笔记 |
 | [马大伟](https://www.bmpi.dev/) | 2022.05.04 |  | 有很多有用的方法论 |
 | [KuangjuX(狂且)](http://blog.kuangjux.top/) | 2022.05.09 |  | 强 |
 | [Technology Comes First](https://jiangshibiao.github.io/) | 2022.05.10 |  | 算法大佬 |
 | [Reku](https://reku1997.gitee.io/) | 2022.05.10 |  | |
+| [吴翱翔的博客](https://pymongo.github.io/) | 2022.07.27 |  | |
 
 ## 收藏的文章
 | 文章名称 | 添加日期 | type | 备注 |

@@ -4,7 +4,27 @@
 - [Visualizing Git Concepts with D3](https://onlywei.github.io/explain-git-with-d3/#commit)
 - [Bitbucket](https://www.atlassian.com/git/tutorials)
 - [Git for Computer Scientists](https://eagain.net/articles/git-for-computer-scientists/)
-- [Git 约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0-beta.4/#%e7%ba%a6%e5%ae%9a%e5%bc%8f%e6%8f%90%e4%ba%a4%e8%a7%84%e8%8c%83)
+
+> 可以配合git hook
+- [Git 约定式提交](https://www.conventionalcommits.org/en/v1.0.0/)
+
+
+- [Git-优雅地解决冲突：使用ours和theirs](https://blog.csdn.net/qq_41603165/article/details/104922336) 
+
+
+### 提交修改代码前通常的流程 [查看 远程操作](https://learngitbranching.js.org/?locale=zh_CN)
+git pull --reabse; git push
+> git pull 就是 fetch 和 merge 的简写，类似的 git pull --rebase 就是 fetch 和 rebase 的简写！
+
+### Windows 下 git bash配置
+
+在你的安装路径\Git\etc\bash.bashrc，加入alias python='winpty python'
+
+
+```
+假如你刚clone了远程仓库dev分支，然后基于dev分支创建了自己的本地开发分支xyz，并进行了一些代码修改工作，这时候同事A告诉你他修复了一个重要bug，并已经merge到远程dev分支了。请问如何同步你本地的xyz分支并解释为什么
+git checkout dev  && git pull -r && git checkout - && git rebase dev
+```
 
 ```git
 // 将本地分支推送到远程
@@ -30,6 +50,7 @@ git hash-object -t commit -w tmp.txt
 git update-ref -m 'commit: foo' refs/heads/master \
     2ee8fcc02658e23219143f5bcfe6f9a4615745f9
 ```
+
 
 ### 取消跟踪,删除远程文件
 ```git

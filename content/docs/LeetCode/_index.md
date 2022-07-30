@@ -10,6 +10,9 @@ bookFlatSection: true
 - [LeetCode 101：和你一起你轻松刷题（C++）](https://github.com/changgyhub/leetcode_101/)
 - [论如何4个月高效刷满 500 题并形成长期记忆](https://leetcode.cn/circle/discuss/jq9Zke/)
 - [残酷刷题群](http://board.cruelcoding.com/)
+- [Leetcode Rating Predictor](https://lcpredictor.herokuapp.com/)
+- [ACM/LeetCode算法竞赛路线图，最全的算法学习地图！](https://github.com/acm-clan/algorithm-stone)
+- [kuangbin专题题目一览](https://vjudge.net/article/371)
 
 
 > 高频：宽度优先搜索（BFS），深度优先搜索（DFS），二分法（Binary Search），双指针（2 Pointer），堆、栈、队列、哈希表（Heap，Stack，Queue，HashMap/HashSet），前缀和（Prefix Sum），链表（LinkedList），二叉树（Binary Tree），二叉搜索树（Binary Search Tree），快速排序与归并排序（Quick Sort/ Merge Sort）
@@ -119,6 +122,7 @@ bookFlatSection: true
 - [83. 删除排序链表中的重复元素]({{< relref "/docs/LeetCode/LinkedList/83.md">}})(E)
 - [86. 分隔链表]({{< relref "/docs/LeetCode/LinkedList/86.md">}})(M)
 - [206. 反转链表]({{< relref "/docs/LeetCode/LinkedList/206.md">}})(E)
+- [430. 扁平化多级双向链表]({{< relref "/docs/LeetCode/LinkedList/430.md">}})(M)
 
 ### Stack
 - [20. 有效的括号]({{< relref "/docs/LeetCode/Stack/20.md">}})(E)
